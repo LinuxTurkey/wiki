@@ -9,4 +9,4 @@ Bu Wiki'ye katkıda bulunmak istiyorsanız:
   - Ekleme veya değişiklik yapmak istediğiniz makalede düzenleme yapın.
   - Yeni bir makale eklemek istiyorsanız `src` klasörünün içine yeni bir makale ekleyin. 
 
-Yaptığınız değişiklikleri ve açıklamasını içeren bir pull request gönderebilirsiniz. 
+İstediğiniz değişiklikleri yaptıktan sonra pull request gönderebilirsiniz. 
