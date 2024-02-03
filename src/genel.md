@@ -16,4 +16,4 @@ Linux, özgür ve açık kaynaklı bir işletim sistemidir. Güçlü bir toplulu
 
 ### 4. Türkiye'de Linux'un Durumu ve Yaygınlığı
 
-Ocak 2024 verilerine göre Türkiye'deki bilgisayarların [%1.64'ünde](https://gs.statcounter.com/os-market-share/all/turkey) Linux kullanılıyor. Topluluğumuz Linux'u keşfetmek ve denemek isteyen kullanıcılara rehberlik etmek amacıyla burada bulunuyor.
+Ocak 2024 verilerine göre Türkiye'deki bilgisayarların [%6.32'sinde](https://gs.statcounter.com/os-market-share/desktop/turkey/) Linux kullanılıyor. Topluluğumuz Linux'u keşfetmek ve denemek isteyen kullanıcılara rehberlik etmek amacıyla burada bulunuyor.
