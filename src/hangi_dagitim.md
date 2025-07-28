@@ -117,7 +117,7 @@ Wikipedia'dan:
 
 ## ⭐ Arch Linux
 
-[Arch Linux](<https://wiki.archlinux.org/title/Main_page_(T%C3%BCrk%C3%A7e)>), “KISS” (Keep It Simple, Stupid) prensibini benimseyen, tam anlamıyla kullanıcı merkeziyetçi, minimalist bir Linux dağıtımıdır. Amacı, kullanıcıya tam kontrol sağlamak ve sistemi sadece ihtiyaçlarına göre şekillendirme özgürlüğü vermektir. Yani, hazır paketler, GUI’li kurulum sihirbazları vermez — kurarsın, ayarlarsın, yönetirsin. Bu bazılarının “zor”, bazılarının ise “tam özgürlük” dediği bir deneyimdir.
+[Arch Linux](https://wiki.archlinux.org/title/Ana_sayfa), “KISS” (Keep It Simple, Stupid) prensibini benimseyen, tam anlamıyla kullanıcı merkeziyetçi, minimalist bir Linux dağıtımıdır. Amacı, kullanıcıya tam kontrol sağlamak ve sistemi sadece ihtiyaçlarına göre şekillendirme özgürlüğü vermektir. Yani, hazır paketler, GUI’li kurulum sihirbazları vermez — kurarsın, ayarlarsın, yönetirsin. Bu bazılarının “zor”, bazılarının ise “tam özgürlük” dediği bir deneyimdir.
 
 ## NixOS
 
