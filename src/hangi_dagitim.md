@@ -1,5 +1,7 @@
 Dağıtımların başındaki ⭐ emojisi, editörün topluluk yorumlarına ve kendi tecrübesine göre önerdiği dağıtımları belirtmektedir.
 
+Sihirbaz aracılığı ile dağıtım seçimi için: [Distrochooser](https://distrochooser.de/tr)
+
 # Oyun odaklı bir dağıtım arıyorum.
 
 Çoğu modern dağıtım, Valve'ın Proton uyumluluk katmanı sayesinde çoğu oyunu desteklemektedir. Ancak çekirdek seviyesinde anti-cheat barındıran (ör. Vanguard) Rekabetçi FPS ve MOBA oyunları hiçbir Linux dağıtımında desteklenmemektedir.
