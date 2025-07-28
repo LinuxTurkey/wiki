@@ -1,5 +1,4 @@
 Dağıtımların başındaki ⭐ emojisi, editörün topluluk yorumlarına ve kendi tecrübesine göre önerdiği dağıtımları belirtmektedir.
-Tabii, işte Reddit formatına uygun ToC (İçindekiler) listesi:
 
 # Oyun odaklı bir dağıtım arıyorum.
 
