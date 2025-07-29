@@ -42,6 +42,20 @@ Wikipedia'dan:
 - Çoğu stabil dağıtıma kıyasla yeni yazılımlar daha erken depolara eklenir.
 - Kapalı kaynak Snap yazılım deposu yerine topluluk tarafından çokça tercih edilen Flatpak ile gelir.
 
+## Zorin OS
+
+Wikipedia'dan:
+
+> [Zorin OS](https://zorin.com/os/), Ubuntu tabanlı bir Linux dağıtımıdır ve hem ücretsiz hem de ücretli sürümleri bulunmaktadır. Varsayılan olarak GNOME ve XFCE 4 masaüstü ortamlarını kullanır, ancak masaüstü arayüzü Windows veya macOS'a alışkın kullanıcılar için oldukça özelleştirilmiştir.
+
+Zorin OS, diğer Linux dağıtımlarından farklı olarak Pro sürümü sunuyor olsa da, ücretsiz sürümü, Pro sürümünden herhangi bir şekilde daha az kabiliyete sahip değildir. Pro sürümü sadece bazı "ek avantajlar" barındırmaktadır.
+
+## Ubuntu
+
+Wikipedia'dan:
+
+> [Ubuntu](https://ubuntu.com/), Linux tabanlı özgür ve ücretsiz bir işletim sistemidir. Bilgisayarlar, sunucular ve akıllı telefonlara yönelik olarak geliştirilmektedir. Ubuntu projesi Linux ve özgür yazılımın, bilgisayar kullanıcılarının günlük yaşamının bir parçası haline gelmesi amacıyla başlatılmış olup ilk kararlı masaüstü sürümü Ekim 2004'te yayınlanmıştır. Ubuntu'nun masaüstü sürümü günümüzde 40 milyonu aşkın kullanıcı sayısıyla dünyanın en yaygın kullanılan masaüstü Linux dağıtımı konumundadır.
+
 ## Pop!\_OS
 
 Wikipedia'dan:
@@ -63,17 +77,29 @@ Wikipedia'dan:
 
 # Sürekli güncel bir dağıtım arıyorum.
 
-## ⭐ Garuda Linux
+## ⭐ EndeavourOS
+
+Wikipedia'dan:
+
+> [EndeavourOS](https://endeavouros.com/), Arch Linux tabanlı bir Linux dağıtımıdır. Antergos’un devamı olarak ortaya çıkmış ve aynı rolling release modelini kullanmaktadır. Düzenli olarak güncellenmiş kurulum medyaları (ISO dosyaları) yayımlamaktadır. 23 Mart 2025 itibarıyla en son sürümü "Endeavour Mercury Neo"dur.
+
+## Garuda Linux
 
 Wikipedia'dan:
 
 > [Garuda Linux](https://garudalinux.org/), Arch Linux tabanlı ve özellikle oyun odaklı bir Linux dağıtımıdır. Birden fazla masaüstü ortamı seçeneği sunmakla birlikte, varsayılan olarak KDE Plasma sürümü tercih edilmektedir.
 
-## EndeavourOS
+## CachyOS
 
-Wikipedia'dan:
+DistroWatch'tan:
 
-> [EndeavourOS](https://endeavouros.com/), Arch Linux tabanlı bir Linux dağıtımıdır. Antergos’un devamı olarak ortaya çıkmış ve aynı rolling release modelini kullanmaktadır. Düzenli olarak güncellenmiş kurulum medyaları (ISO dosyaları) yayımlamaktadır. 23 Mart 2025 itibarıyla en son sürümü "Endeavour Mercury Neo"dur.
+> [CachyOS](https://cachyos.org/), Arch Linux tabanlı bir Linux dağıtımıdır. Hız ve güvenlik optimizasyonlarına odaklanır – varsayılan Linux çekirdeği, BORE (Burst-Oriented Response Enhancer) zamanlayıcısı ile ileri seviyede optimize edilmiştir. Masaüstü paketleri ise LTO, x86-64-v3 ve x86-64-v4, Zen 4 optimizasyonları, güvenlik bayrakları ve performans iyileştirmeleri ile derlenmiştir. Sunulan masaüstü ortamları ve pencere yöneticileri arasında KDE, GNOME, Xfce, i3wm, Wayfire, LXQt, OpenBox, Cinnamon, COSMIC, UKUI, LXDE, MATE, Budgie, Qtile, Hyprland ve Sway bulunmaktadır. CachyOS, hem grafiksel hem de komut satırı tabanlı yükleyicilerle birlikte gelir.
+
+## Archcraft
+
+DistroWatch'tan:
+
+> [Archcraft](https://archcraft.io/), Arch Linux tabanlı minimal bir Linux dağıtımıdır. Bu proje, tam teşekküllü masaüstü ortamları yerine minimal pencere yöneticileri kullanarak grafiksel bir kullanıcı arayüzü sunar. Archcraft, Calamares sistem yükleyicisi kullanılarak kurulur ve Arch User Repository'den (AUR) paket indirmeyi kolaylaştırmak için yay paket yöneticisini içerir.
 
 ## Manjaro
 
