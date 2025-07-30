@@ -6,7 +6,7 @@ Merhaba! r/LinuxTurkey Wiki sayfasına hoş geldiniz. Bu Wiki'ye katkıda bulunm
 
 - [Hangi dağıtımı seçmeliyim?](https://www.reddit.com/r/LinuxTurkey/wiki/hangi_dagitim)
 
-# Diğer Kaynaklar
+## Diğer Kaynaklar
 
 - [ArchWiki Türkçe Makaleleri](<https://wiki.archlinux.org/title/ArchWiki:Translation_Team_(T%C3%BCrk%C3%A7e)#%C3%87evrilmi%C5%9F_sayfalar>)
 - [Nix Öğreniyoruz (Murat Cabuk)](https://github.com/muratcabuk/nix-ogreniyoruz)
