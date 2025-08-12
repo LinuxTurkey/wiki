@@ -5,6 +5,7 @@ Merhaba! r/LinuxTurkey Wiki sayfasına hoş geldiniz. Bu Wiki'ye katkıda bulunm
 ## r/LinuxTurkey Wiki Kaynakları
 
 - [Hangi dağıtımı seçmeliyim?](https://www.reddit.com/r/LinuxTurkey/wiki/hangi_dagitim)
+- [Sıkça Sorular Sorular](https://www.reddit.com/r/LinuxTurkey/wiki/sss)
 
 ## Diğer Kaynaklar
 
