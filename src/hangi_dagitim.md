@@ -125,6 +125,12 @@ Wikipedia'dan:
 
 > [antiX](https://antixlinux.com/), başlangıçta MEPIS tabanlı olan bir Linux dağıtımıdır. MEPIS'in kendisi de Debian'ın kararlı sürümüne dayanır. antiX, ilk olarak MEPIS'in KDE masaüstü ortamını Fluxbox ve IceWM pencere yöneticileriyle değiştirerek, daha eski ve düşük donanımlı x86 tabanlı sistemler için uygun hale getirilmiştir. Debian'dan farklı olarak, antiX systemd başlatma sistemini kullanmaz; bunun yerine, varsayılan başlatma sistemi olarak SysVinit veya Runit ayarlanmış olan kalıplar sunar.
 
+## Q4OS
+
+DistroWatch'tan:
+
+> [Q4OS](https://q4os.org/), klasik bir kullanıcı arayüzü (Trinity) ve basit araçlar sunar. Google Chrome, VirtualBox ve geliştirici araçları gibi karmaşık üçüncü taraf uygulamalar için kararlı API'ler sağlamak üzere tasarlanmış Debian tabanlı bir masaüstü Linux dağıtımıdır. Sistem, çok düşük donanım gereksinimleri nedeniyle sanal bulut ortamları için de çok kullanışlıdır.
+
 ## Puppy Linux
 
 Wikipedia'dan:
