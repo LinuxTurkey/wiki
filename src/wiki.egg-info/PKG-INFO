@@ -1,0 +1,22 @@
+Metadata-Version: 2.4
+Name: wiki
+Version: 0.1.0
+Summary: LinuxTurkey Wiki
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mkdocs-material>=9.6.20
+Dynamic: license-file
+
+# 📖 r/LinuxTurkey Wiki
+
+Bu GitHub deposu, r/LinuxTurkey subreddit'inin Wiki bölümü için kullanılan Markdown dosyalarını içerir.
+
+## ❤️ Nasıl Katkıda Bulunabilirim?
+
+Bu Wiki'ye katkıda bulunmak istiyorsanız:
+
+  - Ekleme veya değişiklik yapmak istediğiniz makalede düzenleme yapın.
+  - Yeni bir makale eklemek istiyorsanız `src` klasörünün içine yeni bir makale ekleyin. 
+
+İstediğiniz değişiklikleri yaptıktan sonra pull request gönderebilirsiniz. 
