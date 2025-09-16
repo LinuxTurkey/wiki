@@ -1,0 +1,10 @@
+[project]
+name = "wiki"
+version = "0.1.0"
+description = "LinuxTurkey Wiki"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs-material[imaging]>=9.6.20",
+]
+
