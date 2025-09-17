@@ -1,34 +1,46 @@
 site_name: LinuxTurkey Wiki
 site_url: https://kavakci.dev
 docs_dir: src
+repo_url: https://github.com/LinuxTurkey/wiki
+repo_name: LinuxTurkey/wiki
+edit_uri: edit/main/src/
 plugins: 
   - social:
       cards_layout_options:
         logo: assets/logo.png
   - search
+  - offline
 markdown_extensions: 
   - admonition
   - pymdownx.details
   - pymdownx.superfences
 theme:
   name: material
-  logo: assets/logo.png
+  icon:
+    logo: simple/linux
   favicon: assets/favicon.png
   features:
     - navigation.instant
     - navigation.instant.progress
     - navigation.sections
+    - navigation.prune 
+    - content.action.edit
+    - content.action.view
+    - search.suggest
+    - search.highlight
   language: tr
   palette: 
-    - scheme: default
-      primary: red
-      accent: red
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
       primary: red
       accent: red
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
