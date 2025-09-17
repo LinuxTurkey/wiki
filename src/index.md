@@ -4,4 +4,10 @@ Merhaba! 👋 r/LinuxTurkey Wiki'ye hoş geldiniz. Bu wiki, Türkçe Linux toplu
 
 Soldaki menüden Wiki öğelerine erişebilirsiniz.
 
-- [Reddit - r/LinuxTurkey](https://www.reddit.com/r/LinuxTurkey/)
+## Nasıl Katkıda Bulunabilirim?
+
+Her sayfanın sağ üstünde düzenleme seçeneği bulunmaktadır. Bu butona tıkladığınızda Wiki'yi "fork"layıp deponuzda değişiklikler yapma imkanı sunulacaktır, istediğiniz değişiklikleri yapıp PR şeklinde ana depoya gönderebilirsiniz.
+
+Ayrıca üst menüdeki _LinuxTurkey/wiki_ depo linkine direkt olarak PR veya _Issue_ gönderebilirsiniz.
+
+**[Reddit - r/LinuxTurkey](https://www.reddit.com/r/LinuxTurkey/)**
