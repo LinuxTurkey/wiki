@@ -28,3 +28,20 @@
 - _"Linux kullanmak için komut satırına bir sürü kodlar yazmak gerekir."_ Bu günümüzde pek geçerli değildir, popüler dağıtımların çoğunda sıradan bir Linux kullanıcısı terminal ile hiç etkileşime girmeden tüm sistemi yönetebilir ve kullanabilir. Sistemi daha hızlı kullanabilmek için bazı komutları bilmek, örneğin paket yükleme komutları gibi, faydalı olabilir, ancak zorundalık değildir. Neredeyse her şeyin grafik arayüzü vardır.
 - _"Linux kullanmak hackerlıkta yardımcı olur."_ Bu doğru değildir. Çok güzel yemekler yemek sizi aşçı yapmıyorsa, Linux kullanmak da sizi "hacker" yapmayacaktır. Siber güvenlikle alakalı profesyonel kurslara başvurmak daha mantıklı bir çözüm olacaktır.
 - _"Linux bir işletim sistemidir."_ Hayır, Linux bir işletim sistemi çekirdeğidir. Bu çekirdeğin üzerine eklenerek yazılmış tüm projelere dağıtım, yani işletim sistemi adı verilir. Örneğin Ubuntu bir dağıtım/işletim sistemidir, Linux ise Ubuntu dağıtımının çekirdeğidir.
+
+## ... dağıtımdan ... dağıtıma geçmeli miyim?
+
+Çoğu Linux dağıtımı, belirli programlar ve masaüstü ortamlarıyla birlikte gelse de **modüler bir yapıya sahiptir**. Yani istediğiniz programı, masaüstü ortamını veya pencere yöneticisini değiştirebilir ya da birden fazlasını aynı anda kullanabilirsiniz. Örneğin:
+
+* Gnome ile gelen Ubuntu’ya, depolardan KDE kurarak Ubuntu üzerinde KDE kullanabilirsiniz.
+* Dosya yöneticisi gibi temel uygulamaları da değiştirebilirsiniz. Örneğin, Nautilus yerine Dolphin tercih edebilirsiniz.
+* Eğer kullandığınız Linux çekirdeği donanımınızda sorun çıkarıyorsa, LTS (“Uzun Vadeli Destek”) çekirdeğini kurup test edebilirsiniz.
+
+Dolayısıyla dağıtımlar arasındaki en temel fark aslında **yazılım depolarıdır**. Mesela bir dağıtımda Chrome 140 sürümündeyken, başka bir dağıtımda 139 sürümünde olabilir. Bu fark, dağıtımların **güncellik–stabilite** dengesine yönelik tercihleriyle ilgilidir.
+
+Eğer hala kararsızsanız:
+
+* Daha güncel paketlere ulaşmak ama zaman zaman hatalarla karşılaşmayı göze almak istiyorsanız &rightarrow; **[Arch Linux tabanlı dağıtımlar](https://distrowatch.com/search.php?basedon=Arch)**
+* Daha stabil ama paketleri nispeten eski olan bir sistem istiyorsanız &rightarrow; **[Debian tabanlı dağıtımlar](https://distrowatch.com/search.php?basedon=Debian)**
+
+tercih edebilirsiniz.
