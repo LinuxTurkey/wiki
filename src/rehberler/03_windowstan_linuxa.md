@@ -5,7 +5,7 @@
 
 ## Gereksinimler
 
-- USB flaş disk (min. 6GB boş alan, dağıtımdan dağıtıma boş alan gereksinimi değişebilir)
+- USB bellek (min. 6GB boş alan, dağıtımdan dağıtıma boş alan gereksinimi değişebilir)
 - İnternet bağlantısı
 
 ## Flaş diski hazırlama
@@ -15,30 +15,30 @@
 ### Dağıtım ISO'sunu indirme (örneğin Linux Mint)
 
 1. [Linux Mint](https://linuxmint.com/) web sitesinden _Download_ bölümüne gelin.
-2. Tercih ettiğiniz masaüstü ortamına göre ilgili _Donwload_ butonuna tıklayın. Biz bu rehber için Xfce versiyonunu indireceğiz.
+2. Tercih ettiğiniz masaüstü ortamına göre ilgili _Download_ butonuna tıklayın. Biz bu rehber için Xfce versiyonunu indireceğiz.
 3. Butona tıkladığınzda ve aşağı kaydırdığınızda karşınıza dünyanın farklı yerlerinden indirebilmenize imkan sağlayan bir tablo çıkacak
 4. Buradan size en yakın olan bölgeye göre ISO indirme işleminizi başlatın. Veya direkt olarak _World_ seçeneğini tercih edebilirsiniz.
 
 İndirme işlemi tamamlandıktan sonra bir sonraki aşamaya geçiş yapabilirsiniz.
 
-### ISO'yu Rufus ile USB diske yazdırma
+### ISO'yu Rufus ile USB belleğe yazdırma
 
 !!! danger "Uyarı"
 
-    Bu işlem sonucunda USB diskinizdeki tüm veriler silinecektir. Eğer elinizdeki USB disk önemli veriler barındırıyorsa yedeklemeyi unutmayın.
+    Bu işlem sonucunda USB belleğinizdeki tüm veriler silinecektir. Eğer elinizdeki USB belleğinde önemli veriler barındırıyorsa yedeklemeyi unutmayın.
 
 ISO dosyamızı flaş diskine yazdırmak için bu rehberde _Rufus_ aracını kullanacağız.
 
 <ol>
   <li>
-    <a href="https://rufus.ie/tr">Rufus</a> websitesinden Rufus USB aracını indirin.
+    <a href="https://rufus.ie/tr">Rufus</a> web sitesinden Rufus USB yazdırma aracını indirin.
   </li>
   <li>
     Rufus'u açtığınızda karşınıza aşağıdaki gibi bir arayüz çıkacaktır.<br>
     <img src="../assets/04/rufus_01.png" alt="rufus">
   </li>
   <li>
-    Buradaki <em>Aygıt</em> kısmı, ISO'yu yazdırmak istediğiniz USB diski belirtir.
+    Buradaki <em>Aygıt</em> kısmı, ISO'yu yazdırmak istediğiniz USB belleği belirtir.
   </li>
   <li>
     Hemen altında kalan <em>Önyükleme seçimi</em> ise, seçeceğiniz ISO dosyasını belirtir.
@@ -63,11 +63,11 @@ ISO dosyamızı flaş diskine yazdırmak için bu rehberde _Rufus_ aracını kul
         <img src="../assets/04/bios_01.png"/>
     </li>
     <li>
-        <em>Güncelleştirme & kurtarma</em> bölümün açın
+        <em>Güncelleştirme & kurtarma</em> bölümünü açın
     </li>
     <li>
         <em>Kurtarma</em> menüsüne tıklayın<br>
-        <img src="../assets/04/bios_02.png"
+        <img src="../assets/04/bios_02.png"/>
     </li>
     <li>
         <em>Gelişmiş başlangıç</em> butonuna tıklayın
