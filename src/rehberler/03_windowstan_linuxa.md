@@ -5,7 +5,7 @@
 
 ## Gereksinimler
 
-- USB bellek (min. 6GB boş alan, dağıtımdan dağıtıma boş alan gereksinimi değişebilir)
+- USB bellek (min. 5-6 GB alan, dağıtımdan dağıtıma boş alan gereksinimi değişebilir)
 - İnternet bağlantısı
 
 ## Flaş diski hazırlama
