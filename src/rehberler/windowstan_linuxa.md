@@ -1,7 +1,10 @@
-# Windows'tan Linux'a Nasıl Geçilir?
+# Windows'tan Linux'a Geçiş ve Linux'u Ön İzleme
 
-- Bu rehberde, Windows yüklü bir sisteme nasıl Linux kurulabileceğinden bahsedeceğiz.
-- Çoğu dağıtım, kurulumdan önce sistemin test edilebileceği bir [**canlı sistem**](https://tr.wikipedia.org/wiki/Canl%C4%B1_sistem) sunmaktadır. Yani dağıtımı kurmadan da deneyimleyebileceğiniz örnek bir sistem sunmaktadır. Bu sebeple dağıtımlara göz atmak için de bu rehberdeki aşamaları takip edebilirsiniz.
+Bu rehberde, Windows yüklü bir sisteme nasıl Linux kurulabileceğinden ve ön izlenebileceğinden bahsedeceğiz.
+
+!!! note "Kurulum yapmadan deneme"
+
+    Çoğu dağıtım, kurulumdan önce dağıtımın test edilebileceği bir [**canlı sistem**](https://tr.wikipedia.org/wiki/Canl%C4%B1_sistem) sunmaktadır. Canlı sistem, dağıtımı kurmadan da deneyimleyebileceğiniz bir ortam sağlamaktadır. Canlı sisteme erişmek için de bu rehberdeki aşamaları takip edebilirsiniz.
 
 ## Gereksinimler
 
@@ -86,13 +89,10 @@ ISO dosyamızı flaş diskine yazdırmak için bu rehberde _Rufus_ aracını kul
 
 Bu aşamaları takip ettiğinizde karşınıza bilgisayarınızın BIOS menüsü çıkacaktır. BIOS menüleri, her bilgisayarda farklı olduğu için BIOS ile alakalı kısımda buradan sonrası için bir rehber yazmak mümkün değildir. Bilgisayarınızın veya ana kartınızın kullanım kılavuzuna veya video platformlarından bilgisayar modelinizle alakalı bir rehbere başvurun.
 
-## Kurulum Aşaması
+## Kurulum veya ön izleme
 
-Kurulum aşaması da yine dağıtımdan dağıtıma çeşitlilik gösterdiği için yine video platformlarından veya spesifik dağıtım kurulumu ile alakalı harici kaynaklara başvurmanız tavsiye edilir. Örneğin:
-
-- :fontawesome-brands-youtube:{ style="color: #EE0F0F" }
-  [Linux Mint Kurulum Videosu - Murat Süzgün](https://www.youtube.com/watch?v=MQZArEZrx9Y)
-- :fontawesome-brands-youtube:{ style="color: #EE0F0F" }
-  [Fedora Kurulum Videosu - Furkan Yılmaz](https://www.youtube.com/watch?v=4wzRKargwXA)
-- :fontawesome-brands-youtube:{ style="color: #EE0F0F" }
-  [Ubuntu Kurulum Videosu - Yücel Kahraman](https://www.youtube.com/watch?v=b9uFnHwBLn0)
+- Eğer kurulum yapmayıp sadece sistemi denemek istiyorsanız. USB belleği önyüklediğinizde karşınıza çıkan sistemi özgürce keşfedebilirsiniz.
+- Eğer kurulum yapmak istiyorsanız, dağıtımdan dağıtıma çeşitlilik gösterdiği için video platformlarından veya tercih ettiğiniz dağıtımın kurulumu ile alakalı harici kaynaklardan destek alabilirsiniz. Örneğin:<br>
+  :fontawesome-brands-youtube:{ style="color: #EE0F0F" } [Linux Mint Kurulum Videosu - Murat Süzgün](https://www.youtube.com/watch?v=MQZArEZrx9Y)<br>
+  :fontawesome-brands-youtube:{ style="color: #EE0F0F" } [Fedora Kurulum Videosu - Furkan Yılmaz](https://www.youtube.com/watch?v=4wzRKargwXA)<br>
+  :fontawesome-brands-youtube:{ style="color: #EE0F0F" } [Ubuntu Kurulum Videosu - Yücel Kahraman](https://www.youtube.com/watch?v=b9uFnHwBLn0)
