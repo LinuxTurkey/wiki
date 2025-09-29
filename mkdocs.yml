@@ -18,6 +18,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 theme:
   name: material
   icon:
@@ -48,3 +51,11 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
+nav:
+  - index.md
+  - rehberler/sss.md
+  - faydali_baglantilar.md
+  - Rehberler:
+    - rehberler/hangi_dagitim.md
+    - rehberler/windowstan_linuxa.md
+
