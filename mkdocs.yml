@@ -4,6 +4,7 @@ docs_dir: src
 repo_url: https://github.com/LinuxTurkey/wiki
 repo_name: LinuxTurkey/wiki
 edit_uri: edit/main/src/
+use_directory_urls: false
 plugins: 
   - social:
       cards_layout_options:
@@ -58,4 +59,7 @@ nav:
   - Rehberler:
     - rehberler/hangi_dagitim.md
     - rehberler/windowstan_linuxa.md
+
+  - Diğer Wiki Kaynakları:
+    - Nix Öğreniyoruz: https://nixogreniyoruz.kavakci.dev/
 
