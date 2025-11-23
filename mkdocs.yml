@@ -56,10 +56,12 @@ nav:
   - index.md
   - rehberler/sss.md
   - faydali_baglantilar.md
-  - Rehberler:
+  - Kullanıcı Rehberleri:
+    - rehberler/linux_uyumlu_donanim.md
+    - rehberler/lenovo_bios.md
+  - Editör Rehberleri:
     - rehberler/hangi_dagitim.md
     - rehberler/windowstan_linuxa.md
-
   - Diğer Wiki Kaynakları:
     - Nix Öğreniyoruz: https://nixogreniyoruz.kavakci.dev/
 
