@@ -13,7 +13,7 @@ Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www
 [Bazzite](https://bazzite.gg/), Valve'ın SteamOS 3'üne benzer şekilde tasarlanmış Fedora tabanlı bir Linux dağıtımıdır. Steam Deck de dahil olmak üzere taşınabilir cihazlar ve masaüstü bilgisayarlar için destek sunar. Hem sıradan hem de ileri düzey Linux oyuncuları için sorunsuz bir kullanıma hazır deneyim sunmayı amaçlamaktadır.
 
 !!! note
-    Bazzite, Windows ve Arch Linux gibi dağıtımlarla karşılaştırıldığında bile bazı oyunlarda daha yüksek FPS sağlayabilmektedir. [(Kaynak)](https://youtu.be/u4a2pDMXLAE)
+Bazzite, Windows ve Arch Linux gibi dağıtımlarla karşılaştırıldığında bile bazı oyunlarda daha yüksek FPS sağlayabilmektedir. [(Kaynak)](https://youtu.be/u4a2pDMXLAE)
 
 ### Nobara
 
@@ -25,8 +25,8 @@ Fedora’da eksik olan ve özellikle oyunlar açısından önemli olan bazı bil
 
 [ChimeraOS](https://chimeraos.org/), ChimeraOS, kurulumu tamamladığın anda seni oyunlara hazır hale getiren bir işletim sistemidir. Sistemi açtığında doğrudan Steam Big Picture arayüzüne girer, böylece koltuğundan kalkmadan oyunlara dalabilirsin. Eğer Steam’i salonuna taşımak istiyorsan, aradığın sistem ChimeraOS.
 
-!!! note 
-    ChimeraOS, Bazzite gibi dağıtımların aksine varsayılan olarak Steam Big Picture modunda çalışır.
+!!! note
+ChimeraOS, Bazzite gibi dağıtımların aksine varsayılan olarak Steam Big Picture modunda çalışır.
 
 ## Modern ve stabil bir dağıtım arıyorum.
 
@@ -34,17 +34,14 @@ Fedora’da eksik olan ve özellikle oyunlar açısından önemli olan bazı bil
 
 [Fedora Linux](https://fedoraproject.org/) (eski adıyla, Fedora Core), açık kaynak kodlu ve özgür bir Linux dağıtımı. Dünya çapında bir özgür yazılım topluluğu olan Fedora Projesi tarafından geliştirilmekte ve yönetilmekte, Red Hat tarafından desteklenmektedir.
 
-!!! note
-    - Fedora, Ubuntu gibi dağıtımlara kıyasla daha temiz ve saf bir GNOME masaüstü ortamı deneyimi sağlar.
-    - Çoğu stabil dağıtıma kıyasla yeni yazılımlar daha erken depolara eklenir.
-    - Kapalı kaynak Snap yazılım deposu yerine topluluk tarafından çokça tercih edilen Flatpak ile gelir.
+!!! note - Fedora, Ubuntu gibi dağıtımlara kıyasla daha temiz ve saf bir GNOME masaüstü ortamı deneyimi sağlar. - Çoğu stabil dağıtıma kıyasla yeni yazılımlar daha erken depolara eklenir. - Kapalı kaynak Snap yazılım deposu yerine topluluk tarafından çokça tercih edilen Flatpak ile gelir.
 
 ### Zorin OS
 
 [Zorin OS](https://zorin.com/os/), Ubuntu tabanlı bir Linux dağıtımıdır ve hem ücretsiz hem de ücretli sürümleri bulunmaktadır. Varsayılan olarak GNOME ve XFCE 4 masaüstü ortamlarını kullanır, ancak masaüstü arayüzü Windows veya macOS'a alışkın kullanıcılar için oldukça özelleştirilmiştir.
 
 !!! note
-    Zorin OS, diğer Linux dağıtımlarından farklı olarak Pro sürümü sunuyor olsa da, ücretsiz sürümü, Pro sürümünden herhangi bir şekilde daha az kabiliyete sahip değildir. Pro sürümü sadece bazı "ek avantajlar" barındırmaktadır.
+Zorin OS, diğer Linux dağıtımlarından farklı olarak Pro sürümü sunuyor olsa da, ücretsiz sürümü, Pro sürümünden herhangi bir şekilde daha az kabiliyete sahip değildir. Pro sürümü sadece bazı "ek avantajlar" barındırmaktadır.
 
 ### Ubuntu
 
@@ -68,19 +65,15 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 ## Sürekli güncel bir dağıtım arıyorum.
 
-### EndeavourOS
+### CachyOS
 
-[EndeavourOS](https://endeavouros.com/), Arch Linux tabanlı bir Linux dağıtımıdır. Antergos’un devamı olarak ortaya çıkmış ve aynı rolling release modelini kullanmaktadır. Düzenli olarak güncellenmiş kurulum medyaları (ISO dosyaları) yayımlamaktadır. 23 Mart 2025 itibarıyla en son sürümü "Endeavour Mercury Neo"dur.
+[CachyOS](https://cachyos.org/), Arch Linux tabanlı bir Linux dağıtımıdır. Hız ve güvenlik optimizasyonlarına odaklanır – varsayılan Linux çekirdeği, BORE (Burst-Oriented Response Enhancer) zamanlayıcısı ile ileri seviyede optimize edilmiştir. Masaüstü paketleri ise LTO, x86-64-v3 ve x86-64-v4, Zen 4 optimizasyonları, güvenlik bayrakları ve performans iyileştirmeleri ile derlenmiştir. Sunulan masaüstü ortamları ve pencere yöneticileri arasında KDE, GNOME, Xfce, i3wm, Wayfire, LXQt, OpenBox, Cinnamon, COSMIC, UKUI, LXDE, MATE, Budgie, Qtile, Hyprland ve Sway bulunmaktadır. CachyOS, hem grafiksel hem de komut satırı tabanlı yükleyicilerle birlikte gelir.
 
 ### Garuda Linux
 
 Wikipedia'dan:
 
 [Garuda Linux](https://garudalinux.org/), Arch Linux tabanlı ve özellikle oyun odaklı bir Linux dağıtımıdır. Birden fazla masaüstü ortamı seçeneği sunmakla birlikte, varsayılan olarak KDE Plasma sürümü tercih edilmektedir.
-
-### CachyOS
-
-[CachyOS](https://cachyos.org/), Arch Linux tabanlı bir Linux dağıtımıdır. Hız ve güvenlik optimizasyonlarına odaklanır – varsayılan Linux çekirdeği, BORE (Burst-Oriented Response Enhancer) zamanlayıcısı ile ileri seviyede optimize edilmiştir. Masaüstü paketleri ise LTO, x86-64-v3 ve x86-64-v4, Zen 4 optimizasyonları, güvenlik bayrakları ve performans iyileştirmeleri ile derlenmiştir. Sunulan masaüstü ortamları ve pencere yöneticileri arasında KDE, GNOME, Xfce, i3wm, Wayfire, LXQt, OpenBox, Cinnamon, COSMIC, UKUI, LXDE, MATE, Budgie, Qtile, Hyprland ve Sway bulunmaktadır. CachyOS, hem grafiksel hem de komut satırı tabanlı yükleyicilerle birlikte gelir.
 
 ### Archcraft
 
@@ -111,7 +104,6 @@ Wikipedia'dan:
 [Q4OS](https://q4os.org/), klasik bir kullanıcı arayüzü (Trinity) ve basit araçlar sunar. Google Chrome, VirtualBox ve geliştirici araçları gibi karmaşık üçüncü taraf uygulamalar için kararlı API'ler sağlamak üzere tasarlanmış Debian tabanlı bir masaüstü Linux dağıtımıdır. Sistem, çok düşük donanım gereksinimleri nedeniyle sanal bulut ortamları için de çok kullanışlıdır.
 
 ### Puppy Linux
-
 
 [Puppy Linux](https://puppylinux-woof-ce.github.io/), düşük donanım gereksinimi ve kolay kullanımıyla öne çıkan hafif bir Linux dağıtımıdır. Sistem tamamen RAM üzerinden çalışabilir (64-bit ~600 MB, 32-bit ~300 MB), böylece açılıştan sonra kurulum medyasına gerek kalmaz.
 
