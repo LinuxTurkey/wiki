@@ -1,98 +1,221 @@
-# Linux Uyumlu Donanım Seçim Rehberi
+# Linux Uyumlu Donanım Seçim Rehberi 
 
 > **Yazar:** [Kayra](https://www.x.com/QMinun)
 
-## Neden bu rehbere ihtiyacımız var? 
-Statista'nın sağladığı veriye göre dünya üzerindeki sunucuların yaklaşık %96 kadarı Linux kerneli kullanan işletim sistemleri (ya da topluluk jargonuyla dağıtımları) üzerinden yürüyor. Bu da sunucu odaklı geliştirilmiş donanımların Linux'ta zaten halihazırda tak çalıştır şekilde çalıştığı anlamına geliyor. Ancak bu durum ne yazık ki masaüstü kullanıcısı odaklı donanımlarda tam olarak böyle değil. Masaüstü Linux kullanımı yavaştan büyümeye başladı. Amerikan hükümet raporuna göre masaüstü Linux kullanımı %6 civarına ulaşmış durumda. Biz de masaüstü Linux kullanıcıları için donanım seçme rehberi yapma kararı aldık.
+## Giriş ve Amaç
 
-## CPU Seçimi
+Statista verilerine göre, dünya genelindeki sunucuların yaklaşık %96\'sı
+Linux çekirdeği tabanlı işletim sistemleri üzerinde çalışmaktadır. Bu
+durum, sunucu odaklı donanımların Linux ekosisteminde \"tak-çalıştır\"
+mantığıyla sorunsuz çalıştığını gösterir. Ancak masaüstü ve son
+kullanıcı donanımlarında durum her zaman bu kadar pürüzsüz
+olmayabiliyor.
 
-Her CPU hemen hemen her işletim sisteminde çalışır. Bu konuya özellikle dikkat etmenize gerek yok. Hem Intel hem AMD işlemcileri Linux tarafında sorunsuz çalışmakta.
+Amerikan hükümet raporlarına göre masaüstü Linux kullanımı %6
+seviyelerine ulaşarak yükselişe geçmiş durumda. Bu rehber, büyüyen bu
+ekosisteme dahil olmak isteyen kullanıcıların, donanım seçimi yaparken
+karşılaşabilecekleri uyumluluk sorunlarını en aza indirmeyi
+amaçlamaktadır.
 
-Bazı kullanıcılar, Intel işlemcilerde güç profili sayısının 2 ile kısıtlı olduğunu bildirmiş durumda. QubesOS ekibine göre de AMD işlemciler tutarsız güvenlik protokollerine sahip. Ancak bunu "AMD genel olarak sorunlu" şeklinde algılamayın, bu sadece çok spesifik teknik bir alan için geçerli.
+Ayrıca Statcounter verilerine göre Türkiye'de MacOS kullanıcısından daha fazla Linux kullanıcısı vardır. Bu oran, Pardus'u dahil etmeseniz bile korunmaktadır. 
+> (Pardus, kullanıcı sayısını halk ile paylaşmaktadır)
 
-Biz Türkiye'deki fiyat avantajından ötürü AMD işlemcileri önersek de bireysel tercihiniz burada olumsuz bir sonuç doğurmayacaktır
+## 1. İşlemci (CPU) Seçimi
 
-### Arm işlemciler hakkında 
-Arm işlemcileri genel olarak masaüstü tarafında emekleme aşamasında. Ancak ARM Linuxlar, Android ve Raspberry Pi sayesinde yeterince iyi durumda mevcut halleri ile. Bu yazının yazıldığı 23 Kasım 2025 tarihinde Valve'nin Steam Frame cihazı sayesinde ARM tarafında oyun sektörünün de gelişmesi bekleniyor. 
+Genel kural olarak, modern işlemcilerin neredeyse tamamı Linux
+dağıtımları ile uyumludur. Ancak kullanım senaryonuza göre dikkat
+etmeniz gereken bazı nüanslar bulunmaktadır.
 
-## GPU Seçimi
+### Genel Bakış
+
+- **Intel & AMD:**
+  > Her iki üreticinin işlemcileri de Linux tarafında
+  > yüksek uyumlulukla çalışır. Standart bir ev veya ofis kullanıcısı
+  > için marka tercihi, işletim sistemi uyumluluğunu etkilemez.
+
+- **Fiyat/Performans Önerisi:**
+  > Türkiye pazarındaki fiyat avantajları
+  > göz önüne alındığında **AMD** işlemciler, Linux sistemler için
+  > öncelikli tavsiyemizdir.
+
+### İleri Düzey Notlar
+
+- **Intel:**
+  > Bazı kullanıcı geri bildirimlerine göre, Intel işlemcilerde
+  > güç profili (power profile) seçenekleri sınırlı (genellikle 2 adet)
+  > kalabilmektedir.
+
+- **Güvenlik Odaklı Sistemler:**
+  > QubesOS gibi ekstrem güvenlik odaklı
+  > dağıtımları kullanmayı planlıyorsanız, AMD işlemcilerin güvenlik
+  > protokollerinde bazı tutarsızlıklar rapor edilmiştir. Bu durum,
+  > standart masaüstü kullanımını etkilemez.
+
+### ARM Mimarisi
+
+ARM tabanlı işlemciler masaüstü dünyasında henüz gelişme aşamasındadır.
+
+- **Mevcut Durum:**
+  > Android ekosistemi ve Raspberry Pi sayesinde Linux
+  > desteği gayet iyidir.
+
+- **Gelecek Beklentisi:**
+  > 23 Kasım 2025 itibarıyla Valve\'in Steam Frame
+  > cihazı gibi atılımlar, ARM üzerinde oyunculuğun ve masaüstü
+  > deneyiminin hızla gelişeceğini işaret etmektedir.
+
+## 2. Ekran Kartı (GPU) Seçimi
+
+Linux deneyiminizi (özellikle oyun alanında) doğrudan etkileyen en kritik bileşen ekran kartıdır.
 
 ### AMD
-AMD GPUlar Linux'ta tak çalıştır olacak şekilde çalışmaktadır. Modern bir AMD GPUya sahipseniz `amdgpu` paketini indirmeyi isteyebilirsiniz. 
 
-### INTEL Arc
+Linux dünyasında en sorunsuz deneyimi sunar.
 
-Intel'in piyasaya yeni sürdüğü Arc GPUları ile ilgili ne yazık ki elimizde çok fazla kullanıcı verisi yok. Ancak Linux için driver dağıtıyor (apt, dnf, arch linux) ve kullanıcılar arasında henüz sorun bildiren bir kişiye rastlanmadı. 
+- **Kurulum:**
+  > Genellikle ekstra bir sürücü kurulumu gerektirmez (Kernel
+  > içinde gelir).
 
-### Nvidia
+- **Gerekli Paketler:**
+  > Modern kartlar için `amdgpu` paketinin yüklü
+  > olduğundan emin olmanız yeterlidir.
 
-Nvidia Linux tarafında epey sorunluydu eskiden. X11 kısmında sorun çıkarmasa da Wayland kullanmak istediğinizde kullanılamaz haldeydi. Nvidia, RTX 5000 serisini yayınlamasıyla birlikte odak noktasını sunuculara çevirdi. Modern Nvidia driverlarıyla birlikte Linux tarafındaki tüm sorunlarını çözdüler ve şu sıralar odak noktaları Linux driverları. Asus işbirliğiyle kendi Linux dağıtımlarını bile yaptılar. 
+### Intel Arc
 
-Nvidia, spesifik olarak 580 numaralı driverları ile birlikte UNIX'te tamamen verimli şekilde kullanılabiliyor. 
+Intel\'in pazara sunduğu Arc serisi, Linux tarafında umut vaat
+etmektedir.
 
-Linux olmayan UNIX işletim sistemleri arasında Nvidia driverları alanlar şunlar:
-* FreeBSD (Nvidia 580 sürücü desteği, kusursuz çalışıyor)
-* Solaris (Nvidia 580 sürücü desteği, kusursuz çalışıyor)
+- **Durum:**
+  > Linus Torvalds\'ın da kişisel sisteminde kullandığı bu
+  > kartlar için apt, dnf veya Arch repolarında sürücüler mevcuttur.
 
-Nvidia'nın 580 sürüm numaralı sürücülerinin Linux tarafındaki önemi epey fazla. Mutlaka dikkat etmeniz gerek. Bu, dağıtım seçerken de birinci önceliğiniz olmalı.
+- **Kullanıcı Deneyimi:**
+  > Şu ana kadar kayda değer kronik bir sorun
+  > bildirilmemiştir.
 
-6 Aralık 2025 itibariyle buna uyan dağıtımlar:
+### Nvidia (Mutlaka Okuyun)
 
-**Ana repolarda 580 ve üstü sürücü desteği veren dağıtımlar**
-* Fedora
-* Arch Linux (Manjaro dahil)
-* Ubuntu (Ve çatalları Linux Mint, Kubuntu, ZorinOS)
-* Debian + Nvidia Cuda (Örn Pardus)
-* NixOS
-* Void Linux
-* NixOS
-  
-**Testing repolarında 580 ve üstü sürücü desteği veren dağıtımlar**
-* Gentoo
+Nvidia, geçmişte Linux (özellikle Wayland) tarafında sorunlu olsa da,
+RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir.
 
-**Herhangi bir repoda 580 ve üstü sürücü vermeyen dağıtımlar**
-* Debian (Linux Mint Debian Edition, mxlinux, antix)
-* PCLinuxOS
+> **Önemli Uyarı:**
+> Sorunsuz bir deneyim için **Nvidia 580** ve üzeri
+> sürüm numaralı sürücüleri kullanmanız şarttır.
 
-**Nvidia dağıtmayan dağıtımlar:**
-* Alpine Linux
-* Chimera Linux
+**Sürücü Uyumluluk Tablosu (6 Aralık 2025 İtibariyle)**
 
-Biz popüler dağıtımlar arasında böyle bir liste hazırlamış olsak da dağıtım repoları arasında nvidia sürücü durumunu kontrol etmek isteyebilirsiniz.
-Nvidia kullanıyorsanız ve performans kaybı ve kusurlar olmadan bilgisayarınızı kullanmak istiyorsanız Nvidia 580 sürücülerini indirmeniz şart.
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Dağıtım Grubu</strong></th>
+<th><strong>Destek Durumu</strong></th>
+<th><strong>Dağıtımlar</strong></th>
+</tr>
+<tr class="odd">
+<th><strong>Tam Destek</strong></th>
+<th>Ana depolarda v580+ sürücü mevcut</th>
+<th><p>Fedora</p>
+<p>Arch Linux (Manjaro dahil)</p>
+<p>Ubuntu (Mint, Kubuntu, ZorinOS)</p>
+<p>Debian + Nvidia Cuda (Pardus vb.)</p>
+<p>NixOS</p>
+<p>Void Linux</p></th>
+</tr>
+<tr class="header">
+<th><strong>Test Aşaması</strong></th>
+<th>Testing depolarında v580+ mevcut</th>
+<th>Gentoo</th>
+</tr>
+<tr class="odd">
+<th><strong>Destek Yok</strong></th>
+<th>Depolarda güncel sürücü yok</th>
+<th><p>Debian (LMDE, MXLinux, Antix)</p>
+<p>PCLinuxOS</p></th>
+</tr>
+<tr class="header">
+<th><strong>Sürücü Yok</strong></th>
+<th>Nvidia sürücüsü dağıtılmıyor</th>
+<th><p>Alpine Linux</p>
+<p>Chimera Linux</p></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
 
-## Anakart seçimi
+*Ayrıca FreeBSD ve Solaris gibi UNIX sistemleri de Nvidia 580
+sürücülerini kusursuz desteklemektedir.*
 
-Asrock markası Linux için uyumlu donanımlar üreten bir marka ve Türkiye'de, hepsiburada, sinerji gibi platformlarda uygun fiyatlı anakartlar satıyor. Asus da Linux tarafında epey iyi çalışan donanımlar üreten bir marka. MSI gibi üreticiler ise ne yazık ki iyi bir tercih olmayabiliyor bazen.
+## 3. Anakart Seçimi 
 
-Anakart konusunda epey dikkat etmeniz ve biraz da kendiniz araştırma yapmanızda fayda var. Bazen seriden seriye çok şey değişebiliyor. Biz genel olarak değerlendirme yaptık. Fan yönetimi gibi konularda sorun yaşamamak için buna dikkat etmeniz gerek. 
+Anakart seçimi, fan kontrolü ve sensörlerin doğru okunması açısından
+önemlidir.
 
-Biz r/linuxturkey olarak ASRock marka anakartlar öneriyoruz. İkincil bir tercih olarak Asus markasına da bakabilirsiniz
+- **Önerilen Marka:** **ASRock**.
+  > Linux uyumlu donanım üretme konusunda
+  > iyidirler ve Türkiye pazarında fiyat/performans ürünleri
+  > bulunmaktadır.
 
-## USB Wi-fi Adaptörleri
-Not: Ethernet kablosu kullanıyorsanız bu kısmı önemsemeniz gerekmiyor
+- **Alternatif:**
+  > **Asus**. Linux tarafında genellikle sorunsuz çalışır.
 
-Linux tarafında USB Wi-fi adaptörlerinde artık pek sorun olmuyor
-Linux tarafında desteklenenler:
+- **Dikkat:**
+  > MSI ve diğer üreticilerde model bazlı araştırma yapılması
+  > önerilir; fan yönetimi gibi konularda yazılım desteği eksik
+  > olabilir.
 
-* MT7921/MT7922 Atheros AR9271
-* Ralink RT5370 / RT5572
-* Mediatek MT7601U
-* RTL8812AU / 8814AU
-* MT7921/MT7922
+## 4. Ağ Bağlantısı (USB Wi-Fi) 
 
-Bu chipsetler Linux ve BSD tarafında sorunsuz çalışıyor. 
+Ethernet kullanıyorsanız bu adımı atlayabilirsiniz. Kablosuz bağlantı
+için aşağıdaki çipsetlere sahip adaptörler Linux çekirdeği tarafından
+doğrudan desteklenir:
 
-## RGB Klavye & Fare
-* **Corsair:** `ckb-next` (Gentoo için: `ckb`)
-* **OpenRazer:** https://openrazer.github.io/
-* **Rampage:** Eğer Linux odaklı bir sistem toplayacaksanız, monitörleri dışında bu markadan uzak durmanızı bu rehberin yazıldığı 23 kasım 2025 tarihi itibariyle şiddetle öneriyoruz.
+- **MediaTek:** MT7921, MT7922, MT7601U
 
-## Donanımı topladık, hangi dağıtımı seçmeliyiz?
+- **Atheros:** AR9271
 
-Topluluk olarak yeni kullanıcılara Fedora, yeni Nvidia kullanıcılarına Manjaro öneriyoruz.
+- **Ralink:** RT5370, RT5572
 
-## Ben laptop alacağım, ben ne yapayım?
-Çoğu Lenovo, HP (victus dahil), Dell ve Asus laptop Linux'ta sorunsuz çalışıyor. Laptoplar ile ilgili yakın zamanda farklı bir rehber hazırlayacağız
+- **Realtek:** RTL8812AU, RTL8814AU
 
+## 5. Çevre Birimleri ve RGB Kontrolü 
+
+Donanımınızın ışıklandırmasını ve makrolarını yönetmek için Linux
+tarafındaki yazılım destekleri şöyledir:
+
+- **Corsair:**
+  > `ckb-next` yazılımı ile tam kontrol sağlanabilir, bu paket hemen hemen her dağıtımın repolarında bulunmaktadır. 
+  > (Gentoo kullanıcıları için paket adı: ckb).
+
+- **Razer:**
+  > [OpenRazer](https://openrazer.github.io/)
+  > projesi ile geniş kapsamlı destek sunulmaktadır.
+
+- **Rampage:**
+  > **Uzak durulması önerilir.** Monitörleri haricinde,
+  > klavye/fare gibi bileşenleri Linux tarafında yazılım desteği
+  > sunmamaktadır (23 Kasım 2025 itibariyle).
+
+## Özet Tavsiyeler
+
+### Hangi Dağıtımı Seçmeliyim?
+
+Donanımınızı topladıktan sonra işletim sistemi seçimi için genel
+önerimiz:
+
+- **Genel Kullanıcı:** Fedora (Eğer Nvidia kuracaksanız [rehberi](https://github.com/KairaBegudiri/rehberler/blob/main/src/fedora-nvidia-rehberi.md) okuyunuz)
+
+- **Yeni Nvidia Kullanıcıları:** 
+  > Manjaro (Stabilite ve son kullanıcı için elverişli olması nedeniyle)
+
+### Laptop Kullanıcıları İçin Not 
+
+Toplama bilgisayar yerine dizüstü tercih edecekseniz; **Lenovo (Thinkpad
+serisi özellikle), HP (Victus dahil), Dell ve Asus** modelleri Linux ile
+yüksek uyumluluk göstermektedir. Detaylı laptop rehberi ayrıca
+yayınlanacaktır.
