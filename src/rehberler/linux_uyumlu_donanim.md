@@ -37,25 +37,22 @@ Linux olmayan UNIX işletim sistemleri arasında Nvidia driverları alanlar şun
 
 Nvidia'nın 580 sürüm numaralı sürücülerinin Linux tarafındaki önemi epey fazla. Mutlaka dikkat etmeniz gerek. Bu, dağıtım seçerken de birinci önceliğiniz olmalı.
 
-23 Kasım 2025 itibariyle buna uyan dağıtımlar:
+6 Aralık 2025 itibariyle buna uyan dağıtımlar:
 
 **Ana repolarda 580 ve üstü sürücü desteği veren dağıtımlar**
 * Fedora
-* Arch Linux
-* Ubuntu
-* Manjaro
+* Arch Linux (Manjaro dahil)
+* Ubuntu (Ve çatalları Linux Mint, Kubuntu, ZorinOS)
+* Debian + Nvidia Cuda (Örn Pardus)
 * NixOS
 * Void Linux
-* Pardus
-* ZorinOS
-
-**Testing repolarında 580 ve üstü sürücü desteği veren dağıtımlar**
 * NixOS
+  
+**Testing repolarında 580 ve üstü sürücü desteği veren dağıtımlar**
 * Gentoo
 
 **Herhangi bir repoda 580 ve üstü sürücü vermeyen dağıtımlar**
-* Debian
-* Linux Mint
+* Debian (Linux Mint Debian Edition, mxlinux, antix)
 * PCLinuxOS
 
 **Nvidia dağıtmayan dağıtımlar:**
