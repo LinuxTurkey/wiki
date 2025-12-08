@@ -59,6 +59,7 @@ nav:
   - Kullanıcı Rehberleri:
     - rehberler/linux_uyumlu_donanim.md
     - rehberler/lenovo_bios.md
+    - rehberler/fedora-nvidia-akmod-rehberi.md
   - Editör Rehberleri:
     - rehberler/hangi_dagitim.md
     - rehberler/windowstan_linuxa.md
