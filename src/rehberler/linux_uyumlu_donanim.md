@@ -1,4 +1,4 @@
-# Linux Uyumlu Donanım Seçim Rehberi 
+# Linux Uyumlu Donanım Seçim Rehberi
 
 > **Yazar:** [Kayra](https://www.x.com/QMinun)
 
@@ -17,7 +17,7 @@ ekosisteme dahil olmak isteyen kullanıcıların, donanım seçimi yaparken
 karşılaşabilecekleri uyumluluk sorunlarını en aza indirmeyi
 amaçlamaktadır.
 
-Ayrıca Statcounter verilerine göre Türkiye'de MacOS kullanıcısından daha fazla Linux kullanıcısı vardır. Bu oran, Pardus'u dahil etmeseniz bile korunmaktadır. 
+Ayrıca Statcounter verilerine göre Türkiye'de MacOS kullanıcısından daha fazla Linux kullanıcısı vardır. Bu oran, Pardus'u dahil etmeseniz bile korunmaktadır.
 > (Pardus, kullanıcı sayısını halk ile paylaşmaktadır)
 
 ## 1. İşlemci (CPU) Seçimi
@@ -151,7 +151,7 @@ RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir.
 *Ayrıca FreeBSD ve Solaris gibi UNIX sistemleri de Nvidia 580
 sürücülerini kusursuz desteklemektedir.*
 
-## 3. Anakart Seçimi 
+## 3. Anakart Seçimi
 
 Anakart seçimi, fan kontrolü ve sensörlerin doğru okunması açısından
 önemlidir.
@@ -169,7 +169,7 @@ Anakart seçimi, fan kontrolü ve sensörlerin doğru okunması açısından
   > önerilir; fan yönetimi gibi konularda yazılım desteği eksik
   > olabilir.
 
-## 4. Ağ Bağlantısı (USB Wi-Fi) 
+## 4. Ağ Bağlantısı (USB Wi-Fi)
 
 Ethernet kullanıyorsanız bu adımı atlayabilirsiniz. Kablosuz bağlantı
 için aşağıdaki çipsetlere sahip adaptörler Linux çekirdeği tarafından
@@ -183,13 +183,13 @@ doğrudan desteklenir:
 
 - **Realtek:** RTL8812AU, RTL8814AU
 
-## 5. Çevre Birimleri ve RGB Kontrolü 
+## 5. Çevre Birimleri ve RGB Kontrolü
 
 Donanımınızın ışıklandırmasını ve makrolarını yönetmek için Linux
 tarafındaki yazılım destekleri şöyledir:
 
 - **Corsair:**
-  > `ckb-next` yazılımı ile tam kontrol sağlanabilir, bu paket hemen hemen her dağıtımın repolarında bulunmaktadır. 
+  > `ckb-next` yazılımı ile tam kontrol sağlanabilir, bu paket hemen hemen her dağıtımın repolarında bulunmaktadır.
   > (Gentoo kullanıcıları için paket adı: ckb).
 
 - **Razer:**
@@ -210,10 +210,10 @@ Donanımınızı topladıktan sonra işletim sistemi seçimi için genel
 
 - **Genel Kullanıcı:** Fedora (Eğer Nvidia kuracaksanız [rehberi](https://github.com/KairaBegudiri/rehberler/blob/main/src/fedora-nvidia-rehberi.md) okuyunuz)
 
-- **Yeni Nvidia Kullanıcıları:** 
+- **Yeni Nvidia Kullanıcıları:**
   > Manjaro (Stabilite ve son kullanıcı için elverişli olması nedeniyle)
 
-### Laptop Kullanıcıları İçin Not 
+### Laptop Kullanıcıları İçin Not
 
 Toplama bilgisayar yerine dizüstü tercih edecekseniz; **Lenovo (Thinkpad
 serisi özellikle), HP (Victus dahil), Dell ve Asus** modelleri Linux ile
