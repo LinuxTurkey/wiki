@@ -12,4 +12,6 @@ sudo dnf system-upgrade reboot
 
 İşlemin bitmesi ardından sistem yeniden başlayacak ve sisteminiz artık Fedora 43 olarak başlayacaktır.
 
-> **Not:** Biz bu rehberde 42'den 43'e geçişi göstermiş olsak da, 44 sürümü çıktığı vakit bu durum 44 sürümü için de geçerli olacaktır. Keyfinize bağlı olarak, 42 ömrünün sonuna geldiği vakit 43'e geçmek yerine 44'e de geçebilirsiniz. Bu durumda `--releasever=43` parametresini `--releasever=44` olarak çalıştırabilirsinz
+!!! note
+
+    Biz bu rehberde 42'den 43'e geçişi göstermiş olsak da, 44 sürümü çıktığı vakit bu durum 44 sürümü için de geçerli olacaktır. Keyfinize bağlı olarak, 42 ömrünün sonuna geldiği vakit 43'e geçmek yerine 44'e de geçebilirsiniz. Bu durumda `--releasever=43` parametresini `--releasever=44` olarak çalıştırabilirsinz
