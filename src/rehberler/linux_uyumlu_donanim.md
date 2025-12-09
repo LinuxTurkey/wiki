@@ -33,28 +33,21 @@ etmeniz gereken bazı nüanslar bulunmaktadır.
 
 - **Intel & AMD:**
 
-    > Her iki üreticinin işlemcileri de Linux tarafında
-    > yüksek uyumlulukla çalışır. Standart bir ev veya ofis kullanıcısı
-    > için marka tercihi, işletim sistemi uyumluluğunu etkilemez.
+    > Her iki üreticinin işlemcileri de Linux tarafında yüksek uyumlulukla çalışır. Standart bir ev veya ofis kullanıcısı için marka tercihi, işletim sistemi uyumluluğunu etkilemez.
 
 - **Fiyat/Performans Önerisi:**
-    > Türkiye pazarındaki fiyat avantajları
-    > göz önüne alındığında **AMD** işlemciler, Linux sistemler için
-    > öncelikli tavsiyemizdir.
+
+    > Türkiye pazarındaki fiyat avantajları göz önüne alındığında **AMD** işlemciler, Linux sistemler için öncelikli tavsiyemizdir.
 
 ### İleri Düzey Notlar
 
 - **Intel:**
 
-    > Bazı kullanıcı geri bildirimlerine göre, Intel işlemcilerde
-    > güç profili (power profile) seçenekleri sınırlı (genellikle 2 adet)
-    > kalabilmektedir.
+    > Bazı kullanıcı geri bildirimlerine göre, Intel işlemcilerde güç profili (power profile) seçenekleri sınırlı (genellikle 2 adet) kalabilmektedir.
 
 - **Güvenlik Odaklı Sistemler:**
-    > QubesOS gibi ekstrem güvenlik odaklı
-    > dağıtımları kullanmayı planlıyorsanız, AMD işlemcilerin güvenlik
-    > protokollerinde bazı tutarsızlıklar rapor edilmiştir. Bu durum,
-    > standart masaüstü kullanımını etkilemez.
+
+    > QubesOS gibi ekstrem güvenlik odaklı dağıtımları kullanmayı planlıyorsanız, AMD işlemcilerin güvenlik protokollerinde bazı tutarsızlıklar rapor edilmiştir. Bu durum, standart masaüstü kullanımını etkilemez.
 
 ### ARM Mimarisi
 
@@ -62,13 +55,11 @@ ARM tabanlı işlemciler masaüstü dünyasında henüz gelişme aşamasındadı
 
 - **Mevcut Durum:**
 
-    > Android ekosistemi ve Raspberry Pi sayesinde Linux
-    > desteği gayet iyidir.
+    > Android ekosistemi ve Raspberry Pi sayesinde Linux desteği gayet iyidir.
 
 - **Gelecek Beklentisi:**
-    > 23 Kasım 2025 itibarıyla Valve'in Steam Frame
-    > cihazı gibi atılımlar, ARM üzerinde oyunculuğun ve masaüstü
-    > deneyiminin hızla gelişeceğini işaret etmektedir.
+
+    > 23 Kasım 2025 itibarıyla Valve'in Steam Frame cihazı gibi atılımlar, ARM üzerinde oyunculuğun ve masaüstü deneyiminin hızla gelişeceğini işaret etmektedir.
 
 ## 2. Ekran Kartı (GPU) Seçimi
 
@@ -80,12 +71,11 @@ Linux dünyasında en sorunsuz deneyimi sunar.
 
 - **Kurulum:**
 
-    > Genellikle ekstra bir sürücü kurulumu gerektirmez (Kernel
-    > içinde gelir).
+    > Genellikle ekstra bir sürücü kurulumu gerektirmez (Kernel içinde gelir).
 
 - **Gerekli Paketler:**
-    > Modern kartlar için `amdgpu` paketinin yüklü
-    > olduğundan emin olmanız yeterlidir.
+
+    > Modern kartlar için `amdgpu` paketinin yüklü olduğundan emin olmanız yeterlidir.
 
 ### Intel Arc
 
@@ -94,21 +84,20 @@ etmektedir.
 
 - **Durum:**
 
-    > Linus Torvalds'ın da kişisel sisteminde kullandığı bu
-    > kartlar için apt, dnf veya Arch repolarında sürücüler mevcuttur.
+    > Linus Torvalds'ın da kişisel sisteminde kullandığı bu kartlar için apt, dnf veya Arch repolarında sürücüler mevcuttur.
 
 - **Kullanıcı Deneyimi:**
-    > Şu ana kadar kayda değer kronik bir sorun
-    > bildirilmemiştir.
+
+    > Şu ana kadar kayda değer kronik bir sorun bildirilmemiştir.
 
 ### Nvidia (Mutlaka Okuyun)
 
 Nvidia, geçmişte Linux (özellikle Wayland) tarafında sorunlu olsa da,
 RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir.
 
-> **Önemli Uyarı:**
-> Sorunsuz bir deneyim için **Nvidia 580** ve üzeri
-> sürüm numaralı sürücüleri kullanmanız şarttır.
+!!! warning
+
+    Sorunsuz bir deneyim için **Nvidia 580** ve üzeri sürüm numaralı sürücüleri kullanmanız şarttır.
 
 **Sürücü Uyumluluk Tablosu (6 Aralık 2025 İtibariyle)**
 
@@ -166,18 +155,15 @@ Anakart seçimi, fan kontrolü ve sensörlerin doğru okunması açısından
 
 - **Önerilen Marka:** **ASRock**.
 
-    > Linux uyumlu donanım üretme konusunda
-    > iyidirler ve Türkiye pazarında fiyat/performans ürünleri
-    > bulunmaktadır.
+    > Linux uyumlu donanım üretme konusunda iyidirler ve Türkiye pazarında fiyat/performans ürünleri bulunmaktadır.
 
 - **Alternatif:**
 
     > **Asus**. Linux tarafında genellikle sorunsuz çalışır.
 
-- **Dikkat:**
-    > MSI ve diğer üreticilerde model bazlı araştırma yapılması
-    > önerilir; fan yönetimi gibi konularda yazılım desteği eksik
-    > olabilir.
+!!! warning
+
+    MSI ve diğer üreticilerde model bazlı araştırma yapılması önerilir; fan yönetimi gibi konularda yazılım desteği eksik olabilir.
 
 ## 4. Ağ Bağlantısı (USB Wi-Fi)
 
@@ -186,11 +172,8 @@ için aşağıdaki çipsetlere sahip adaptörler Linux çekirdeği tarafından
 doğrudan desteklenir:
 
 - **MediaTek:** MT7921, MT7922, MT7601U
-
 - **Atheros:** AR9271
-
 - **Ralink:** RT5370, RT5572
-
 - **Realtek:** RTL8812AU, RTL8814AU
 
 ## 5. Çevre Birimleri ve RGB Kontrolü
@@ -200,18 +183,15 @@ tarafındaki yazılım destekleri şöyledir:
 
 - **Corsair:**
 
-    > `ckb-next` yazılımı ile tam kontrol sağlanabilir, bu paket hemen hemen her dağıtımın repolarında bulunmaktadır.
-    > (Gentoo kullanıcıları için paket adı: ckb).
+    > `ckb-next` yazılımı (Gentoo'da `ckb`) ile tam kontrol sağlanabilir, bu paket hemen hemen her dağıtımın repolarında bulunmaktadır.
 
 - **Razer:**
 
-    > [OpenRazer](https://openrazer.github.io/)
-    > projesi ile geniş kapsamlı destek sunulmaktadır.
+    > [OpenRazer](https://openrazer.github.io/) projesi ile geniş kapsamlı destek sunulmaktadır.
 
 - **Rampage:**
-    > **Uzak durulması önerilir.** Monitörleri haricinde,
-    > klavye/fare gibi bileşenleri Linux tarafında yazılım desteği
-    > sunmamaktadır (23 Kasım 2025 itibariyle).
+
+    > **Uzak durulması önerilir.** Monitörleri haricinde, klavye/fare gibi bileşenleri Linux tarafında yazılım desteği sunmamaktadır (23 Kasım 2025 itibariyle).
 
 ## Özet Tavsiyeler
 
