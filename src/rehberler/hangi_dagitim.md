@@ -13,7 +13,8 @@ Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www
 [Bazzite](https://bazzite.gg/), Valve'ın SteamOS 3'üne benzer şekilde tasarlanmış Fedora tabanlı bir Linux dağıtımıdır. Steam Deck de dahil olmak üzere taşınabilir cihazlar ve masaüstü bilgisayarlar için destek sunar. Hem sıradan hem de ileri düzey Linux oyuncuları için sorunsuz bir kullanıma hazır deneyim sunmayı amaçlamaktadır.
 
 !!! note
-Bazzite, Windows ve Arch Linux gibi dağıtımlarla karşılaştırıldığında bile bazı oyunlarda daha yüksek FPS sağlayabilmektedir. [(Kaynak)](https://youtu.be/u4a2pDMXLAE)
+
+    Bazzite, Windows ve Arch Linux gibi dağıtımlarla karşılaştırıldığında bile bazı oyunlarda daha yüksek FPS sağlayabilmektedir. [(Kaynak)](https://youtu.be/u4a2pDMXLAE)
 
 ### Nobara
 
@@ -26,7 +27,8 @@ Fedora’da eksik olan ve özellikle oyunlar açısından önemli olan bazı bil
 [ChimeraOS](https://chimeraos.org/), ChimeraOS, kurulumu tamamladığın anda seni oyunlara hazır hale getiren bir işletim sistemidir. Sistemi açtığında doğrudan Steam Big Picture arayüzüne girer, böylece koltuğundan kalkmadan oyunlara dalabilirsin. Eğer Steam’i salonuna taşımak istiyorsan, aradığın sistem ChimeraOS.
 
 !!! note
-ChimeraOS, Bazzite gibi dağıtımların aksine varsayılan olarak Steam Big Picture modunda çalışır.
+
+    ChimeraOS, Bazzite gibi dağıtımların aksine varsayılan olarak Steam Big Picture modunda çalışır.
 
 ## Modern ve stabil bir dağıtım arıyorum
 
@@ -34,7 +36,11 @@ ChimeraOS, Bazzite gibi dağıtımların aksine varsayılan olarak Steam Big Pic
 
 [Fedora Linux](https://fedoraproject.org/) (eski adıyla, Fedora Core), açık kaynak kodlu ve özgür bir Linux dağıtımı. Dünya çapında bir özgür yazılım topluluğu olan Fedora Projesi tarafından geliştirilmekte ve yönetilmekte, Red Hat tarafından desteklenmektedir.
 
-!!! note - Fedora, Ubuntu gibi dağıtımlara kıyasla daha temiz ve saf bir GNOME masaüstü ortamı deneyimi sağlar. - Çoğu stabil dağıtıma kıyasla yeni yazılımlar daha erken depolara eklenir. - Kapalı kaynak Snap yazılım deposu yerine topluluk tarafından çokça tercih edilen Flatpak ile gelir.
+!!! note
+
+    - Fedora, Ubuntu gibi dağıtımlara kıyasla daha temiz ve saf bir GNOME masaüstü ortamı deneyimi sağlar.
+    - Çoğu stabil dağıtıma kıyasla yeni yazılımlar daha erken depolara eklenir.
+    - Kapalı kaynak Snap yazılım deposu yerine topluluk tarafından çokça tercih edilen Flatpak ile gelir.
 
 ### Zorin OS
 
