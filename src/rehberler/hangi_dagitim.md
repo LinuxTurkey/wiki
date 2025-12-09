@@ -2,7 +2,7 @@
 
 Sihirbaz aracılığı ile dağıtım seçimi için: [Distrochooser](https://distrochooser.de/tr)
 
-## Oyun odaklı bir dağıtım arıyorum.
+## Oyun odaklı bir dağıtım arıyorum
 
 Çoğu modern dağıtım, Valve'ın Proton uyumluluk katmanı sayesinde çoğu oyunu desteklemektedir. Ancak çekirdek seviyesinde anti-cheat barındıran (ör. Vanguard) Rekabetçi FPS ve MOBA oyunları hiçbir Linux dağıtımında desteklenmemektedir.
 
@@ -28,7 +28,7 @@ Fedora’da eksik olan ve özellikle oyunlar açısından önemli olan bazı bil
 !!! note
 ChimeraOS, Bazzite gibi dağıtımların aksine varsayılan olarak Steam Big Picture modunda çalışır.
 
-## Modern ve stabil bir dağıtım arıyorum.
+## Modern ve stabil bir dağıtım arıyorum
 
 ### Fedora
 
@@ -57,13 +57,13 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 [Elementary OS](https://elementary.io/) (elementary OS şeklinde de stilize edilir) Ubuntu LTS tabanlı bir Linux dağıtımıdır. Kendini macOS ve Windows'un "düşünülmüş, kapsamlı ve etik" bir alternatifi olarak tanıtır ve istediğini öde modeline sahiptir. İşletim sistemi, masaüstü ortamı (Pantheon olarak adlandırılır) ve beraberindeki uygulamalar elementary, Inc. tarafından geliştirilir ve sürdürülür.
 
-## Sürekli güncel ve stabil bir dağıtım arıyorum.
+## Sürekli güncel ve stabil bir dağıtım arıyorum
 
 ### openSUSE
 
 [openSUSE](https://www.opensuse.org/), openSUSE Projesi tarafından geliştirilen ücretsiz ve açık kaynaklı bir Linux dağıtımıdır. İki ana varyasyonda sunulmaktadır: Tumbleweed (yukarı akışlı bir sürüm dağıtımı) ve Leap (SUSE Linux Enterprise kaynaklı, kararlı bir sürüm dağıtımı)
 
-## Sürekli güncel bir dağıtım arıyorum.
+## Sürekli güncel bir dağıtım arıyorum
 
 ### CachyOS
 
@@ -83,7 +83,7 @@ Wikipedia'dan:
 
 [Manjaro](https://manjaro.org/), Arch Linux tabanlı, kullanıcı dostu ve erişilebilir bir Linux dağıtımıdır. Rolling release modeliyle güncel yazılımlar sunarken, Arch’ın karmaşıklığını azaltmak için grafiksel kurulum araçları ve önceden yapılandırılmış masaüstü ortamları sağlar. Manjaro, geniş donanım desteği ve kapsamlı sürücü paketleriyle özellikle yeni başlayanlar ve günlük kullanım için dağıtım arayan kullanıcılar arasında popülerdir. KDE Plasma, XFCE ve GNOME gibi çeşitli masaüstü seçenekleri mevcuttur.
 
-## Hafif ve stabil bir dağıtım arıyorum.
+## Hafif ve stabil bir dağıtım arıyorum
 
 ### Linux Mint
 
@@ -93,7 +93,7 @@ Wikipedia'dan:
 
 [MX Linux](https://mxlinux.org/), Debian Stable tabanlı bir Linux dağıtımıdır ve antiX’in çekirdek bileşenlerini kullanır. Bunun yanında, MX topluluğu tarafından oluşturulan ya da paketlenen ek yazılımlar da içerir. MX Linux’un geliştirilmesi, antiX ve eski MEPIS topluluklarının ortak çalışmasının bir ürünüdür. Topluluğun belirttiği hedef, "zarif ve verimli masaüstlerini yüksek kararlılık ve sağlam performansla birleştiren bir işletim sistemi ailesi" üretmektir.
 
-## Çok eski bir bilgisayarım var ve oldukça hafif bir dağıtım arıyorum.
+## Çok eski bir bilgisayarım var ve oldukça hafif bir dağıtım arıyorum
 
 ### antiX
 
@@ -113,7 +113,7 @@ Wikipedia'dan:
 
 [Tiny Core Linux (TCL)](http://www.tinycorelinux.net/), BusyBox ve FLTK kullanan, minimum sistemle çalışan son derece hafif bir Linux dağıtımıdır. 11–16 MB boyutundadır ve işlevsellik eklentilerle sağlanır. Baş geliştiricisi, Damn Small Linux'tan tanıdığımız Robert Shingledecker’dır. Açık kaynaklıdır ve GPLv2 lisansı ile dağıtılır.
 
-## "Kendin yap" felsefesinde bir dağıtım arıyorum.
+## "Kendin yap" felsefesinde bir dağıtım arıyorum
 
 ### Arch Linux
 
