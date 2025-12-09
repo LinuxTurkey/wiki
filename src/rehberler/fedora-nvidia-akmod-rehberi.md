@@ -1,4 +1,5 @@
 # Fedora'da Nvidia Kurulum Rehberi
+>
 > **Yazar:** [Kayra](https://www.x.com/QMinun)
 
 Yeni kullanıcılar için Fedora'da Nvidia kurulumu kafa karıştırıcı olabiliyor. Aşağıdaki adımları takip ederek Fedora sisteminize Nvidia sürücülerini kurabilirsiniz.
@@ -11,6 +12,7 @@ https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E 
 ```
 
 Şimdi başarıyla sistemimize non-free repolarını ekledik. Bu aşamadan sonra Nvidia sürücülerini kurmamız gerekiyor.
+
 ```
 sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda
 ```
@@ -19,9 +21,10 @@ Bunlar Fedora için Nvidia sürücülerimiz. İlk paket Nvidia sürücülerini, 
 
 Bu işlemin ardından önyükleme sırasında modüllerin de aktif olabilmesi için dracut üzerinden aktif etmemiz gerekmekte. Normalde paket kurulumundan yaklaşık 1-2 dk sonra kendiliğinden olacaktır ancak buna güvenmemiz her zaman iyi sonuçlanmayabilir.
 Daha kesin bir çözüm olarak aşağıdaki adımları takip ediniz.
+
 ```bash
 sudo akmods --force
 sudo dracut --force
 ```
 
-Bu işlemin de ardından sisteminizi yeniden başlatabilirsiniz. 
+Bu işlemin de ardından sisteminizi yeniden başlatabilirsiniz.

@@ -5,13 +5,13 @@ repo_url: https://github.com/LinuxTurkey/wiki
 repo_name: LinuxTurkey/wiki
 edit_uri: edit/main/src/
 use_directory_urls: false
-plugins: 
+plugins:
   - social:
       cards_layout_options:
         logo: assets/logo.png
   - search
   - offline
-markdown_extensions: 
+markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
@@ -31,13 +31,13 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.sections
-    - navigation.prune 
+    - navigation.prune
     - content.action.edit
     - content.action.view
     - search.suggest
     - search.highlight
   language: tr
-  palette: 
+  palette:
     - media: "(prefers-color-scheme: light)"
       scheme: slate
       primary: red
@@ -57,12 +57,12 @@ nav:
   - rehberler/sss.md
   - faydali_baglantilar.md
   - Kullanıcı Rehberleri:
-    - rehberler/linux_uyumlu_donanim.md
-    - rehberler/lenovo_bios.md
-    - rehberler/fedora-nvidia-akmod-rehberi.md
+      - rehberler/linux_uyumlu_donanim.md
+      - rehberler/lenovo_bios.md
+      - rehberler/fedora-nvidia-akmod-rehberi.md
+      - rehberler/fedora-yukseltme-rehberi.md
   - Editör Rehberleri:
-    - rehberler/hangi_dagitim.md
-    - rehberler/windowstan_linuxa.md
+      - rehberler/hangi_dagitim.md
+      - rehberler/windowstan_linuxa.md
   - Diğer Wiki Kaynakları:
-    - Nix Öğreniyoruz: https://nixogreniyoruz.kavakci.dev/
-
+      - Nix Öğreniyoruz: https://nixogreniyoruz.kavakci.dev/
