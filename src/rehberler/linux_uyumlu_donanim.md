@@ -160,6 +160,7 @@ Anakart seçimi, fan kontrolü ve sensörlerin doğru okunması açısından
 - **Alternatif:**
 
     > **Asus**. Linux tarafında genellikle sorunsuz çalışır.
+    > [Bu adres üzerinden](https://www.asus.com/websites/global/aboutASUS/OS/Linux_Status_report_202510.pdf) Linux uyumlu Asus anakartlara bakabilirsiniz
 
 !!! warning
 
