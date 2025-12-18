@@ -13,7 +13,7 @@ Bu rehberde, Windows yüklü bir sisteme nasıl Linux kurulabileceğinden ve ön
 
 ## Flaş diski hazırlama
 
-Öncelikle [tercih ettiğiniz dağıtımın](./01_hangi_dagitim.md) ISO dosyasını, dağıtımın websitseinden indirmeniz gerekiyor.
+Öncelikle [tercih ettiğiniz dağıtımın](https://linuxturkey.kavakci.dev/rehberler/hangi_dagitim.html) ISO dosyasını, dağıtımın websitseinden indirmeniz gerekiyor.
 
 ### Dağıtım ISO'sunu indirme (örneğin Linux Mint)
 
