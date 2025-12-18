@@ -201,7 +201,7 @@ tarafındaki yazılım destekleri şöyledir:
 Donanımınızı topladıktan sonra işletim sistemi seçimi için genel
 önerimiz:
 
-- **Genel Kullanıcı:** Fedora (Eğer Nvidia kuracaksanız [rehberi](https://github.com/KairaBegudiri/rehberler/blob/main/src/fedora-nvidia-rehberi.md) okuyunuz)
+- **Genel Kullanıcı:** Fedora (Eğer Nvidia kuracaksanız [rehberi](https://linuxturkey.kavakci.dev/rehberler/fedora-nvidia-akmod-rehberi.html) okuyunuz)
 - **Yeni Nvidia Kullanıcıları:** Manjaro (Stabilite ve son kullanıcı için elverişli olması nedeniyle)
 
 ### Laptop Kullanıcıları İçin Not
