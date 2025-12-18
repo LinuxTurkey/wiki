@@ -47,7 +47,8 @@ Fedora’da eksik olan ve özellikle oyunlar açısından önemli olan bazı bil
 [Zorin OS](https://zorin.com/os/), Ubuntu tabanlı bir Linux dağıtımıdır ve hem ücretsiz hem de ücretli sürümleri bulunmaktadır. Varsayılan olarak GNOME ve XFCE 4 masaüstü ortamlarını kullanır, ancak masaüstü arayüzü Windows veya macOS'a alışkın kullanıcılar için oldukça özelleştirilmiştir.
 
 !!! note
-Zorin OS, diğer Linux dağıtımlarından farklı olarak Pro sürümü sunuyor olsa da, ücretsiz sürümü, Pro sürümünden herhangi bir şekilde daha az kabiliyete sahip değildir. Pro sürümü sadece bazı "ek avantajlar" barındırmaktadır.
+        
+        Zorin OS, diğer Linux dağıtımlarından farklı olarak Pro sürümü sunuyor olsa da, ücretsiz sürümü, Pro sürümünden herhangi bir şekilde daha az kabiliyete sahip değildir. Pro sürümü sadece bazı "ek avantajlar" barındırmaktadır.
 
 ### Ubuntu
 
