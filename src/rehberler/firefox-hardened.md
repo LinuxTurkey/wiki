@@ -36,16 +36,17 @@ Arama motorunuza about:support yazın. Çıkan yerde Profil Dizinini Açın ve k
 *Not: Yukarıda bahsettiğim şeyleri mümkün olduğunca oynamamanız güvenlik ve mahremiyetiniz için en iyisi olacaktır.*
 
 ### İşinize Yarayabilecek Bazı Eklentiler
-
+!!! note
+```
+Gizliliğinizi korumak için eklentileri minimumda tutmanız önerilir. Çünkü her eklenti fingerprint'inizi değiştirir ve benzersiz fingerprint websitelerinin sizi daha agresif takip etmesi demektir.
+```
 [Ublock Origin](https://addons.mozilla.org/tr/firefox/addon/ublock-origin/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search): Reklam ve Bazı Takip Çerezlerini Önlemek İçin Çokça Tercih Edilen Firefox'ta En Çok Kullanılan Eklentilerden Biri
 
-[NoScript](https://addons.mozilla.org/tr/firefox/addon/noscript/): Javascript'i Kısıtlamak İçin Kullanılan Eklenti. İşinde Başarılı
+[NoScript](https://addons.mozilla.org/tr/firefox/addon/noscript/): Javascript'i Kısıtlamak İçin Kullanılan Eklenti. İşinde Başarılı fakat Ublock Origin'de bu yapılabilir. **Yani uBlock Origin ile beraber bunu kullanmak mantıksızdır.**
 
-[ClearUrls](https://addons.mozilla.org/tr/firefox/addon/clearurls/): Bazı Takip Parametrelerini Temizler Gizlilik İçin Önemlidir.
+[ClearUrls](https://addons.mozilla.org/tr/firefox/addon/clearurls/): Bazı Takip Parametrelerini Temizler Gizlilik İçin Önemlidir. Fakat Ublock Originde Url Tracking ayarını aktifleştirirseniz bu daha sağlıklı olur çünkü eklentileri minimum'da tutmak gizlilik ve güvenliği arttırır. **Yani uBlock Origin ile beraber bunu kullanmak mantıksızdır.**
 
 [Decentraleyes](https://addons.mozilla.org/tr/firefox/addon/decentraleyes/): Google Kütüphaneleri yerine yerel çözümler sunarak Takip edilmenin önüne geçer. Hız Açısından siteler biraz yavaşlayabilir. [LocalCDN](https://addons.mozilla.org/tr/firefox/addon/localcdn-fork-of-decentraleyes/) daha günceldir ve daha fazla kütüphane destekler. Fakat [Arkenfox'un açıklamasına](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) göre Firefox zaten bu kütüphaneleri birbirinden izole edebiliyormuş ve Arkenfox'ta bu özellik açıkmış. Yani kullanılmasına gerek yokmuş.
-
-[Useragent Switcher and Manager](https://addons.mozilla.org/tr/firefox/addon/user-agent-string-switcher/): Kendi tarayıcı Kimliğinizi Ayarlamanıza Olanak Tanır. Yaygın Kullanılan Windows ve Chrome'u ayarlamanızı Öneriyorum.
 
 ### Bazı Ayarlar
 Gelişmiş İzlenme Koruması Ayarını Sıkı Yapmak: Ayarlar>Gizlilik ve Güvenlik>Gelişmiş İzlenme Koruması Altından Ayarı Sıkı yapmanız önerilir. Herhangi bir sıkıntı çıkmaması için Önemli site sorunlarını düzelt ve Küçük Site sorunlarını düzelt seçeneklerini işaretlemenizi öneririm.
