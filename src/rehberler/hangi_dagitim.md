@@ -10,7 +10,7 @@ Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www
 
 ### Bazzite
 
-[Bazzite](https://bazzite.gg/), Valve'ın SteamOS 3'üne benzer şekilde tasarlanmış Fedora tabanlı bir Linux dağıtımıdır. Steam Deck de dahil olmak üzere taşınabilir cihazlar ve masaüstü bilgisayarlar için destek sunar. Hem sıradan hem de ileri düzey Linux oyuncuları için sorunsuz bir kullanıma hazır deneyim sunmayı amaçlamaktadır. 
+[Bazzite](https://bazzite.gg/), Valve'ın SteamOS 3'üne benzer şekilde tasarlanmış Fedora tabanlı bir Linux dağıtımıdır. Steam Deck de dahil olmak üzere taşınabilir cihazlar ve masaüstü bilgisayarlar için destek sunar. Hem sıradan hem de ileri düzey Linux oyuncuları için sorunsuz bir kullanıma hazır deneyim sunmayı amaçlamaktadır. Yapısı gereği farklı türde donanımlar için farklı ISO kurulum imajına sahiptir, bunlar için dağıtımın websitesinde iyi bir yönlendirme mevcuttur.
 
 ### Nobara
 
@@ -70,7 +70,7 @@ Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www
 
 [Pop OS](https://system76.com/pop/) (Pop!\_OS olarak da stilize edilir), Ubuntu tabanlı, ücretsiz ve açık kaynaklı bir Linux dağıtımıdır. Yeni geliştirilmekte olan COSMIC masaüstü ortamı ile birlikte gelir. Dağıtım, Amerikalı Linux bilgisayar üreticisi System76 tarafından geliştirilmiştir.
 
-Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kurulu olarak sunulmak üzere geliştirilmiştir, ancak çoğu bilgisayara da indirip kurmak mümkündür.
+Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kurulu olarak sunulmak üzere geliştirilmiştir, ancak çoğu bilgisayara da indirip kurmak mümkündür. NVIDIA kullanıcıları için özel ISO kurulum imajlarına sahiptir.
 
 !!! note
 
@@ -82,7 +82,8 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 ### openSUSE
 
-[openSUSE](https://www.opensuse.org/), openSUSE Projesi tarafından geliştirilen ücretsiz ve açık kaynaklı bir Linux dağıtımıdır. İki ana varyasyonda sunulmaktadır: Tumbleweed (yukarı akışlı, güncel paketlere sahip bir sürüm dağıtımı) ve Leap (SUSE Linux Enterprise kaynaklı, kararlı bir sürüm dağıtımı). OpenQA sistemiyle bütün paketleri sunucularda test edildikten sonra kullanıcılara sunulur bu sayede sistemsel kararlılık sağlanır. Ayrıca snapper isimli sistem yedekleme aracı doğrudan OpenSUSE geliştiricileri tarafından geliştirilir. Snapper sayesinde kararsızlık yaratan bir güncelleme sonrasında sistemi geri almak çok basittir. 
+[openSUSE](https://www.opensuse.org/), openSUSE Projesi tarafından geliştirilen ücretsiz ve açık kaynaklı bir Linux dağıtımıdır. İki ana varyasyonda sunulmaktadır: Tumbleweed (yukarı akışlı, güncel paketlere sahip bir sürüm dağıtımı) ve Leap (SUSE Linux Enterprise kaynaklı, kararlı bir sürüm dağıtımı). OpenQA sistemiyle bütün paketleri sunucularda test edildikten sonra kullanıcılara sunulur bu sayede sistemsel kararlılık sağlanır. Ayrıca snapper isimli sistem yedekleme aracı doğrudan OpenSUSE geliştiricileri tarafından geliştirilir. Snapper sayesinde kararsızlık yaratan bir güncelleme sonrasında sistemi geri almak çok basittir. Belli temel özellikler dışında çoğu özellik bir ön ayar olmadan gelmektedir, kullanıcılardan bunları kendisine göre ayarlaması beklenir. Ayrıca paket yönetimi diğer dağıtımlara göre daha karmaşık olabilir bu yüzden tecrübeli kullanıcıya hitap eder.
+    
 
 ### Solus
 
