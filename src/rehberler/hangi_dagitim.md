@@ -22,7 +22,7 @@ Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www
 
 !!! note
 
-    - XFS dosya sistemi varsayılan olarak geldiği için ayrı bir disk bölümüne dual boot yapmak zahmetlidir. Tek bir depolama diskine kurulması önerilir. Bölümlendirme yaparak kurmak için ilgili rehberlere göz atabilirsiniz.
+    XFS dosya sistemi varsayılan olarak geldiği için ayrı bir disk bölümüne dual boot yapmak zahmetlidir. Tek bir depolama diskine kurulması önerilir. Bölümlendirme yaparak kurmak için ilgili rehberlere göz atabilirsiniz.
 
 ## Modern ve stabil bir dağıtım arıyorum
 
@@ -39,7 +39,8 @@ Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www
     - RPM ve Flathub gibi üçüncü parti uygulama depoları aktif şekilde gelmez, kullanıcı tarafından isteğe bağlı olarak aktifleştirilmelidir. 
 
 ### Ultramarine Linux
-[Ultramarine Linux](https://ultramarine-linux.org), Fedora'nın lisans sorunları sebebiyle eksik gelen özelliklerinin (RPM, flathub, multimedya kodekleri vs.) aktif şekilde sunulduğu, kurulum sonrası doğrudan kullanıma hazır gelen kullanıcı dostu bir dağıtımdır. KDE, GNOME, Budgie, Xfce masaüstü ortamlarını destekler. CachyOS'in sunduğu performans odaklı olarak özelleştirilmiş linux çekirdeğini kurulum esnasında kullanıcıya bir seçenek olarak sunmaktadır. 
+
+[Ultramarine Linux](https://ultramarine-linux.org), Fedora'nın lisans sorunları sebebiyle eksik gelen özelliklerinin (RPM, flathub, multimedya kodekleri vs.) aktif şekilde sunulduğu, kurulum sonrası doğrudan kullanıma hazır gelen kullanıcı dostu bir dağıtımdır. KDE, GNOME, Budgie, Xfce masaüstü ortamlarını destekler. CachyOS'in sunduğu performans odaklı olarak özelleştirilmiş linux çekirdeğini kurulum esnasında kullanıcıya bir seçenek olarak sunmaktadır.
 
 ### Zorin OS
 
@@ -47,7 +48,7 @@ Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www
 
 !!! note
 
-    - Zorin OS, diğer Linux dağıtımlarından farklı olarak Pro sürümü sunuyor olsa da, ücretsiz sürümü, Pro sürümünden herhangi bir şekilde daha az kabiliyete sahip değildir. Pro sürümü sadece bazı "ek avantajlar" barındırmaktadır.
+    Zorin OS, diğer Linux dağıtımlarından farklı olarak Pro sürümü sunuyor olsa da, ücretsiz sürümü, Pro sürümünden herhangi bir şekilde daha az kabiliyete sahip değildir. Pro sürümü sadece bazı "ek avantajlar" barındırmaktadır.
 
 ### Ubuntu
 
@@ -55,12 +56,11 @@ Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www
 
 !!! note
 
-    - Canonical şirketinin tekelinde olan kapalı kaynak snap paketleri varsayılan olarak kurulu gelir.
+    Canonical şirketinin tekelinde olan kapalı kaynak snap paketleri varsayılan olarak kurulu gelir.
 
 ### Kubuntu
 
-[Kubuntu](https://kubuntu.org/), KDE masaüstünü kullanan resmi bir Ubuntu varyantıdır. Ubuntu'nun bütün avantajlarını özelleştirilebilir bir KDE masaüstünde size sunar. Arayüz benzerliği açısından Windows'dan gelenlere normal Ubuntu'dan daha mantıklı gelebilir. Discover mağazası sayesinde bütün deb, Snap ve Flatpak(varsayılan olarak yüklü gelmez) paketlerinizi tek grafik arayüzünden kolaylıkla yönetebilirsiniz. 
-    
+[Kubuntu](https://kubuntu.org/), KDE masaüstünü kullanan resmi bir Ubuntu varyantıdır. Ubuntu'nun bütün avantajlarını özelleştirilebilir bir KDE masaüstünde size sunar. Arayüz benzerliği açısından Windows'dan gelenlere normal Ubuntu'dan daha mantıklı gelebilir. Discover mağazası sayesinde bütün deb, Snap ve Flatpak(varsayılan olarak yüklü gelmez) paketlerinizi tek grafik arayüzünden kolaylıkla yönetebilirsiniz.
 
 ### Bluefin/Aurora
 
@@ -74,16 +74,17 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 !!! note
 
-    - COSMIC arayüzü yeni bir masaüstü ortamı olması nedeniyle hem özellikler bakımından henüz eksiktir hem de kullanım esnasında kararsızlıklar yaşanabilir. Ancak gelecekte GNOME ve KDE gibi temel masaüstü ortamlarına güçlü bir alternatif olma potansiyeli vardır.
+    COSMIC arayüzü yeni bir masaüstü ortamı olması nedeniyle hem özellikler bakımından henüz eksiktir hem de kullanım esnasında kararsızlıklar yaşanabilir. Ancak gelecekte GNOME ve KDE gibi temel masaüstü ortamlarına güçlü bir alternatif olma potansiyeli vardır.
 
+### Elementary OS
 
+[Elementary OS](https://elementary.io/) (elementary OS şeklinde de stilize edilir) Ubuntu LTS tabanlı bir Linux dağıtımıdır. Kendini macOS ve Windows'un "düşünülmüş, kapsamlı ve etik" bir alternatifi olarak tanıtır ve istediğini öde modeline sahiptir. İşletim sistemi, masaüstü ortamı (Pantheon olarak adlandırılır) ve beraberindeki uygulamalar elementary, Inc. tarafından geliştirilir ve sürdürülür.
 
 ## Sürekli güncel ve stabil bir dağıtım arıyorum
 
 ### openSUSE
 
 [openSUSE](https://www.opensuse.org/), openSUSE Projesi tarafından geliştirilen ücretsiz ve açık kaynaklı bir Linux dağıtımıdır. İki ana varyasyonda sunulmaktadır: Tumbleweed (yukarı akışlı, güncel paketlere sahip bir sürüm dağıtımı) ve Leap (SUSE Linux Enterprise kaynaklı, kararlı bir sürüm dağıtımı). OpenQA sistemiyle bütün paketleri sunucularda test edildikten sonra kullanıcılara sunulur bu sayede sistemsel kararlılık sağlanır. Ayrıca snapper isimli sistem yedekleme aracı doğrudan OpenSUSE geliştiricileri tarafından geliştirilir. Snapper sayesinde kararsızlık yaratan bir güncelleme sonrasında sistemi geri almak çok basittir. Belli temel özellikler dışında çoğu özellik bir ön ayar olmadan gelmektedir, kullanıcılardan bunları kendisine göre ayarlaması beklenir. Ayrıca paket yönetimi diğer dağıtımlara göre daha karmaşık olabilir bu yüzden tecrübeli kullanıcıya hitap eder.
-    
 
 ### Solus
 
@@ -107,7 +108,7 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 ### Linux Mint
 
-[Linux Mint](https://linuxmint.com/), Ubuntu tabanlı, kullanıcı dostu bir Linux dağıtımıdır. Windows’tan geçenler için tasarımı tanıdık gelir; masaüstü ortamı olarak Cinnamon, MATE veya XFCE alternatifleri ile gelir. Kurulumdan sonra neredeyse her şey hazır gelir: medya codec’leri, ofis uygulamaları, sürücüler vs. Stabil, hafif ve “kur ve kullan” tarzı bir sistemdir. Yeni başlayanlar için çok uygundur ama deneyimli kullanıcıyı da yormaz.
+[Linux Mint](https://linuxmint.com/), Ubuntu tabanlı, kullanıcı dostu bir Linux dağıtımıdır. Windows’tan geçenler için tasarımı tanıdık gelir; masaüstü ortamı olarak Cinnamon, MATE veya XFCE alternatifleri ile gelir. Kurulumdan sonra neredeyse her şey hazır gelir: medya codec’leri, ofis uygulamaları, sürücüler vs. Stabil, hafif ve "kur ve kullan" tarzı bir sistemdir. Yeni başlayanlar için çok uygundur ama deneyimli kullanıcıyı da yormaz.
 
 ### MX Linux
 
@@ -137,7 +138,7 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 ### Arch Linux
 
-[Arch Linux](https://wiki.archlinux.org/title/Ana_sayfa), “KISS” (Keep It Simple, Stupid) prensibini benimseyen, tam anlamıyla kullanıcı merkeziyetçi, minimalist bir Linux dağıtımıdır. Amacı, kullanıcıya tam kontrol sağlamak ve sistemi sadece ihtiyaçlarına göre şekillendirme özgürlüğü vermektir. Yani, hazır paketler, GUI’li kurulum sihirbazları vermez — kurarsın, ayarlarsın, yönetirsin. Bu bazılarının “zor”, bazılarının ise “tam özgürlük” dediği bir deneyimdir.
+[Arch Linux](https://wiki.archlinux.org/title/Ana_sayfa), "KISS" (Keep It Simple, Stupid) prensibini benimseyen, tam anlamıyla kullanıcı merkeziyetçi, minimalist bir Linux dağıtımıdır. Amacı, kullanıcıya tam kontrol sağlamak ve sistemi sadece ihtiyaçlarına göre şekillendirme özgürlüğü vermektir. Yani, hazır paketler, GUI’li kurulum sihirbazları vermez — kurarsın, ayarlarsın, yönetirsin. Bu bazılarının "zor", bazılarının ise "tam özgürlük" dediği bir deneyimdir.
 
 ### NixOS
 
@@ -151,7 +152,7 @@ Diğer geleneksel Linux dağıtımlarından farklı olarak, NixOS’ta paket yö
 
 ### Void Linux
 
-[Void](https://voidlinux.org/), monolitik Linux çekirdeğine dayanan, bağımsız olarak geliştirilmiş, genel amaçlı bir işletim sistemidir. Kullanıcıların yazılımları hızlı bir şekilde yüklemelerine, güncellemelerine ve kaldırmalarına veya XBPS kaynak paketleri koleksiyonunun yardımıyla kaynaklardan doğrudan yazılım oluşturmalarına olanak tanıyan hibrit bir ikili/kaynak paket yönetim sistemine sahiptir. Dağıtımın diğer özellikleri arasında Raspberry Pi tek kartlı bilgisayarlar (hem armv6 hem de armv7) için destek, günlük güncellemelerle yuvarlanan sürüm modeli ve “runit” adlı yerel init sistemi bulunmaktadır.
+[Void](https://voidlinux.org/), monolitik Linux çekirdeğine dayanan, bağımsız olarak geliştirilmiş, genel amaçlı bir işletim sistemidir. Kullanıcıların yazılımları hızlı bir şekilde yüklemelerine, güncellemelerine ve kaldırmalarına veya XBPS kaynak paketleri koleksiyonunun yardımıyla kaynaklardan doğrudan yazılım oluşturmalarına olanak tanıyan hibrit bir ikili/kaynak paket yönetim sistemine sahiptir. Dağıtımın diğer özellikleri arasında Raspberry Pi tek kartlı bilgisayarlar (hem armv6 hem de armv7) için destek, günlük güncellemelerle yuvarlanan sürüm modeli ve "runit" adlı yerel init sistemi bulunmaktadır.
 
 ## Özel donanımlarım için bir dağıtım arıyorum
 
