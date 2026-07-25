@@ -59,6 +59,7 @@ ANCAK... Bu yazılımların alternatiflerini kullanabilirsiniz.
 - Fan kontrolü için **CoolerControl**
 - Laptop fan kontrolü için **Tuxedo Control Center** (Monster laptoplar)
 - Direksiyon seti kontrolü için **Oversteer**, **Boxflat** (Moza için)
+  _Direksiyon seti için özel sürücü kurulumu gerekebilir, bunlar yalnızca kontrol yazılımıdır._
 
 	*(?) Alternatifi olma noktasında tartışmalı olan uygulamalar.*
 
