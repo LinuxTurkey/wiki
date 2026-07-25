@@ -130,5 +130,5 @@ Dil modellerinden destek almak doğrudan önerilmez. Önce kullandığınız pro
 Eğer buradan bir çözüm bulamazsanız, çok karmaşık bir sorun içine düştüyseniz **en son aşama olarak** dil modellerine başvurmayı tercih edebilirsiniz. Ancak dil modelleri yapı olarak yasal gerekçelerle kullanıcı verilerini kendiliğinden istemezler. Bu sebeple "sorunum hakkında benden istediğin bilgiler ve komut çıktıları varsa paylaşabilirim" ve "bu soruna ait güncel verilerle topluluklardan araştırma yaparak çözüm üret" şeklinde bir vurguyla çözüm aramanız gerekir. Bu işlemler kendi sorumluluğunuzdadır. Diğer türlü dil modelleri tamamen varsayımsal veya güncel olmayan bilgiler üzerinden öneriler verir ve önerdiği çözümler sisteminizi bozmakla, verilerinizi kaybetmekle sonuçlanabilir.
 
 
-### Türkçe Linux içeriklerine destek olun
+## Türkçe Linux içeriklerine destek olun
 Tecrübe kazandıkça karşılaştığınız sorunlara dair aldığınız notlardan içerikler çıkartmanız Türkiye'de Linux topluluğu oluşabilmesi için çok önemlidir. Bulacağınız yardım kaynakları büyük oranda İngilizce dilindedir. Bu da yeni kullanıcıyı zorlayabilen bir unsur olabiliyor. Türkçe dilinde önemli bir destek ağının oluşması Linux kullanıcılarının yaygınlaşması için gereklidir. Yapacağınız çözüm içerikleri, rehberler, çevirilerle buna katkı sunabilirsiniz.
