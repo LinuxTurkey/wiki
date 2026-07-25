@@ -113,7 +113,7 @@ Linux'a günübirlik olarak geçmek gerçekçi değildir. Bu yüzden belli bir s
 5) Tümüyle Linux'a geçiş. Eğer dual boot durumuna ihtiyacınızın kalmadığını hissedecek kadar Linux kullandıysanız ve artık sisteme aşina olduysanız geçiş yapabilirsiniz. Bu noktada 3. aşamada belirttiğim notlar işinize yarayacaktır. Eğer ki yedek bir diske linux'u kurduysanız geçiş daha kolay olabilir. İleri bir kullanıcıysanız disk klonlama yaparak ve gerekli bölüm genişletmeleri yapılarak hiçbir ayarı kaybetmeden hızlıca geçiş yapabilirsiniz.
 
 
-## Linux'ta karşılaştığım sorunları nasıl çözebilirim?
+## Linux'ta karşılaşılan sorunları çözme adımları
 ### Donanım problemleri
 Linux'ta karşılaşabileceğiniz en kritik sorunlar donanımla ilgili olan sorunlardır. Örneğin internete bağlanamıyorsanız, bluetooth çalışmıyorsa, kulaklığı jack girişine takınca sistem algılamıyorsa, kamera çalışmıyorsa, sd kartınızı sistem okumuyorsa bu bir donanım sorunudur. Donanım uyumsuzluğu yaşadığınız noktada sorunun kaynağı linux çekirdeği ile ilgilidir. Dağıtım değiştirerek sorunu çözmeye çalışmak her zaman işe yaramayabilir. 2-3 sene içinde üretilip satışa sunulmuş modern donanımlarda güncel çekirdeklere (veya güncel çekirdek kullanan dağıtımlara) geçiş yapmak sorunu çözebilir. 
 
