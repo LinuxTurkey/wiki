@@ -39,7 +39,7 @@ ANCAK... Bu yazılımların alternatiflerini kullanabilirsiniz.
 [alternativeto.net](https://alternativeto.net) üzerinden kullandığınız uygulamaların linux uyumluluğuna veya alternatiflerine bakabilirsiniz. Ayrıca [flathub.org](https://flathub.org/tr) üzerinden de Linux'ta kullanılabilir olan uygulamaları ve araçları inceleyebilirsiniz.
 
 #### Örnek alternatifler ve faydalı uygulamalar:
-- Adobe Photoshop için **Krita** (?), GIMP** (?), **Photopea** (web) (?) veya **Affinity** (Resmi linux desteği yok ancak [özel script](https://github.com/ryzendew/Linux-Affinity-Installer) veya [Appimage paketi](https://github.com/ryzendew/Linux-Affinity-Installer/releases/tag/3.2.0) ile wine altyapısıyla kullanılabiliyor), 
+- Adobe Photoshop için **Krita** (?), **GIMP** (?), **Photopea** (web) (?) veya **Affinity** (Resmi linux desteği yok ancak [özel script](https://github.com/ryzendew/Linux-Affinity-Installer) veya [Appimage paketi](https://github.com/ryzendew/Linux-Affinity-Installer/releases/tag/3.2.0) ile wine altyapısıyla kullanılabiliyor), 
 - Adobe Illustrator için **Inkscape** veya **Affinity** (wine)
 - Clip Studio Paint için **Krita** veya [script ile CSP kurulumu](https://youtu.be/iYhEm32Lr4Y)
 - Video düzenleme için **Davinci Resolve** (h264 ve AAC problemini hesaba katarak), **Shotcut** veya **Kdenlive**
