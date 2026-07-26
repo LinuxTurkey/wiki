@@ -7,16 +7,16 @@ Linux bedava Windows değildir. Linux farklı bir işletim sistemidir, dosya sis
 ## Bilinçli, deneyimli, bilgisayarlardan ve teknolojiden anlayan biri olmanız Linux'ta hala acemi olduğunuz gerçeğini değiştirmez
 *İyi bir şoför olmanız bir tekneyi kullanabileceğiniz anlamına gelmez.*
 
-Windows'ta poweruser olup ileri düzeyde işlemler yapabiliyor olmanız Linux'ta da bunu hemen yapabileceğiniz anlamına gelmiyor.
+Windows'ta poweruser olup ileri düzeyde işlemler yapabiliyor olmanız Linux'ta da bunu hemen yapabileceğiniz anlamına gelmiyor. Deneyimsiz bir kullanıcı daha sade bir kullanımı benimsediği için Linux'ta çok iyi bir deneyim yaşayabilirken deneyimli kullanıcılar daha farklı araçlar kullandığı için Linux'ta zorlanabiliyorlar.
 
-Linux'un işleyiş yapısını kavramadan ve önceki alışkanlıklarınızı değiştirmeye açık olmadan onu kullanmaya çalışırsanız hayal kırıklığı yaşayabilirsiniz.
+Linux'un işleyiş yapısını kavramadan ve önceki alışkanlıklarınızı değiştirmeye açık olmadan onu kullanmaya çalışırsanız hayal kırıklığı yaşayabilirsiniz. Ancak gerekli özeni gösterdiğinizde ve ağırdan aldığınızda zamanla Linux sizin için vazgeçilmez hale gelebilir.
 
 Yaşayacağınız sorunların, eksikliğini duyacağınız bir takım şeylerin illa ki bir yerlerde çözümü vardır. Çözümü arayıp bulmaktan veya yardım istemekten çekinmemelisiniz. Çünkü siz henüz deneyimsiz bir Linux kullanıcısınız ve hâlâ öğrenme sürecindesiniz. Bunu unutmayın!
 
 ## Kontrol tamamen sizde, bu da daha fazla sorumluluk demek
 Sistemi istediğiniz gibi kişiselleştirebiliyor olmanız aynı şekilde sistem bütünlüğünü de bozabilmeniz anlamına gelebilir. Son kullanıcı odaklı dağıtımların çoğalması ile bu durum büyük ölçüde aşıldıysa da öğrenme sürecinde özenli olmak gerekir. Örneğin yaptığınız her işlemi not almak sonradan yaşayacağınız bir sorun için kurtarıcı olabilir. 
 
-Linux'ta sistem dosyaları doğrudan kullanıcı erişimine kapalı olarak gelir. Bu sebeple her kullanıcının bir şifresi ve belirli yetkileri olmak zorundadır. Sistem dosyalarında yapılacak her bir değişiklik için bu sebeple kullanıcıya düzenli aralıklarla erişim için şifre sorulmaktadır. Bu erişim yeni tip immutable dağıtımlarda (SteamOS, Bazzite, Fedora Atomic vb.) tümüyle kısıtlanarak sistemde tam kararlılık hedeflenir. Ancak yine de kullanıcı düzeyinde bile olsa Linux yapısı gereği diğer işletim sistemlerine nazaran daha geniş bir özgürlük alanı sunmaktadır. Bu da daha sorumlu yaklaşmayı gerektirir.
+Linux'ta sistem dosyaları doğrudan kullanıcı erişimine kapalı olarak gelir. Bu sebeple her kullanıcının bir şifresi ve belirli yetkileri olmak zorundadır. Sistem dosyalarında yapılacak her bir değişiklik için bu sebeple kullanıcıya düzenli aralıklarla erişim için şifre sorulmaktadır. Bu erişim yeni tip immutable dağıtımlarda (SteamOS, Bazzite, Fedora Atomic vb.) tümüyle kısıtlanarak sistemde tam kararlılık hedeflenir. Ancak yine de kullanıcı düzeyinde bile olsa Linux yapısı gereği diğer dağıtımlara nazaran daha geniş bir özgürlük alanı sunmaktadır. Bu da daha sorumlu yaklaşmayı gerektirir.
 
 ## Yazılımlara olan bakış açınızı değiştirmeniz gerekiyor
 Windows uygulamalarını Linux'a kurmaya çalışmak çoğu zaman hüsran demektir. Çünkü Windows'a uyumlu olarak yazılmışlardır, Linux'a değil.
@@ -79,7 +79,7 @@ Komutları öğrenmek istiyorsanız. Linux için temel düzeyde **sysadmin** ve 
 Linux dağıtımlarını duymuşsunuzdur. Belki de yüzlerce aktif dağıtım bulunmaktadır. Bunlar başta kafa karışıklığı yaratabilir. Ancak burada ilk önce odaklanılması gereken şey dağıtımdan ziyade masaüstü ortamları olmalıdır.
 
 ### Masaüstü ortamı tercihi
-Masaüstü ortamları kullanıcının işletim sistemiyle etkileşime geçtiği en önemli bileşendir. Bu sebeple yeni bir Linux kullanıcısını doğrudan ilgilendirirler. Bazen standart olarak bazen özelleştirilmiş halleriyle dağıtımlarca sunulur. KDE, GNOME, XFCE, LXQt, Cinnamon, Budgie, COSMIC gibi farklı amaçlara hizmet eden ve farklı felsefelere sahip kullanıcı arayüzleri vardır.
+Masaüstü ortamları kullanıcının işletim sistemiyle etkileşime geçtiği en önemli bileşendir. Bu sebeple yeni bir Linux kullanıcısını doğrudan ilgilendirirler. Bazen standart olarak bazen özelleştirilmiş halleriyle dağıtımlarca sunulur. [KDE Plasma](https://kde.org/tr/plasma-desktop/), [GNOME](https://www.gnome.org/), [COSMIC](https://system76.com/cosmic), [Cinnamon](https://tr.wikipedia.org/wiki/Cinnamon), [Budgie](https://buddiesofbudgie.org/), [XFCE](https://xfce.org/), [LXQt](https://lxqt-project.org/) gibi farklı amaçlara hizmet eden ve farklı felsefelere sahip kullanıcı arayüzleri vardır.
 
 Bunların en geniş geliştirici desteğine sahip olanları KDE ve GNOME'dur. Güncel olarak diğerlerine göre her daim bu ikisi öndedir. O sebeple özel bir durum olmadıkça modern bir donanıma sahipseniz bu iki arayüzden birini tercih etmeniz önerilir.  Linux'ta her konuda olduğu gibi ilk intiba önemlidir. Bu sebeple masaüstü ortamı tercihiniz Linux deneyiminizi belirleyecek ana unsur olduğundan daha kararsız, daha az özellikle gelen masaüstü ortamlarından en azından başlangıçta uzak durmanız önerilir.
 
