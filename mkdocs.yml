@@ -56,6 +56,11 @@ nav:
   - index.md
   - rehberler/sss.md
   - faydali_baglantilar.md
+  - Editör Rehberleri:
+      - rehberler/hangi_dagitim.md
+      - rehberler/linuxa-gecis.md
+      - rehberler/immutable-dagitimlar.md
+      - rehberler/windowstan_linuxa.md
   - Kullanıcı Rehberleri:
       - rehberler/linux_uyumlu_donanim.md
       - rehberler/lenovo_bios.md
@@ -66,9 +71,5 @@ nav:
       - rehberler/firefox-hardened.md
       - rehberler/flatpak-ve-tarayicilar.md
       - rehberler/verified-boot.md
-  - Editör Rehberleri:
-      - rehberler/hangi_dagitim.md
-      - rehberler/immutable-dagitimlar.md
-      - rehberler/windowstan_linuxa.md
   - Diğer Wiki Kaynakları:
       - Nix Öğreniyoruz: https://linuxturkey.github.io/nix-ogreniyoruz/
