@@ -16,7 +16,7 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 
 !!!note
 
-	Immutable sistemler yapısı gereği sistem dosyalarına erişimi kapatırlar. Bu da örneğin ekstra bir sürücü ihtiyacınız olduğunda veya sistem düzeyinde çalışması şart olan bir uygulamaya ihtiyaç duyduğunuzda yeni kullanıcıları zorlayabilir.
+	Immutable dağıtımları tercih ederken hedef kitlesini, kullanım amacını ve hangi donanımları desteklediğini dikkate almak gerekir. Kullanım amacı doğrultusunda (Bazzite'ta konsol benzeri deneyim için) kullanıldığı taktirde sorunsuz bir deneyim sağlamaktadır. Ancak sistem düzeyinde bir sürücü veya uygulama kurmak istediğinizde bu işlemler standart dağıtımlara göre daha karmaşık veya verimsiz olabilir.
 
 ### Nobara
 
@@ -50,7 +50,7 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 
 ### Ultramarine Linux
 
-[Ultramarine Linux](https://ultramarine-linux.org), Fedora'nın lisans sorunları sebebiyle eksik gelen özelliklerinin (RPM, flathub, multimedya kodekleri vs.) aktif şekilde sunulduğu, kurulum sonrası doğrudan kullanıma hazır gelen kullanıcı dostu bir dağıtımdır. KDE, GNOME, Budgie, Xfce masaüstü ortamlarını destekler. CachyOS'in sunduğu performans odaklı olarak özelleştirilmiş linux çekirdeğini kurulum esnasında kullanıcıya bir seçenek olarak sunmaktadır.
+[Ultramarine Linux](https://ultramarine-linux.org), Fedora'nın lisans sorunları sebebiyle eksik gelen özelliklerinin (RPM, flathub, multimedya kodekleri vs.) aktif şekilde sunulduğu, kurulum sonrası doğrudan kullanıma hazır gelen kullanıcı dostu bir dağıtımdır. KDE, GNOME, Budgie, Xfce masaüstü ortamlarını destekler. CachyOS'in sunduğu performans odaklı olarak özelleştirilmiş Linux çekirdeğini kurulum esnasında kullanıcıya bir seçenek olarak sunmaktadır.
 
 ### Zorin OS
 
@@ -66,7 +66,7 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 
 !!! note
 
-    Canonical şirketinin tekelinde olan kapalı kaynak snap paketleri varsayılan olarak kurulu gelir. Bu da linux topluluğunda gizlilik ve özgür yazılım felsefesi açısından tartışmalara yol açmıştır.
+    Canonical şirketinin tekelinde olan kapalı kaynak snap paketleri varsayılan olarak kurulu gelir. Bu da Linux topluluğunda gizlilik ve özgür yazılım felsefesi açısından tartışmalara yol açmıştır.
 
 ### Kubuntu
 
@@ -75,9 +75,14 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 ### Fedora Atomic Dağıtımları (Kinoite, Silverblue vb.)
 
 [Fedora Atomic](https://fedoraproject.org/atomic-desktops/), Fedora'nın [immutable](https://linuxturkey.github.io/wiki/rehberler/immutable-dagitimlar.html) dağıtımlarıdır. GNOME, KDE, Sway, Budgie, Cosmic gibi farklı masaüstü ortamlarına ait dağıtımlar sunmaktadır. Atomic yapısı sayesinde bozması neredeyse imkansızdır. Sınırlı ve minimal bir paket desteğini içerir bu yüzden sistemi kullanım amacına göre özelleştirmek zor olabileceğinden ve izole paket sistemlerini yönetmek gerekeceği için tecrübeli kullanıcılara hitap eder.
+
 ### Bluefin/Aurora
 
-[Bluefin](https://projectbluefin.io/) ve [Aurora](https://getaurora.dev/), Bazzite'ın yapımcıları Universal Blue tarafından yapılan sırayla GNOME ve KDE masaüstünü kullanan Fedora Atomic tabanlı [immutable](https://linuxturkey.github.io/wiki/rehberler/immutable-dagitimlar.html) dağıtımlardır. Daha geniş kullanıcı kitlesinin ihtiyaçlarına göre özelleştirilmiştir. Bluefin ve Aurora'da uygulamalar Bazaar mağazısından Flatpak olarak yüklenir, gerekli olduğu durumlarda `ujust` veya `rpm-ostree` komutları kullanılarak standart paketlere erişim sağlanılabilir. NVIDIA RTX ve GTX 16xx serisi ekran kartlarını desteklemektedir. 
+[Bluefin](https://projectbluefin.io/) ve [Aurora](https://getaurora.dev/), Bazzite'ın yapımcıları Universal Blue tarafından yapılan sırayla GNOME ve KDE masaüstünü kullanan Fedora Atomic tabanlı [immutable](https://linuxturkey.github.io/wiki/rehberler/immutable-dagitimlar.html) dağıtımlardır. Daha geniş kullanıcı kitlesinin ihtiyaçlarına göre özelleştirilmiştir. Bluefin ve Aurora'da uygulamalar Bazaar mağazısından Flatpak olarak yüklenir, gerekli olduğu durumlarda `ujust` veya `rpm-ostree` komutları kullanılarak standart paketlere erişim sağlanılabilir. 
+
+!!! note
+
+    Bluefin ve Aurora, NVIDIA GTX 1080 Ti ve daha alt modele sahip ekran kartlarını desteklememektedir.
 
 ### Pop!\_OS
 
