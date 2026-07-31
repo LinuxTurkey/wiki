@@ -292,6 +292,7 @@ tarafındaki yazılım destekleri şöyledir:
 - Arch ([wiki](https://wiki.archlinux.org/title/NVIDIA))
 - Solus ([resmi döküman](https://help.getsol.us/docs/user/hardware/nvidia-gpu-drivers/))
 - ZorinOS ([resmi döküman](https://help.zorin.com/docs/hardware/activate-nvidia-drivers/))
+- Gentoo ([wiki](https://wiki.gentoo.org/wiki/NVIDIA))
 
 ### Laptop Kullanıcıları İçin Not
 
