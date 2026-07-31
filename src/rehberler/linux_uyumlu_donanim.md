@@ -92,6 +92,12 @@ etmektedir.
 
 ### Nvidia (Mutlaka Okuyun)
 
+Nvidia'nın doğrudan Linux çekirdeği içerisine eklenmiş resmi bir sürücüsü bulunmamaktadır. `nouveau` adında açık kaynaklı bir topluluk projesi ile gelse de performans olarak başarılı değildir. Bu sebeple ekran kartından tam performans alabilmek için resmi sürücüler çekirdeğe ek modül olarak eklenmelidir. 
+
+Sürücüleri kurmak için kullandığınız dağıtımın yönergelerini takip etmeniz önerilir. **Nvidia'nın resmi sitesinden sürücü indirip kurmak önerilmez.** Aksi halde yeni bir çekirdek güncellemesi geldiğinde nvidia modülü tekrar elle eklenmedikçe yok sayılacağından siyah ekranla karşılaşabilirsiniz. Dağıtımlar kendi dinamik modül sistemleri ile bu süreci otomatikleştirmiştir (dkms, akmods vb.). Rehberin sonunda bununla ilgili bilgilendirme yapılmıştır.
+
+Nvidia'nın açık kaynak kernel modülü ve kapalı kaynak (**tescilli** / **_proprietary_**) kernel modülü olarak iki adet farklı sürücüsü vardır. Açık kaynak `nvidia-open` sürücüsü yalnızca GTX 1650 ve daha üst model tüm ekran kartlarını desteklemektedir. 
+
 Nvidia, geçmişte Linux (özellikle Wayland) tarafında sorunlu olsa da,
 RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir. Wayland ile NVIDIA'nın sorun çıkardığı bilgisi eski bir bilgidir artık büyük oranda bu sorun çözülmüştür.
 
@@ -146,13 +152,13 @@ RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir. Wayl
       </tr>
       <tr>
         <td><strong>Kepler Mimarisi (470.x Sürücüsü)</strong></td>
-        <td>GTX 700 / 600 Serisi, GT 730 (Kepler), GeForce 920M, 840M, 830M, 820M (Kepler)</td>
+        <td>GTX 700 / 600 Serisi, GT 730 (Kepler), GeForce 920M, 840M, 830M, 820M</td>
         <td><strong>470.x (Legacy)</strong></td>
         <td><strong>470 Sürücüsü Zorunlu.</strong><br>Proton'un çok eski versiyonlarını destekler, o sebeple oyun performansı kötüdür.</td>
       </tr>
       <tr>
         <td><strong>Fermi Mimarisi (390.x Sürücüsü)</strong></td>
-        <td>GTX 500 / 400 Serisi, GT 610, GT 710 (Fermi), GeForce 820M (Fermi), 710M, 610M</td>
+        <td>GTX 500 / 400 Serisi, GT 610, GT 710, GeForce 820M, 710M, 610M</td>
         <td><strong>390.x (Legacy)</strong></td>
         <td><strong>Çok Eski.</strong><br>Güncel Linux çekirdeklerinde (Kernel 6.x+) çalıştırmak zordur. Dahili açık kaynaklı <code>nouveau</code> sürücüsü önerilir.</td>
       </tr>
