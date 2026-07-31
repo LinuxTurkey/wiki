@@ -2,6 +2,8 @@
 
 Sihirbaz aracılığı ile dağıtım seçimi için: [Distrochooser](https://distrochooser.de/tr)
 
+Dağıtım seçerken donanım özellikleriniz önemlidir. Öncelikle [Linux Uyumlu Donanım Seçim Rehberi](https://linuxturkey.github.io/wiki/rehberler/linux_uyumlu_donanim.html)'ne bakmanız önerilir.
+
 ## Oyun odaklı bir dağıtım arıyorum
 
 Çoğu modern dağıtım, Valve'ın Proton uyumluluk katmanı sayesinde çoğu oyunu desteklemektedir. Ancak çekirdek seviyesinde anti-cheat kullanmayı gerektiren oyunlar ve sistemler hiçbir Linux dağıtımında desteklenmemektedir. (ör. Vanguard, FaceIt) 
@@ -82,7 +84,7 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 
 !!! note
 
-    Bluefin ve Aurora, NVIDIA GTX 1080 Ti ve daha alt modele sahip ekran kartlarını desteklememektedir.
+    Bluefin ve Aurora, NVIDIA GTX 1080 Ti ve daha alt modele sahip NVIDIA ekran kartlarını desteklememektedir.
 
 ### Pop!\_OS
 
