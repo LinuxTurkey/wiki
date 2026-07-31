@@ -142,7 +142,7 @@ RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir. Wayl
         <td><strong>GTX 10 Serisi & MX150 / MX250 / MX330 (Pascal)</strong></td>
         <td>GTX 1080 - 1050 / MX150, MX230, MX250, MX330</td>
         <td><strong>580.x</strong></td>
-        <td><code>nvidia-open</code> sürücüsünü desteklemez! Bu kartlar için tescilli 580.x sürücüsü sondur; sonraki ana sürümlerde (<strong>590+</strong>) desteklenmez. Güvenlik güncellemeleri Ekim 2028'e kadar devam edecek.</td>
+        <td><code>nvidia-open</code> sürücüsünü desteklemez! Bu kartlar için tescilli 580.x sürücüsü sondur; sonraki ana sürümlerde (<strong>590+</strong>) desteklenmez. Güvenlik güncellemeleri Ekim 2028'e kadar devam edecek. <br/> UYARI: Bu seri ve daha alt sürümler bazı dağıtımların NVIDIA ISO'ları ile uyumsuzdur, normal ISO ile kurulum yapıp sonrasında tescilli sürücü kurulmalıdır.</td>
       </tr>
       <tr>
         <td><strong>GTX 900 Serisi & 940MX / 930MX (Maxwell)</strong></td>
@@ -186,24 +186,28 @@ RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir. Wayl
 <th><strong>Dağıtımlar</strong></th>
 </tr>
 <tr class="odd">
-<th><strong>Tam Destek</strong></th>
-<th>Ana depolarda v580+ sürücü mevcut</th>
-<th><p>Fedora (Nobara, Ultramarine, Fedora Atomic)</p>
-<p>Arch Linux (Endevouir, Manjaro vb. <br/>Not: v610xx sürümüne geçiş yaptı. v580xx sürümü ise AUR'da sürdürülüyor)</p>
-<p>CachyOS (v610xx'a geçiş yaptı ama Arch'ın aksine ana depolarında v580xx sürümünü de destekliyor)</p>
+<th rowspan="2"><strong>Tam Destek</strong></th>
+<th>NVIDIA sürücüleri kurulu gelen dağıtımlar</th>
+<th>
+<p>CachyOS (kurulumda otomatik olarak uyumlu sürücü kurulur)</p>
+<p>Nobara (açık kaynak ISO seçeneği vardır)</p>
+<p>PikaOS (açık kaynak ISO seçeneği vardır)</p>
+<p>Pop!_OS (açık kaynak ISO seçeneği vardır)</p>
+<p>Bazzite (hem açık hem de tescilli sürücü içeren ISO imajı sunar)</p>
+<p>Aurora/Bluefin (yalnızca açık kaynak sürücü)</p>
+</th>
+</tr>
+<tr class="odd">
+<th>Ana depolarda v580+ sürücü mevcut dağıtımlar</th>
+<th>
+<p>Fedora (Nobara, Ultramarine, Fedora Atomic)</p>
+<p>Arch Linux (Endevouir, Manjaro vb. <br/>Not: v610xx sürümüne geçiş yaptı. v580xx tescilli sürümü ise AUR'da sürdürülüyor)</p>
 <p>OpenSUSE</p>
 <p>Ubuntu (Mint, Kubuntu, ZorinOS)</p>
 <p>Debian + Nvidia Cuda (Pardus vb.)</p>
 <p>Solus</p>
 <p>NixOS</p>
-<p>Void Linux</p></th>
-</tr>
-<tr class="header">
-<th><strong>Destek var ve immutable</strong></th>
-<th>v580+ destekli bir imajla geliyor</th>
-<th>
-<p>Bazzite</p>
-<p>Aurora/Bluefin<br/>(GTX 1080 Ti ve daha alt modelleri desteklemiyor)</p>
+<p>Void Linux</p>
 </th>
 </tr>
 <tr class="header">
@@ -229,6 +233,8 @@ RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir. Wayl
 <tbody>
 </tbody>
 </table>
+
+
 
 _Ayrıca FreeBSD ve Solaris gibi UNIX sistemleri de Nvidia 580
 sürücülerini kusursuz desteklemektedir._
