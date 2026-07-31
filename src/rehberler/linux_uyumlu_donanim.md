@@ -93,13 +93,79 @@ etmektedir.
 ### Nvidia (Mutlaka Okuyun)
 
 Nvidia, geçmişte Linux (özellikle Wayland) tarafında sorunlu olsa da,
-RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir.
+RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir. Wayland ile NVIDIA'nın sorun çıkardığı bilgisi eski bir bilgidir artık büyük oranda bu sorun çözülmüştür.
+
+**Sürücü Desteği Tablosu**
+
+<div class="nvidia-table-container">
+  <table class="nvidia-table">
+    <thead>
+      <tr>
+        <th>Ekran Kartı Ailesi ve Mimari</th>
+        <th>Yaygın Modeller</th>
+        <th>Önerilen Linux Sürücüsü (Ağustos 2026)</th>
+        <th>Notlar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>RTX 50 Serisi (Blackwell)</strong></td>
+        <td>RTX 5090, 5080, 5070, 5060 (Laptop & Masaüstü)</td>
+        <td><strong>610.x</strong> (veya min. 570.x)</td>
+        <td>Açık kaynaklı (<code>nvidia-open</code>) çekirdek modülü zorunludur.</td>
+      </tr>
+      <tr>
+        <td><strong>RTX 40 Serisi (Ada Lovelace)</strong></td>
+        <td>RTX 4090, 4080, 4070, 4060, 4050 (Laptop & Masaüstü)</td>
+        <td><strong>610.x</strong> veya <strong>580.x</strong></td>
+        <td>Tam destekli. <code>nvidia-open</code> modülü önerilir.</td>
+      </tr>
+      <tr>
+        <td><strong>RTX 30 Serisi & MX570 (Ampere)</strong></td>
+        <td>RTX 3090, 3080, 3070, 3060, 3050 / MX570</td>
+        <td><strong>610.x</strong> veya <strong>580.x</strong></td>
+        <td>Tam destekli. Kararlılık için tescilli sürücü modülü denenebilir.</td>
+      </tr>
+      <tr>
+        <td><strong>RTX 20 / GTX 16 Serisi & MX350 / MX450 / MX550 (Turing)</strong></td>
+        <td>RTX 2080 - 2060 / GTX 1660 Ti - 1650 / MX350, MX450, MX550</td>
+        <td><strong>610.x</strong> veya <strong>580.x</strong></td>
+        <td><code>nvidia-open</code> sürücüleri destekleyen en eski gruptur. Kararlılık için tescilli sürücü modülü denenebilir.</td>
+      </tr>
+      <tr>
+        <td><strong>GTX 10 Serisi & MX150 / MX250 / MX330 (Pascal)</strong></td>
+        <td>GTX 1080 - 1050 / MX150, MX230, MX250, MX330</td>
+        <td><strong>580.x</strong></td>
+        <td><code>nvidia-open</code> sürücüsünü desteklemez! Bu kartlar için tescilli 580.x sürücüsü sondur; sonraki ana sürümlerde (<strong>590+</strong>) desteklenmez. Güvenlik güncellemeleri Ekim 2028'e kadar devam edecek.</td>
+      </tr>
+      <tr>
+        <td><strong>GTX 900 Serisi & 940MX / 930MX (Maxwell)</strong></td>
+        <td>GTX 980M - 950M / 940MX, 930MX, MX110, MX130</td>
+        <td><strong>580.x</strong> (veya 535.x)</td>
+        <td><strong>Destek Sona Erdi.</strong> 580.x dalı bu mimariyi destekleyen son sürümdür (Legacy).</td>
+      </tr>
+      <tr>
+        <td><strong>Kepler Mimarisi (470.x Sürücüsü)</strong></td>
+        <td>GTX 700 / 600 Serisi, GT 730 (Kepler), GeForce 920M, 840M, 830M, 820M (Kepler)</td>
+        <td><strong>470.x (Legacy)</strong></td>
+        <td><strong>470 Sürücüsü Zorunlu.</strong><br>Proton'un çok eski versiyonlarını destekler, o sebeple oyun performansı kötüdür.</td>
+      </tr>
+      <tr>
+        <td><strong>Fermi Mimarisi (390.x Sürücüsü)</strong></td>
+        <td>GTX 500 / 400 Serisi, GT 610, GT 710 (Fermi), GeForce 820M (Fermi), 710M, 610M</td>
+        <td><strong>390.x (Legacy)</strong></td>
+        <td><strong>Çok Eski.</strong><br>Güncel Linux çekirdeklerinde (Kernel 6.x+) çalıştırmak zordur. Dahili açık kaynaklı <code>nouveau</code> sürücüsü önerilir.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 !!! warning
 
-    Sorunsuz bir deneyim için **Nvidia 580** ve üzeri sürüm numaralı sürücüleri kullanmanız şarttır.
+    Sorunsuz bir deneyim için **Nvidia 580** ve üzeri sürüm numaralı sürücüleri kullanmanız şarttır. Ekran kartınız 580xx ve daha güncel sürücüleri desteklemiyorsa Proton'un güncel özelliklerinden yararlanamazsınız.
 
-**Sürücü Uyumluluk Tablosu (6 Aralık 2025 İtibariyle)**
+**Sürücü Uyumluluk Tablosu (Ağustos 2026 İtibariyle)**
+
 
 <table>
 <colgroup>
@@ -116,12 +182,23 @@ RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir.
 <tr class="odd">
 <th><strong>Tam Destek</strong></th>
 <th>Ana depolarda v580+ sürücü mevcut</th>
-<th><p>Fedora</p>
-<p>Arch Linux (Manjaro dahil)</p>
+<th><p>Fedora (Nobara, Ultramarine, Fedora Atomic)</p>
+<p>Arch Linux (Endevouir, Manjaro vb. <br/>Not: v610xx sürümüne geçiş yaptı. v580xx sürümü ise AUR'da sürdürülüyor)</p>
+<p>CachyOS (v610xx'a geçiş yaptı ama Arch'ın aksine ana depolarında v580xx sürümünü de destekliyor)</p>
+<p>OpenSUSE</p>
 <p>Ubuntu (Mint, Kubuntu, ZorinOS)</p>
 <p>Debian + Nvidia Cuda (Pardus vb.)</p>
+<p>Solus</p>
 <p>NixOS</p>
 <p>Void Linux</p></th>
+</tr>
+<tr class="header">
+<th><strong>Destek var ve immutable</strong></th>
+<th>v580+ destekli bir imajla geliyor</th>
+<th>
+<p>Bazzite</p>
+<p>Aurora/Bluefin<br/>(GTX 1080 Ti ve daha alt modelleri desteklemiyor)</p>
+</th>
 </tr>
 <tr class="header">
 <th><strong>Test Aşaması</strong></th>
@@ -137,7 +214,9 @@ RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir.
 <tr class="header">
 <th><strong>Sürücü Yok</strong></th>
 <th>Nvidia sürücüsü dağıtılmıyor</th>
-<th><p>Alpine Linux</p>
+<th>
+<p>SteamOS</p>
+<p>Alpine Linux</p>
 <p>Chimera Linux</p></th>
 </tr>
 </thead>
@@ -197,12 +276,16 @@ tarafındaki yazılım destekleri şöyledir:
 ## Özet Tavsiyeler
 
 ### Hangi Dağıtımı Seçmeliyim?
+[Hangi dağıtımı seçmeliyim?](https://linuxturkey.github.io/wiki/rehberler/hangi_dagitim.html) rehberini inceleyebilirsiniz.
 
-Donanımınızı topladıktan sonra işletim sistemi seçimi için genel
-önerimiz:
+### NVIDIA Kurulum Rehberleri
+[Nvidia resmi kurulum rehberi](https://docs.nvidia.com/datacenter/tesla/driver-installation-guide/latest/index.html) üzerinden birçok dağıtım için kurulum adımlarını bulabilirsiniz.
 
-- **Genel Kullanıcı:** Fedora (Eğer Nvidia kuracaksanız [rehberi](https://linuxturkey.github.io/wiki/rehberler/fedora-nvidia-akmod-rehberi.html) okuyunuz)
-- **Yeni Nvidia Kullanıcıları:** Manjaro (Stabilite ve son kullanıcı için elverişli olması nedeniyle)
+- Fedora ([r/LinuxTurkey Fedora NVIDIA Akmod Rehberi](https://linuxturkey.github.io/wiki/rehberler/fedora-nvidia-akmod-rehberi.html) ve [resmi RPM dökümanı](https://rpmfusion.org/Howto/NVIDIA))
+- OpenSUSE ([resmi döküman](https://en.opensuse.org/SDB:NVIDIA_drivers))
+- Arch ([wiki](https://wiki.archlinux.org/title/NVIDIA))
+- Solus ([resmi döküman](https://help.getsol.us/docs/user/hardware/nvidia-gpu-drivers/))
+- ZorinOS ([resmi döküman](https://help.zorin.com/docs/hardware/activate-nvidia-drivers/))
 
 ### Laptop Kullanıcıları İçin Not
 
