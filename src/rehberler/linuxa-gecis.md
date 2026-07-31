@@ -4,7 +4,7 @@
 ## Beklentilerinizi doğru ayarlayın
 Linux bedava Windows değildir. Linux farklı bir işletim sistemidir, dosya sisteminden tutun uygulamaların kurulumu ve yönetimine kadar her şey farklıdır. Bu sebeple öğrenmeye açık olmalısınız.
 
-## Bilinçli, deneyimli ve teknolojiden anlayan biri olmanız Linux'ta hala acemi olduğunuz gerçeğini değiştirmez
+### Bilinçli, deneyimli ve teknolojiden anlayan biri olmanız Linux'ta hala acemi olduğunuz gerçeğini değiştirmez
 
 *İyi bir şoför olmanız bir tekneyi kullanabileceğiniz anlamına gelmez.*
 
@@ -14,7 +14,7 @@ Linux'un işleyiş yapısını kavramadan ve önceki alışkanlıklarınızı de
 
 Yaşayacağınız sorunların, eksikliğini duyacağınız bir takım şeylerin illa ki bir yerlerde çözümü vardır. Çözümü arayıp bulmaktan veya yardım istemekten çekinmemelisiniz. Çünkü siz henüz deneyimsiz bir Linux kullanıcısınız ve hâlâ öğrenme sürecindesiniz. Bunu unutmayın!
 
-## Kontrol tamamen sizde, bu da daha fazla sorumluluk demek
+### Kontrol tamamen sizde, bu da daha fazla sorumluluk demek
 Sistemi istediğiniz gibi kişiselleştirebiliyor olmanız aynı şekilde sistem bütünlüğünü de bozabilmeniz anlamına gelebilir. Son kullanıcı odaklı dağıtımların çoğalması ile bu durum büyük ölçüde aşıldıysa da öğrenme sürecinde özenli olmak gerekir. Örneğin yaptığınız her işlemi not almak sonradan yaşayacağınız bir sorun için kurtarıcı olabilir. 
 
 Linux'ta sistem dosyaları doğrudan kullanıcı erişimine kapalı olarak gelir. Bu sebeple her kullanıcının bir şifresi ve belirli yetkileri olmak zorundadır. Sistem dosyalarında yapılacak her bir değişiklik için bu sebeple kullanıcıya düzenli aralıklarla erişim için şifre sorulmaktadır. Bu erişim yeni tip [immutable dağıtımlar](https://linuxturkey.github.io/wiki/rehberler/immutable-dagitimlar.html)da (SteamOS, Bazzite, Fedora Atomic vb.) tümüyle kısıtlanarak sistemde tam kararlılık hedeflenir. Ancak yine de kullanıcı düzeyinde bile olsa Linux yapısı gereği geniş bir özgürlük alanı sunmaktadır. Bu da daha sorumlu yaklaşmayı gerektirir.
