@@ -86,7 +86,12 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 
     Bluefin ve Aurora, NVIDIA GTX 1080 Ti ve daha alt modele sahip NVIDIA ekran kartlarını desteklememektedir.
 
-### Pop!\_OS
+### elementary OS
+
+[elementary OS](https://elementary.io/)  Ubuntu LTS tabanlı bir Linux dağıtımıdır. Kendi geliştirdiği macOS benzeri Pantheon masaüstü ortamıyla gelir. Kendini macOS ve Windows'un "düşünülmüş, kapsamlı ve etik" bir alternatifi olarak tanıtır ve istediğini öde modeline sahiptir. İşletim sistemi, Pantheon masaüstü ortamı  ve beraberindeki uygulamalar elementary, Inc. tarafından geliştirilir ve sürdürülür.
+
+
+### Pop!\_OS(*)
 
 [Pop!\_OS](https://system76.com/pop/), Ubuntu LTS tabanlı, ücretsiz ve açık kaynaklı bir Linux dağıtımıdır. Yeni geliştirilmekte olan COSMIC masaüstü ortamı ile birlikte gelir. Dağıtım, Amerikalı Linux bilgisayar üreticisi System76 tarafından geliştirilmiştir.
 
@@ -94,11 +99,7 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 !!! note
 
-    COSMIC arayüzü yeni bir masaüstü ortamı olması nedeniyle hem özellikler bakımından henüz eksiktir hem de kullanım esnasında kararsızlıklar yaşanabilir. Ancak gelecekte GNOME ve KDE gibi temel masaüstü ortamlarına güçlü bir alternatif olma potansiyeli vardır.
-
-### elementary OS
-
-[elementary OS](https://elementary.io/)  Ubuntu LTS tabanlı bir Linux dağıtımıdır. Kendi geliştirdiği macOS benzeri Pantheon masaüstü ortamıyla gelir. Kendini macOS ve Windows'un "düşünülmüş, kapsamlı ve etik" bir alternatifi olarak tanıtır ve istediğini öde modeline sahiptir. İşletim sistemi, Pantheon masaüstü ortamı  ve beraberindeki uygulamalar elementary, Inc. tarafından geliştirilir ve sürdürülür.
+    (*)Tabanı stabil olsa da masaüstü ortamı henüz kararsızdır! COSMIC arayüzü yeni bir masaüstü ortamı olması nedeniyle hem özellikler bakımından eksiktir hem de kullanım esnasında sorunlar yaşatabilir. Ancak gelecekte GNOME ve KDE gibi temel masaüstü ortamlarına güçlü bir alternatif olma potansiyeli vardır.
 
 ## Sürekli güncel ve stabil bir dağıtım arıyorum
 
