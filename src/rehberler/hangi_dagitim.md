@@ -2,19 +2,27 @@
 
 Sihirbaz aracılığı ile dağıtım seçimi için: [Distrochooser](https://distrochooser.de/tr)
 
+Dağıtım seçerken donanım özellikleriniz önemlidir. Öncelikle [Linux Uyumlu Donanım Seçim Rehberi](https://linuxturkey.github.io/wiki/rehberler/linux_uyumlu_donanim.html)'ne bakmanız önerilir.
+
 ## Oyun odaklı bir dağıtım arıyorum
 
-Çoğu modern dağıtım, Valve'ın Proton uyumluluk katmanı sayesinde çoğu oyunu desteklemektedir. Ancak çekirdek seviyesinde anti-cheat barındıran (ör. Vanguard) Rekabetçi FPS ve MOBA oyunları hiçbir Linux dağıtımında desteklenmemektedir.
+Çoğu modern dağıtım, Valve'ın Proton uyumluluk katmanı sayesinde çoğu oyunu desteklemektedir. Ancak çekirdek seviyesinde anti-cheat kullanmayı gerektiren oyunlar ve sistemler hiçbir Linux dağıtımında desteklenmemektedir. (ör. Vanguard, FaceIt)
 
 Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www.protondb.com/)
 
+Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-Cheat Yet?](https://areweanticheatyet.com/)
+
 ### Bazzite
 
-[Bazzite](https://bazzite.gg/), Valve'ın SteamOS 3'üne benzer şekilde tasarlanmış Fedora tabanlı bir Linux dağıtımıdır. Steam Deck de dahil olmak üzere taşınabilir cihazlar ve masaüstü bilgisayarlar için destek sunar. Hem sıradan hem de ileri düzey Linux oyuncuları için sorunsuz bir kullanıma hazır deneyim sunmayı amaçlamaktadır. Yapısı gereği farklı türde donanımlar için farklı ISO kurulum imajına sahiptir, bunlar için dağıtımın websitesinde iyi bir yönlendirme mevcuttur.
+[Bazzite](https://bazzite.gg/), Valve'ın SteamOS'ine benzer şekilde tasarlanmış Fedora Atomic tabanlı bir [immutable](https://linuxturkey.github.io/wiki/rehberler/immutable-dagitimlar.html) dağıtımdır. KDE ve GNOME arayüzlerini destekler. Steam Deck de dahil olmak üzere taşınabilir cihazlar ve masaüstü bilgisayarlar için destek sunar. Hem sıradan hem de ileri düzey Linux oyuncuları için sorunsuz bir kullanıma hazır deneyim sunmayı amaçlamaktadır. Farklı türde donanımlar için farklı ISO kurulum imajına sahiptir, bunlar için dağıtımın websitesinde iyi bir yönlendirme mevcuttur.
+
+!!!note
+
+ Immutable dağıtımları tercih ederken hedef kitlesini, kullanım amacını ve hangi donanımları desteklediğini dikkate almak gerekir. Kullanım amacı doğrultusunda (Bazzite'ta konsol benzeri deneyim için) kullanıldığı taktirde sorunsuz bir deneyim sağlamaktadır. Ancak sistem düzeyinde bir sürücü veya uygulama kurmak istediğinizde bu işlemler standart dağıtımlara göre daha karmaşık veya verimsiz olabilir.
 
 ### Nobara
 
-[Nobara Project](https://nobaraproject.org/), Fedora dağıtımının kullanıcı dostu iyileştirmelerle değiştirilmiş bir sürümüdür. Fedora, kurumsal yapısı gereği ve lisans sorunları sebebiyle üçüncü parti veya tescilli yazılımları içeren paketlerle gelmez. Nobara, Fedora’da eksik olan ve oyunlar açısından önemli olan WINE bağımlılıkları, OBS Studio, GStreamer gibi kodek paketleri, NVIDIA sürücüleri ve çeşitli küçük paket düzeltmeleri ile birlikte gelir. NVIDIA kullanıcıları için özel ISO kurulum imajlarına sahiptir.
+[Nobara Project](https://nobaraproject.org/), Fedora dağıtımının kullanıcı dostu iyileştirmelerle değiştirilmiş bir sürümüdür. KDE ve GNOME desteği vardır. Fedora, kurumsal yapısı gereği ve lisans sorunları sebebiyle üçüncü parti veya tescilli yazılımları içeren paketlerle gelmez. Nobara, Fedora’da eksik olan ve oyunlar açısından önemli olan WINE bağımlılıkları, OBS Studio, GStreamer gibi kodek paketleri, NVIDIA sürücüleri ve çeşitli küçük paket düzeltmeleri ile birlikte gelir. NVIDIA kullanıcıları için özel ISO kurulum imajlarına sahiptir.
 
 ### PikaOS
 
@@ -24,11 +32,15 @@ Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www
 
     XFS dosya sistemi varsayılan olarak geldiği için ayrı bir disk bölümüne dual boot yapmak zahmetlidir. Tek bir depolama diskine kurulması önerilir. Bölümlendirme yaparak kurmak için ilgili rehberlere göz atabilirsiniz.
 
+### SteamOS
+
+[SteamOS](https://store.steampowered.com/steamos/), Valve'in başlangıçta konsolları için geliştirdiği ancak yazıcı desteği gibi temel özellikler ekleyerek genel kullanıma açtığı Arch tabanlı, KDE Plasma masaüstü ortamına sahip [immutable](https://linuxturkey.github.io/wiki/rehberler/immutable-dagitimlar.html) bir dağıtımdır. Henüz NVIDIA sürücü desteği yoktur.
+
 ## Modern ve stabil bir dağıtım arıyorum
 
 ### Fedora
 
-[Fedora Linux](https://fedoraproject.org/) (eski adıyla, Fedora Core), açık kaynak kodlu ve özgür bir Linux dağıtımı. Dünya çapında bir özgür yazılım topluluğu olan Fedora Projesi tarafından geliştirilmekte ve yönetilmekte, Red Hat tarafından desteklenmektedir.
+[Fedora Linux](https://fedoraproject.org/) (eski adıyla, Fedora Core), açık kaynak kodlu ve özgür bir Linux dağıtımıdır. KDE ve GNOME (Workstation) desteği vardır, diğer birçok masaüstü ortamının [spin](https://fedoraproject.org/spins/)'lerini de sunmaktadır.  Dünya çapında bir özgür yazılım topluluğu olan Fedora Projesi tarafından geliştirilmekte ve yönetilmekte, Red Hat tarafından desteklenmektedir.
 
 !!! note
 
@@ -40,11 +52,11 @@ Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www
 
 ### Ultramarine Linux
 
-[Ultramarine Linux](https://ultramarine-linux.org), Fedora'nın lisans sorunları sebebiyle eksik gelen özelliklerinin (RPM, flathub, multimedya kodekleri vs.) aktif şekilde sunulduğu, kurulum sonrası doğrudan kullanıma hazır gelen kullanıcı dostu bir dağıtımdır. KDE, GNOME, Budgie, Xfce masaüstü ortamlarını destekler. CachyOS'in sunduğu performans odaklı olarak özelleştirilmiş linux çekirdeğini kurulum esnasında kullanıcıya bir seçenek olarak sunmaktadır.
+[Ultramarine Linux](https://ultramarine-linux.org), Fedora'nın lisans sorunları sebebiyle eksik gelen özelliklerinin (RPM, flathub, multimedya kodekleri vs.) aktif şekilde sunulduğu, kurulum sonrası doğrudan kullanıma hazır gelen kullanıcı dostu bir dağıtımdır. KDE, GNOME, Budgie, Xfce masaüstü ortamlarını destekler. CachyOS'in sunduğu performans odaklı olarak özelleştirilmiş Linux çekirdeğini kurulum esnasında kullanıcıya bir seçenek olarak sunmaktadır.
 
 ### Zorin OS
 
-[Zorin OS](https://zorin.com/os/), Ubuntu tabanlı bir Linux dağıtımıdır ve hem ücretsiz hem de ücretli sürümleri bulunmaktadır. Varsayılan olarak GNOME ve XFCE 4 masaüstü ortamlarını kullanır, ancak masaüstü arayüzü Windows veya macOS'a alışkın kullanıcılar için oldukça özelleştirilmiştir.
+[Zorin OS](https://zorin.com/os/), Ubuntu tabanlı bir Linux dağıtımıdır ve hem ücretsiz hem de ücretli sürümleri bulunmaktadır. Varsayılan olarak GNOME ve XFCE  masaüstü ortamlarını kullanır, ancak masaüstü arayüzü Windows veya macOS'a alışkın kullanıcılar için oldukça özelleştirilmiştir.
 
 !!! note
 
@@ -52,33 +64,41 @@ Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www
 
 ### Ubuntu
 
-[Ubuntu](https://ubuntu.com/), Linux tabanlı özgür ve ücretsiz bir işletim sistemidir. Bilgisayarlar, sunucular ve akıllı telefonlara yönelik olarak geliştirilmektedir. Ubuntu projesi Linux ve özgür yazılımın, bilgisayar kullanıcılarının günlük yaşamının bir parçası haline gelmesi amacıyla başlatılmış olup ilk kararlı masaüstü sürümü Ekim 2004'te yayınlanmıştır. Ubuntu'nun masaüstü sürümü günümüzde 40 milyonu aşkın kullanıcı sayısıyla dünyanın en yaygın kullanılan masaüstü Linux dağıtımı konumundadır.
+[Ubuntu](https://ubuntu.com/), Canonical şirketine ait Debian tabanlı bir dağıtımdır. Bilgisayarlar, sunucular ve akıllı telefonlara yönelik olarak geliştirilmektedir. Özelleştirilmiş bir GNOME arayüzüyle gelmektedir. Ubuntu projesi Linux ve özgür yazılımın, bilgisayar kullanıcılarının günlük yaşamının bir parçası haline gelmesi amacıyla başlatılmış olup ilk kararlı masaüstü sürümü Ekim 2004'te yayınlanmıştır. Ubuntu'nun masaüstü sürümü günümüzde 40 milyonu aşkın kullanıcı sayısıyla dünyanın en yaygın kullanılan masaüstü Linux dağıtımı konumundadır.
 
 !!! note
 
-    Canonical şirketinin tekelinde olan kapalı kaynak snap paketleri varsayılan olarak kurulu gelir.
+    Canonical şirketinin tekelinde olan kapalı kaynak snap paketleri varsayılan olarak kurulu gelir. Bu da Linux topluluğunda gizlilik ve özgür yazılım felsefesi açısından tartışmalara yol açmıştır.
 
 ### Kubuntu
 
-[Kubuntu](https://kubuntu.org/), KDE masaüstünü kullanan resmi bir Ubuntu varyantıdır. Ubuntu'nun bütün avantajlarını özelleştirilebilir bir KDE masaüstünde size sunar. Arayüz benzerliği açısından Windows'dan gelenlere normal Ubuntu'dan daha mantıklı gelebilir. Discover mağazası sayesinde bütün deb, Snap ve Flatpak(varsayılan olarak yüklü gelmez) paketlerinizi tek grafik arayüzünden kolaylıkla yönetebilirsiniz.
+[Kubuntu](https://kubuntu.org/), KDE masaüstünü kullanan resmi bir Ubuntu varyantıdır. Arayüz benzerliği açısından Windows'dan gelenlere normal Ubuntu'dan daha mantıklı gelebilir. Discover mağazası sayesinde bütün deb, snap ve flatpak (varsayılan olarak yüklü gelmez) paketlerinizi tek grafik arayüzünden kolaylıkla yönetebilirsiniz.
+
+### Fedora Atomic Dağıtımları (Kinoite, Silverblue vb.)
+
+[Fedora Atomic](https://fedoraproject.org/atomic-desktops/), Fedora'nın [immutable](https://linuxturkey.github.io/wiki/rehberler/immutable-dagitimlar.html) dağıtımlarıdır. GNOME, KDE, Sway, Budgie, Cosmic gibi farklı masaüstü ortamlarına ait dağıtımlar sunmaktadır. Atomic yapısı sayesinde bozması neredeyse imkansızdır. Sınırlı ve minimal bir paket desteğini içerir bu yüzden sistemi kullanım amacına göre özelleştirmek zor olabileceğinden ve izole paket sistemlerini yönetmek gerekeceği için tecrübeli kullanıcılara hitap eder.
 
 ### Bluefin/Aurora
 
-[Bluefin](https://projectbluefin.io/) ve [Aurora](https://getaurora.dev/), Bazzite'ın yapımcıları Universal Blue tarafından yapılan sırayla GNOME ve KDE masaüstünü kullanan Fedora tabanlı dağıtımlardır. Atomic yapısı sayesinde bozması neredeyse imkansızdır. Güncellemeler kolaylıkla yapılır, tek bir komutla da geri çevirilebilir. Bazzite gibi NVIDIA driverları yüklü gelir. Bluefin ve Aurora'da uygulamalar Bazaar mağazısından Flatpak olarak yüklenir, gerekli olduğu durumlarda ujust veya rpm-ostree komutları kullanılarak standart paketlere erişim sağlanılabilir.
+[Bluefin](https://projectbluefin.io/) ve [Aurora](https://getaurora.dev/), Bazzite'ın yapımcıları Universal Blue tarafından yapılan sırayla GNOME ve KDE masaüstünü kullanan Fedora Atomic tabanlı [immutable](https://linuxturkey.github.io/wiki/rehberler/immutable-dagitimlar.html) dağıtımlardır. Daha geniş kullanıcı kitlesinin ihtiyaçlarına göre özelleştirilmiştir. Bluefin ve Aurora'da uygulamalar Bazaar mağazısından Flatpak olarak yüklenir, gerekli olduğu durumlarda `ujust` veya `rpm-ostree` komutları kullanılarak standart paketlere erişim sağlanılabilir.
 
-### Pop!\_OS
+!!! note
 
-[Pop OS](https://system76.com/pop/) (Pop!\_OS olarak da stilize edilir), Ubuntu tabanlı, ücretsiz ve açık kaynaklı bir Linux dağıtımıdır. Yeni geliştirilmekte olan COSMIC masaüstü ortamı ile birlikte gelir. Dağıtım, Amerikalı Linux bilgisayar üreticisi System76 tarafından geliştirilmiştir.
+    Bluefin ve Aurora, NVIDIA GTX 1080 Ti ve daha alt modele sahip NVIDIA ekran kartlarını desteklememektedir.
+
+### elementary OS
+
+[elementary OS](https://elementary.io/)  Ubuntu LTS tabanlı bir Linux dağıtımıdır. Kendi geliştirdiği macOS benzeri Pantheon masaüstü ortamıyla gelir. Kendini macOS ve Windows'un "düşünülmüş, kapsamlı ve etik" bir alternatifi olarak tanıtır ve istediğini öde modeline sahiptir. İşletim sistemi, Pantheon masaüstü ortamı  ve beraberindeki uygulamalar elementary, Inc. tarafından geliştirilir ve sürdürülür.
+
+### Pop!\_OS(*)
+
+[Pop!\_OS](https://system76.com/pop/), Ubuntu LTS tabanlı, ücretsiz ve açık kaynaklı bir Linux dağıtımıdır. Yeni geliştirilmekte olan COSMIC masaüstü ortamı ile birlikte gelir. Dağıtım, Amerikalı Linux bilgisayar üreticisi System76 tarafından geliştirilmiştir.
 
 Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kurulu olarak sunulmak üzere geliştirilmiştir, ancak çoğu bilgisayara da indirip kurmak mümkündür. NVIDIA kullanıcıları için özel ISO kurulum imajlarına sahiptir.
 
 !!! note
 
-    COSMIC arayüzü yeni bir masaüstü ortamı olması nedeniyle hem özellikler bakımından henüz eksiktir hem de kullanım esnasında kararsızlıklar yaşanabilir. Ancak gelecekte GNOME ve KDE gibi temel masaüstü ortamlarına güçlü bir alternatif olma potansiyeli vardır.
-
-### Elementary OS
-
-[Elementary OS](https://elementary.io/) (elementary OS şeklinde de stilize edilir) Ubuntu LTS tabanlı bir Linux dağıtımıdır. Kendini macOS ve Windows'un "düşünülmüş, kapsamlı ve etik" bir alternatifi olarak tanıtır ve istediğini öde modeline sahiptir. İşletim sistemi, masaüstü ortamı (Pantheon olarak adlandırılır) ve beraberindeki uygulamalar elementary, Inc. tarafından geliştirilir ve sürdürülür.
+    (*)Tabanı stabil olsa da masaüstü ortamı henüz kararsızdır! COSMIC arayüzü yeni bir masaüstü ortamı olması nedeniyle hem özellikler bakımından eksiktir hem de kullanım esnasında sorunlar yaşatabilir. Ancak gelecekte GNOME ve KDE gibi temel masaüstü ortamlarına güçlü bir alternatif olma potansiyeli vardır.
 
 ## Sürekli güncel ve stabil bir dağıtım arıyorum
 
@@ -88,17 +108,21 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 ### Solus
 
-[Solus]([https://getsol.us/), Masaüstü kullanıcısı hedeflenerek geliştirilen bağımsız ve kullanıcı dostu bir topluluk dağıtımıdır. KDE, GNOME, Budgie ve XFCE masaüstü ortamlarını destekler. Kurulum sonrasında flathub deposu, medya ve donanım kodekleri, zram gibi son kullanıcının ihtiyaç duyacağı temel özellikler hazır bir şekilde gelir. Ayrıca tüm uygulamalar ve güncellemeler mağazadan yönetilebilir. Solus, Pardus/PiSi Linux'tan tanıdığımız PiSi paket yöneticisinin çatallanmış hali olan eopkg paket yöneticisini kullanır. Sistem güncellemeleri haftalık olarak verilir, kritik paketler ise daha uzun süre test edilerek sunulduğundan güncellik ve kararlılık dengesini hedefler. `eopkg history` özelliğiyle güncellemeler geri alınabilir.
+[Solus](https://getsol.us/), Masaüstü kullanıcısı hedeflenerek geliştirilen bağımsız ve kullanıcı dostu bir topluluk dağıtımıdır. KDE, GNOME, Budgie ve XFCE masaüstü ortamlarını destekler. Kurulum sonrasında flathub deposu, medya ve donanım kodekleri, zram gibi son kullanıcının ihtiyaç duyacağı temel özellikler hazır bir şekilde gelir. Ayrıca tüm uygulamalar ve güncellemeler mağazadan yönetilebilir. Solus, Pardus/PiSi Linux'tan tanıdığımız PiSi paket yöneticisinin çatallanmış hali olan eopkg paket yöneticisini kullanır. Sistem güncellemeleri haftalık olarak verilir, kritik paketler ise daha uzun süre test edilerek sunulduğundan güncellik ve kararlılık dengesini hedefler. `eopkg history` özelliğiyle güncellemeler geri alınabilir.
 
 ## Sürekli güncel bir dağıtım arıyorum
 
 ### CachyOS
 
-[CachyOS](https://cachyos.org/), Arch Linux tabanlı bir Linux dağıtımıdır. Hız ve güvenlik optimizasyonlarına odaklanır – varsayılan Linux çekirdeği, BORE (Burst-Oriented Response Enhancer) zamanlayıcısı ile ileri seviyede optimize edilmiştir. Normal Proton'dan daha fazla özelliğe ve optimizasyona sabip olan Proton-CachyOS ile gelir. Masaüstü paketleri ise LTO, x86-64-v3 ve x86-64-v4, Zen 4 optimizasyonları, güvenlik bayrakları ve performans iyileştirmeleri ile derlenmiştir. Sunulan masaüstü ortamları ve pencere yöneticileri arasında KDE, GNOME, Xfce, i3wm, Wayfire, LXQt, OpenBox, Cinnamon, COSMIC, UKUI, LXDE, MATE, Budgie, Qtile, Hyprland ve Sway bulunmaktadır. CachyOS, hem grafiksel hem de komut satırı tabanlı yükleyicilerle birlikte gelir. Snapper özelliğine sahip olduğundan kararsız güncellemeleri geri alma imkânı sunar.
+[CachyOS](https://cachyos.org/), Arch Linux tabanlı bir Linux dağıtımıdır. Sunulan masaüstü ortamları ve pencere yöneticileri arasında KDE, GNOME, Xfce, i3wm, Wayfire, LXQt, OpenBox, Cinnamon, COSMIC, UKUI, LXDE, MATE, Budgie, Qtile, Hyprland ve Sway bulunmaktadır.
+
+Yapı olarak hız ve güvenlik optimizasyonlarına odaklanır – varsayılan Linux çekirdeği, BORE (Burst-Oriented Response Enhancer) zamanlayıcısı ile ileri seviyede optimize edilmiştir. Normal Proton'dan daha fazla özelliğe ve optimizasyona sahip olan Proton-CachyOS ile gelir. Masaüstü paketleri ise LTO, x86-64-v3 ve x86-64-v4, Zen 4 optimizasyonları, güvenlik bayrakları ve performans iyileştirmeleri ile derlenmiştir.
+
+CachyOS, hem grafiksel hem de komut satırı tabanlı yükleyicilerle birlikte gelir. Kurulum esnasında sistem özelliklerini otomatik algılayarak gerekli tüm sürücüleri ve özelleştirilmiş paket depolarını kurulum sonrasında kullanıcıya hazır şekilde sunar. Shelly isimli grafik arayüzlü uygulama yöneticisi ve `paru` isimli [AUR yardımcısıyla](https://wiki.archlinux.org/title/AUR_helpers) gelir. Snapper özelliğine sahip olduğundan kararsız güncellemeleri geri alma imkanı sunar.
 
 ### EndeavourOS
 
-[EndeavourOS](https://endeavouros.com/), Arch Linux tabanından çok farklılaşmayan bir Linux dağıtımıdır. Orta üst teknik bilgili kullanıcılara hitap eder. CachyOS gibi onlarca masaüstü ortamı arasında seçim yapabilir ve Calamares kurucusu sayesinde kolayca sisteminizi kurabilirsiniz. EndeavourOS paket yönetimi varsayılan olarak terminalden yapılır ve "yay" isimli [AUR yardımcısıyla](https://wiki.archlinux.org/title/AUR_helpers) gelir. Eğer Arch kurmak gözünüzde büyük geliyorsa ve daha kolay bir deneme yolu istiyorsanız EndeavourOS deneyebilirsiniz.
+[EndeavourOS](https://endeavouros.com/), Arch Linux tabanından çok farklılaşmayan bir Linux dağıtımıdır. Orta üst teknik bilgili kullanıcılara hitap eder. CachyOS gibi onlarca masaüstü ortamı arasında seçim yapabilir ve Calamares kurucusu sayesinde kolayca sisteminizi kurabilirsiniz. EndeavourOS paket yönetimi varsayılan olarak terminalden yapılır ve `yay` isimli [AUR yardımcısıyla](https://wiki.archlinux.org/title/AUR_helpers) gelir. Eğer Arch kurmak gözünüzde büyük geliyorsa ve daha kolay bir deneme yolu istiyorsanız EndeavourOS deneyebilirsiniz.
 
 ### Manjaro
 
@@ -108,11 +132,11 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 ### Linux Mint
 
-[Linux Mint](https://linuxmint.com/), Ubuntu tabanlı, kullanıcı dostu bir Linux dağıtımıdır. Windows’tan geçenler için tasarımı tanıdık gelir; masaüstü ortamı olarak Cinnamon, MATE veya XFCE alternatifleri ile gelir. Kurulumdan sonra neredeyse her şey hazır gelir: medya codec’leri, ofis uygulamaları, sürücüler vs. Stabil, hafif ve "kur ve kullan" tarzı bir sistemdir. Yeni başlayanlar için çok uygundur ama deneyimli kullanıcıyı da yormaz.
+[Linux Mint](https://linuxmint.com/), Ubuntu LTS tabanlı, kullanıcı dostu bir Linux dağıtımıdır. Tasarım olarak Windows 7 ve XP'ye benzeyen nostaljik bir arayüzle gelir; masaüstü ortamı olarak Cinnamon, MATE veya XFCE'yi destekler. Kurulumdan sonra neredeyse her şey hazır gelir: medya codec’leri, ofis uygulamaları, sürücüler vs. Stabil, hafif ve "kur ve kullan" tarzı bir sistemdir. Yeni başlayanlar için çok uygundur ama deneyimli kullanıcıyı da yormaz.
 
 ### MX Linux
 
-[MX Linux](https://mxlinux.org/), Debian Stable tabanlı bir Linux dağıtımıdır ve antiX’in çekirdek bileşenlerini kullanır. Bunun yanında, MX topluluğu tarafından oluşturulan ya da paketlenen ek yazılımlar da içerir. MX Linux’un geliştirilmesi, antiX ve eski MEPIS topluluklarının ortak çalışmasının bir ürünüdür. Topluluğun belirttiği hedef, "zarif ve verimli masaüstlerini yüksek kararlılık ve sağlam performansla birleştiren bir işletim sistemi ailesi" üretmektir.
+[MX Linux](https://mxlinux.org/), Debian Stable tabanlı bir Linux dağıtımıdır ve antiX’in çekirdek bileşenlerini kullanır. XFCE, KDE ve Fluxbox versiyonları vardır.  Bunun yanında, MX topluluğu tarafından oluşturulan ya da paketlenen ek yazılımlar da içerir. MX Linux’un geliştirilmesi, antiX ve eski MEPIS topluluklarının ortak çalışmasının bir ürünüdür. Topluluğun belirttiği hedef, "zarif ve verimli masaüstlerini yüksek kararlılık ve sağlam performansla birleştiren bir işletim sistemi ailesi" üretmektir.
 
 ## Çok eski bir bilgisayarım var ve oldukça hafif bir dağıtım arıyorum
 
@@ -162,7 +186,7 @@ Diğer geleneksel Linux dağıtımlarından farklı olarak, NixOS’ta paket yö
 
 ### Adélie Linux
 
-[Adélie Linux](https://www.adelielinux.org/), PowerPC mimarisini desteklemesiyle bilinen bir Linux dağıtımıdır. Özellikle eski PowerPC Maclerde çoğu distro desteği kesmesine rağmen size güncel ve hafif bir Linux masaüstü deneyimi sunar. Paket yöneimini APK paket yöneticisinden yapılır fakat çok bilinen bir dağıtım olmadığı için istediğiniz her paketi bulamayabilirsiniz
+[Adélie Linux](https://www.adelielinux.org/), PowerPC mimarisini desteklemesiyle bilinen bir Linux dağıtımıdır. Özellikle eski PowerPC Mac'lerde çoğu distro desteği kesmesine rağmen size güncel ve hafif bir Linux masaüstü deneyimi sunar. Paket yönetimini APK paket yöneticisinden yapılır fakat çok bilinen bir dağıtım olmadığı için istediğiniz her paketi bulamayabilirsiniz
 
 ### postmarketOS
 
