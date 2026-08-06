@@ -92,11 +92,11 @@ etmektedir.
 
 ### Nvidia (Mutlaka Okuyun)
 
-Nvidia'nın doğrudan Linux çekirdeği içerisine eklenmiş resmi bir sürücüsü bulunmamaktadır. `nouveau` adında açık kaynaklı bir topluluk projesi ile gelse de performans olarak başarılı değildir. Bu sebeple ekran kartından tam performans alabilmek için resmi sürücüler çekirdeğe ek modül olarak eklenmelidir. 
+Nvidia'nın doğrudan Linux çekirdeği içerisine eklenmiş resmi bir sürücüsü bulunmamaktadır. `nouveau` adında açık kaynaklı bir topluluk projesi ile gelse de performans olarak başarılı değildir. Bu sebeple ekran kartından tam performans alabilmek için resmi sürücüler çekirdeğe ek modül olarak eklenmelidir.
 
 Sürücüleri kurmak için kullandığınız dağıtımın yönergelerini takip etmeniz önerilir. **Nvidia'nın resmi sitesinden sürücü indirip kurmak önerilmez.** Aksi halde yeni bir çekirdek güncellemesi geldiğinde nvidia modülü tekrar elle eklenmedikçe yok sayılacağından siyah ekranla karşılaşabilirsiniz. Dağıtımlar kendi dinamik modül sistemleri ile bu süreci otomatikleştirmiştir (dkms, akmods vb.). Rehberin sonunda bununla ilgili bilgilendirme yapılmıştır.
 
-Nvidia'nın açık kaynak kernel modülü ve kapalı kaynak (**tescilli** / **_proprietary_**) kernel modülü olarak iki adet farklı sürücüsü vardır. Açık kaynak `nvidia-open` sürücüsü yalnızca GTX 1650 ve daha üst model tüm ekran kartlarını desteklemektedir. 
+Nvidia'nın açık kaynak kernel modülü ve kapalı kaynak (**tescilli** / **_proprietary_**) kernel modülü olarak iki adet farklı sürücüsü vardır. Açık kaynak `nvidia-open` sürücüsü yalnızca GTX 1650 ve daha üst model tüm ekran kartlarını desteklemektedir.
 
 Nvidia, geçmişte Linux (özellikle Wayland) tarafında sorunlu olsa da,
 RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir. Wayland ile NVIDIA'nın sorun çıkardığı bilgisi eski bir bilgidir artık büyük oranda bu sorun çözülmüştür.
@@ -172,7 +172,6 @@ RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir. Wayl
 
 **Sürücü Uyumluluk Tablosu (Ağustos 2026 İtibariyle)**
 
-
 <table>
 <colgroup>
 <col style="width: 33%" />
@@ -234,8 +233,6 @@ RTX 5000 serisi ve modern sürücülerle odağını bu alana çevirmiştir. Wayl
 </tbody>
 </table>
 
-
-
 _Ayrıca FreeBSD ve Solaris gibi UNIX sistemleri de Nvidia 580
 sürücülerini kusursuz desteklemektedir._
 
@@ -288,9 +285,11 @@ tarafındaki yazılım destekleri şöyledir:
 ## Özet Tavsiyeler
 
 ### Hangi Dağıtımı Seçmeliyim?
+
 [Hangi dağıtımı seçmeliyim?](https://linuxturkey.github.io/wiki/rehberler/hangi_dagitim.html) rehberini inceleyebilirsiniz.
 
 ### NVIDIA Kurulum Rehberleri
+
 [Nvidia resmi kurulum rehberi](https://docs.nvidia.com/datacenter/tesla/driver-installation-guide/latest/index.html) üzerinden birçok dağıtım için kurulum adımlarını bulabilirsiniz.
 
 - Fedora ([r/LinuxTurkey Fedora NVIDIA Akmod Rehberi](https://linuxturkey.github.io/wiki/rehberler/fedora-nvidia-akmod-rehberi.html) ve [resmi RPM dökümanı](https://rpmfusion.org/Howto/NVIDIA))
