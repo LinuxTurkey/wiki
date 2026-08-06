@@ -6,11 +6,11 @@ Dağıtım seçerken donanım özellikleriniz önemlidir. Öncelikle [Linux Uyum
 
 ## Oyun odaklı bir dağıtım arıyorum
 
-Çoğu modern dağıtım, Valve'ın Proton uyumluluk katmanı sayesinde çoğu oyunu desteklemektedir. Ancak çekirdek seviyesinde anti-cheat kullanmayı gerektiren oyunlar ve sistemler hiçbir Linux dağıtımında desteklenmemektedir. (ör. Vanguard, FaceIt) 
+Çoğu modern dağıtım, Valve'ın Proton uyumluluk katmanı sayesinde çoğu oyunu desteklemektedir. Ancak çekirdek seviyesinde anti-cheat kullanmayı gerektiren oyunlar ve sistemler hiçbir Linux dağıtımında desteklenmemektedir. (ör. Vanguard, FaceIt)
 
 Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www.protondb.com/)
 
-Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-Cheat Yet?](https://areweanticheatyet.com/) 
+Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-Cheat Yet?](https://areweanticheatyet.com/)
 
 ### Bazzite
 
@@ -18,7 +18,7 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 
 !!!note
 
-	Immutable dağıtımları tercih ederken hedef kitlesini, kullanım amacını ve hangi donanımları desteklediğini dikkate almak gerekir. Kullanım amacı doğrultusunda (Bazzite'ta konsol benzeri deneyim için) kullanıldığı taktirde sorunsuz bir deneyim sağlamaktadır. Ancak sistem düzeyinde bir sürücü veya uygulama kurmak istediğinizde bu işlemler standart dağıtımlara göre daha karmaşık veya verimsiz olabilir.
+ Immutable dağıtımları tercih ederken hedef kitlesini, kullanım amacını ve hangi donanımları desteklediğini dikkate almak gerekir. Kullanım amacı doğrultusunda (Bazzite'ta konsol benzeri deneyim için) kullanıldığı taktirde sorunsuz bir deneyim sağlamaktadır. Ancak sistem düzeyinde bir sürücü veya uygulama kurmak istediğinizde bu işlemler standart dağıtımlara göre daha karmaşık veya verimsiz olabilir.
 
 ### Nobara
 
@@ -80,7 +80,7 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 
 ### Bluefin/Aurora
 
-[Bluefin](https://projectbluefin.io/) ve [Aurora](https://getaurora.dev/), Bazzite'ın yapımcıları Universal Blue tarafından yapılan sırayla GNOME ve KDE masaüstünü kullanan Fedora Atomic tabanlı [immutable](https://linuxturkey.github.io/wiki/rehberler/immutable-dagitimlar.html) dağıtımlardır. Daha geniş kullanıcı kitlesinin ihtiyaçlarına göre özelleştirilmiştir. Bluefin ve Aurora'da uygulamalar Bazaar mağazısından Flatpak olarak yüklenir, gerekli olduğu durumlarda `ujust` veya `rpm-ostree` komutları kullanılarak standart paketlere erişim sağlanılabilir. 
+[Bluefin](https://projectbluefin.io/) ve [Aurora](https://getaurora.dev/), Bazzite'ın yapımcıları Universal Blue tarafından yapılan sırayla GNOME ve KDE masaüstünü kullanan Fedora Atomic tabanlı [immutable](https://linuxturkey.github.io/wiki/rehberler/immutable-dagitimlar.html) dağıtımlardır. Daha geniş kullanıcı kitlesinin ihtiyaçlarına göre özelleştirilmiştir. Bluefin ve Aurora'da uygulamalar Bazaar mağazısından Flatpak olarak yüklenir, gerekli olduğu durumlarda `ujust` veya `rpm-ostree` komutları kullanılarak standart paketlere erişim sağlanılabilir.
 
 !!! note
 
@@ -89,7 +89,6 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 ### elementary OS
 
 [elementary OS](https://elementary.io/)  Ubuntu LTS tabanlı bir Linux dağıtımıdır. Kendi geliştirdiği macOS benzeri Pantheon masaüstü ortamıyla gelir. Kendini macOS ve Windows'un "düşünülmüş, kapsamlı ve etik" bir alternatifi olarak tanıtır ve istediğini öde modeline sahiptir. İşletim sistemi, Pantheon masaüstü ortamı  ve beraberindeki uygulamalar elementary, Inc. tarafından geliştirilir ve sürdürülür.
-
 
 ### Pop!\_OS(*)
 
@@ -115,9 +114,9 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 ### CachyOS
 
-[CachyOS](https://cachyos.org/), Arch Linux tabanlı bir Linux dağıtımıdır. Sunulan masaüstü ortamları ve pencere yöneticileri arasında KDE, GNOME, Xfce, i3wm, Wayfire, LXQt, OpenBox, Cinnamon, COSMIC, UKUI, LXDE, MATE, Budgie, Qtile, Hyprland ve Sway bulunmaktadır. 
+[CachyOS](https://cachyos.org/), Arch Linux tabanlı bir Linux dağıtımıdır. Sunulan masaüstü ortamları ve pencere yöneticileri arasında KDE, GNOME, Xfce, i3wm, Wayfire, LXQt, OpenBox, Cinnamon, COSMIC, UKUI, LXDE, MATE, Budgie, Qtile, Hyprland ve Sway bulunmaktadır.
 
-Yapı olarak hız ve güvenlik optimizasyonlarına odaklanır – varsayılan Linux çekirdeği, BORE (Burst-Oriented Response Enhancer) zamanlayıcısı ile ileri seviyede optimize edilmiştir. Normal Proton'dan daha fazla özelliğe ve optimizasyona sahip olan Proton-CachyOS ile gelir. Masaüstü paketleri ise LTO, x86-64-v3 ve x86-64-v4, Zen 4 optimizasyonları, güvenlik bayrakları ve performans iyileştirmeleri ile derlenmiştir. 
+Yapı olarak hız ve güvenlik optimizasyonlarına odaklanır – varsayılan Linux çekirdeği, BORE (Burst-Oriented Response Enhancer) zamanlayıcısı ile ileri seviyede optimize edilmiştir. Normal Proton'dan daha fazla özelliğe ve optimizasyona sahip olan Proton-CachyOS ile gelir. Masaüstü paketleri ise LTO, x86-64-v3 ve x86-64-v4, Zen 4 optimizasyonları, güvenlik bayrakları ve performans iyileştirmeleri ile derlenmiştir.
 
 CachyOS, hem grafiksel hem de komut satırı tabanlı yükleyicilerle birlikte gelir. Kurulum esnasında sistem özelliklerini otomatik algılayarak gerekli tüm sürücüleri ve özelleştirilmiş paket depolarını kurulum sonrasında kullanıcıya hazır şekilde sunar. Shelly isimli grafik arayüzlü uygulama yöneticisi ve `paru` isimli [AUR yardımcısıyla](https://wiki.archlinux.org/title/AUR_helpers) gelir. Snapper özelliğine sahip olduğundan kararsız güncellemeleri geri alma imkanı sunar.
 
