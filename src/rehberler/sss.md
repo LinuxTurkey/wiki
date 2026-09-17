@@ -75,3 +75,9 @@ X11'deki bu isteğe bağlı dizgileme yöntemi, sonradan çalıştırılan dizgi
 - **HDR ve renk profili desteği:** Özellikle yeni monitörlerde kullanıcıların aradığı bir özelliktir, Wayland'de desteği vardır.
 - **Monitörlerde farklı yenileme oranları:** Örneğin X11 kullanan, 60Hz ve 100Hz iki monitör içeren bir sistemde, iki monitörün de maksimum yenileme oranlarını kullanmak isterseniz VSync gibi dizgileyici özelliklerinden feragat etmeniz gerekir. Wayland'de ise bu tip bir kısıt yoktur, farklı yenileme oranlarına sahip ekranların dizgilemesi doğru bir şekilde yapılır.
 - **Monitörlerde farklı kademeli ölçeklendirme:** Wayland'de bir monitörün yakınlaştırma ölçeğinin %110, diğerinin %120 gibi bir değere atanabilme imkanı vardır.
+
+## Masaüstü Ortamı Nedir?
+
+Masaüstü ortamı; aslında TTY'yi maskeleyen kullanıcı arayüzü olarak görülebilir.
+
+Masaüstü ortamı olmaz ise TTY yani o "korkunç" siyah ekran sizi karşılar. Aslında eskiden bu "korkunç" değil normaldi. Masaüstü ortamları ise, bu TTY'yi maskeleyen, üzerini örten bir kılıf gibi. TTY'de yapabileceklerinizi daha kolayca grafik arayüzünden yapmanızı sağlar.
