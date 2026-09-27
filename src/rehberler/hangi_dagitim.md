@@ -6,6 +6,8 @@ Dağıtım seçerken donanım özellikleriniz önemlidir. Öncelikle [Linux Uyum
 
 ## Oyun odaklı bir dağıtım arıyorum
 
+Oyun dağıtımları yalnızca oyuncular için değil Linux'a yeni başlayan kullanıcılar için de iyi bir seçenek olabilmektedir. Oyun oynamasanız bile içinde gelen diğer araçlarla birlikte Linux'a kolay bir başlangıç yapabilmenizi sağlayabilir.
+
 Çoğu modern dağıtım, Valve'ın Proton uyumluluk katmanı sayesinde çoğu oyunu desteklemektedir. Ancak çekirdek seviyesinde anti-cheat kullanmayı gerektiren oyunlar ve sistemler hiçbir Linux dağıtımında desteklenmemektedir. (ör. Vanguard, FaceIt)
 
 Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www.protondb.com/)
@@ -18,11 +20,11 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 
 !!!note
 
- Immutable dağıtımları tercih ederken hedef kitlesini, kullanım amacını ve hangi donanımları desteklediğini dikkate almak gerekir. Kullanım amacı doğrultusunda (Bazzite'ta konsol benzeri deneyim için) kullanıldığı taktirde sorunsuz bir deneyim sağlamaktadır. Ancak sistem düzeyinde bir sürücü veya uygulama kurmak istediğinizde bu işlemler standart dağıtımlara göre daha karmaşık veya verimsiz olabilir.
+	 Immutable dağıtımları tercih ederken hedef kitlesini, kullanım amacını ve hangi donanımları desteklediğini dikkate almak gerekir. Kullanım amacı doğrultusunda (Bazzite'ta konsol benzeri deneyim için) kullanıldığı taktirde sorunsuz bir deneyim sağlamaktadır. Ancak sistem düzeyinde bir sürücü veya uygulama kurmak istediğinizde bu işlemler standart dağıtımlara göre daha karmaşık veya verimsiz olabilir.
 
 ### Nobara
 
-[Nobara Project](https://nobaraproject.org/), Fedora dağıtımının kullanıcı dostu iyileştirmelerle değiştirilmiş bir sürümüdür. KDE ve GNOME desteği vardır. Fedora, kurumsal yapısı gereği ve lisans sorunları sebebiyle üçüncü parti veya tescilli yazılımları içeren paketlerle gelmez. Nobara, Fedora’da eksik olan ve oyunlar açısından önemli olan WINE bağımlılıkları, OBS Studio, GStreamer gibi kodek paketleri, NVIDIA sürücüleri ve çeşitli küçük paket düzeltmeleri ile birlikte gelir. NVIDIA kullanıcıları için özel ISO kurulum imajlarına sahiptir.
+[Nobara](https://nobaraproject.org/), Fedora dağıtımının kullanıcı dostu iyileştirmelerle değiştirilmiş bir sürümüdür. KDE ve GNOME desteği vardır. Fedora, kurumsal yapısı gereği ve lisans sorunları sebebiyle üçüncü parti veya tescilli yazılımları içeren paketlerle gelmez. Nobara, Fedora’da eksik olan ve oyunlar açısından önemli olan WINE bağımlılıkları, OBS Studio, GStreamer gibi kodek paketleri, NVIDIA sürücüleri ve çeşitli küçük paket düzeltmeleri ile birlikte gelir. NVIDIA kullanıcıları için özel ISO kurulum imajlarına sahiptir.
 
 ### PikaOS
 
@@ -40,7 +42,7 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 
 ### Fedora
 
-[Fedora Linux](https://fedoraproject.org/) (eski adıyla, Fedora Core), açık kaynak kodlu ve özgür bir Linux dağıtımıdır. KDE ve GNOME (Workstation) desteği vardır, diğer birçok masaüstü ortamının [spin](https://fedoraproject.org/spins/)'lerini de sunmaktadır.  Dünya çapında bir özgür yazılım topluluğu olan Fedora Projesi tarafından geliştirilmekte ve yönetilmekte, Red Hat tarafından desteklenmektedir.
+[Fedora](https://fedoraproject.org/) (eski adıyla, Fedora Core), açık kaynak kodlu ve özgür bir Linux dağıtımıdır. KDE ve GNOME (Workstation) desteği vardır, diğer birçok masaüstü ortamının [spin](https://fedoraproject.org/spins/)'lerini de sunmaktadır.  Dünya çapında bir özgür yazılım topluluğu olan Fedora Projesi tarafından geliştirilmekte ve yönetilmekte, Red Hat tarafından desteklenmektedir.
 
 !!! note
 
