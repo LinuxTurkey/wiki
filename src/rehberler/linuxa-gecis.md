@@ -60,7 +60,7 @@ Linux için özel bir port üretmeyen uygulamalar için [alternativeto.net](http
 - Belge tarayıcı olarak **SkanPage**, **SimpleScan** veya **NAPS2**
 - Grafik tablet ile görsel notlar  **Xournal++**, **Drawy**
 - Oyun yönetimi için **Heroic Games Launcher**, **Faugus**, **Lutris**
-- Oyunlarda performans istatistikleri ve ayarları için **Goverlay**
+- Oyunlarda performans istatistikleri ve ayarları için **Mangojuice**, **Goverlay**
 - Ekran kartı fan kontrolü ve overclock için **LACT**
 - RGB kontrolü için **OpenRGB** (?)
 - Fan kontrolü için **CoolerControl**
@@ -104,11 +104,11 @@ Dual boot bir sisteme iki işletim sistemi kurmak demektir. Seçtiğiniz dağıt
 
 !!! note
 
- Not: En az **1 hafta** test etmeniz önerilir. Bu süreçte bilgisayarda yapabileceğiniz tüm işlemleri test edin:
+	 Not: En az **1 hafta** test etmeniz önerilir. Bu süreçte bilgisayarda yapabileceğiniz tüm işlemleri test edin:
 
-- Yazıcınız varsa yazıcıyı tanıtmak, baskı almak, tarayıcıyı kullanmak isteyebilirsiniz.
-- Kenarda köşede kalmış sık kullanmadığınız harici aygıtların hepsini denediğinizden emin olun. Örneğin sd kartınızı kart okuyucusunda okutmak, kullanmasanız bile ethernet girişini test etmek veya kablolu kulaklığı jack girişinde denemek gibi.
-- Overclock/Undervolt işlemi yapacaksanız donanıma göre farklı yaklaşımlar gerekebilir. (Ekran kartı için LACT uygulaması önerilir)
+	- Yazıcınız varsa yazıcıyı tanıtmak, baskı almak, tarayıcıyı kullanmak isteyebilirsiniz.
+	- Kenarda köşede kalmış sık kullanmadığınız harici aygıtların hepsini denediğinizden emin olun. Örneğin sd kartınızı kart okuyucusunda okutmak, kullanmasanız bile ethernet girişini test etmek veya kablolu kulaklığı jack girişinde denemek gibi.
+	- Overclock/Undervolt işlemi yapacaksanız donanıma göre farklı yaklaşımlar gerekebilir. (Ekran kartı için LACT uygulaması önerilir)
 
 **3. Linux'ta öğrendiğiniz her şeyi not edin.**  <br/>
 Karşılaştığınız sorunlara ve uyguladığınız çözümlere dair notlar alın. Sonradan kontrol etmek isteyeceksiniz.
@@ -118,8 +118,8 @@ Winboat Linux'ta sanal makine olarak Windows kurmanıza yarayan pratik bir araç
 
 !!! note
 
-- Video render, 3D render gibi yüksek işlem gücü gerektiren uygulamalar kağıt üzerinde çalıştırılabilir ama performans kaybı olacağı ve GPU passthrough özelliği olmadığı için Winboat ile kullanmak verimsiz olacaktır.
-- Winboat varsayılan olarak sistem başlangıcında açık olarak gelir, bu da sistem kaynaklarını belli ölçüde tüketebilir. Configuration kısmından auto start container özelliğini kapatmak isteyebilirsiniz.
+	- Video render, 3D render gibi yüksek işlem gücü gerektiren uygulamalar kağıt üzerinde çalıştırılabilir ama performans kaybı olacağı ve GPU passthrough özelliği olmadığı için Winboat ile kullanmak verimsiz olacaktır.
+	- Winboat varsayılan olarak sistem başlangıcında açık olarak gelir, bu da sistem kaynaklarını belli ölçüde tüketebilir. Configuration kısmından auto start container özelliğini kapatmak isteyebilirsiniz.
 
 **5. Tümüyle Linux'a geçiş.** <br/>
 Eğer dual boot durumuna ihtiyacınızın kalmadığını hissedecek kadar Linux kullandıysanız ve artık sisteme aşina olduysanız geçiş yapabilirsiniz. Bu noktada önceden aldığınız notlar işinize yarayacaktır.
