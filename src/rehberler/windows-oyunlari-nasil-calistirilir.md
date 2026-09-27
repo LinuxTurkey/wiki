@@ -2,7 +2,7 @@
 
 Basitçe Linux'ta bir Windows oyununu çalıştırmak için gereken üç şey vardır:
 1) Kurulu oyun dosyaları ve oyunu başlatmaya yarayan **.exe dosyası**
-2) **Proton**: Windows çağrılarını Linux ile uyumlu çağrılara çeviren bir ara katmandır. Eski oyunlarda eski sürümde proton gerekebilir.
+2) **Proton**: Windows çağrılarını Linux ile uyumlu çağrılara çeviren bir ara katmandır.
 3) **Prefix** (Wine öneki/ortamı): Windows dosya sistemini taklit edecek boş bir klasör (Daha sonradan farklı oyunlar için de aynı konum kullanılabilir. İlk kurulumda boş olmalıdır.)
 
 ## Oyunu nasıl kurabiliriz?
