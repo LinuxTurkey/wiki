@@ -1,3 +1,5 @@
+# Linux'ta Windows oyunları nasıl çalıştırılır?
+
 Basitçe Linux'ta bir Windows oyununu çalıştırmak için gereken üç şey vardır:
 1) Kurulu oyun dosyaları ve oyunu başlatmaya yarayan **.exe dosyası**
 2) **Proton**: Windows çağrılarını Linux ile uyumlu çağrılara çeviren bir ara katmandır. Eski oyunlarda eski sürümde proton gerekebilir.
