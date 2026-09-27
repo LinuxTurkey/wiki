@@ -110,7 +110,9 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 ### Solus
 
-[Solus](https://getsol.us/), Masaüstü kullanıcısı hedeflenerek geliştirilen bağımsız ve kullanıcı dostu bir topluluk dağıtımıdır. KDE, GNOME, Budgie ve XFCE masaüstü ortamlarını destekler. Kurulum sonrasında flathub deposu, medya ve donanım kodekleri, zram gibi son kullanıcının ihtiyaç duyacağı temel özellikler hazır bir şekilde gelir. Ayrıca tüm uygulamalar ve güncellemeler mağazadan yönetilebilir. Solus, Pardus/PiSi Linux'tan tanıdığımız PiSi paket yöneticisinin çatallanmış hali olan eopkg paket yöneticisini kullanır. Sistem güncellemeleri haftalık olarak verilir, kritik paketler ise daha uzun süre test edilerek sunulduğundan güncellik ve kararlılık dengesini hedefler. `eopkg history` özelliğiyle güncellemeler geri alınabilir.
+[Solus](https://getsol.us/), Bağımsız ve kullanıcı dostu bir topluluk dağıtımıdır. KDE, GNOME, Budgie ve XFCE masaüstü ortamlarını destekler. Kurulum sonrasında flathub deposu, medya ve donanım kodekleri, zram, scx scheduler (flash) gibi kullanıcının ihtiyaç duyabileceği temel özellikler ve ayarlar hazır bir şekilde gelir. Ayrıca tüm uygulamalar ve güncellemeler mağaza uygulamasından yönetilebilir. 
+
+Solus, Pardus/PiSi Linux'tan tanıdığımız PiSi paket yöneticisinin çatallanmış hali olan eopkg paket yöneticisini kullanır. Sistem güncellemeleri haftalık olarak verilir, kritik paketler ise daha uzun süre test edilerek sunulduğundan güncellik ve kararlılık dengesini hedefler. `eopkg history` özelliğiyle güncellemeler geri alınabilir. Paket sistemi yapısı gereği konfigürasyonları tetikleyicilerle otomatik olarak düzenler. Bu da kullanıcı hatasıyla sistemin bozulmasını önlemektedir. Hem yeni hem de tecrübeli kullanıcılar için iyi bir seçenek olabilir.
 
 ## Sürekli güncel bir dağıtım arıyorum
 
