@@ -1,9 +1,13 @@
 # Linux'ta Windows oyunları nasıl çalıştırılır?
 
+Steam oyunları ve Heroic Games Launcher üzerinden Epic, GOG gibi servislerin oyunları otomatik olarak hali hazırda yapılandırılmaktadır. Bunların dışında kalan tüm oyunlar için oyun yöneticilerini kullanarak oyunları manuel olarak çalıştırabilirsiniz.
+
 Basitçe Linux'ta bir Windows oyununu çalıştırmak için gereken üç şey vardır:
 1) Kurulu oyun dosyaları ve oyunu başlatmaya yarayan **.exe dosyası**
 2) **Proton**: Windows çağrılarını Linux ile uyumlu çağrılara çeviren bir ara katmandır.
 3) **Prefix** (Wine öneki/ortamı): Windows dosya sistemini taklit edecek boş bir klasör (Daha sonradan farklı oyunlar için de aynı konum kullanılabilir. İlk kurulumda boş olmalıdır.)
+
+
 
 ## Oyunu nasıl kurabiliriz?
 
@@ -62,3 +66,7 @@ Lutris artık yapay zeka yardımıyla geliştirme yaptığı için Türkçe dest
 - *Oynatıcı Seçenekleri* sekmesinden Wine sürümü olarak Proton sürümünü seçin.
 - İsterseniz *Sistem seçenekleri* kısmından MangoHUD veya Feral Gamemode seçeneklerini açabilirsiniz.
 - En son *Kaydet* diyerek oyunu ekleyebilirsiniz.
+
+
+## Eski oyunlar veya mod paketleri ile gelen oyunlar için not:
+Oyun topluluğunda Linux kullanan insanlar illa ki Linux için rehberler yayımlamaktadır. Bu tip oyunları çalıştırmak için ilgili oyunun topluluk sayfalarına, forumlara, discord sunucularına bakabilirsiniz. Örneğin Skyrim mod paketleri ve Stalker Anomaly popüler mod paketlerinin Linux için kurulum rehberleri vardır. Mod Organizer 2 gibi popüler mod yöneticilerine alternatif olarak Amethyst Mod Manager gibi Linux uyumlu mod yöneticileri de mevcuttur.
