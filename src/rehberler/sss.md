@@ -43,21 +43,21 @@ Linux'ta üç adet popüler taban dağıtım vardır. Diğer dağıtımların b�
 
 #### **Stabil dağıtımlar**
 
-Yalnızca kritik bug'lar ve güvenlik yamaları yapılarak belirli bir yazılım sürümünü uzun vadede idame ettirme politikasına sahip dağıtımlar stabil dağıtımlardır. Yazılım dünyasında stabilite kavramı farklı bağlamlarda kullanılabilir. Dağıtımlar için bu **öngörülebilir** yazılımlara sahip olmasıyla ilişkilidir. Bir yazılımın öngörülebilir olması onu doğrudan problemsiz kılmaz, bu yanlış anlaşılan bir konsepttir. Stabil yazılımların sorunları veya eksiklikleri bilindik sorunlardır ve buna uygun rehberlerle veya alternatif üçüncü parti yazılımlara yönelerek kullanıcı tarafından bu eksikliklerin giderilmesi beklenir. Sistem bu sayede daha kararlı tutulur.
+Yalnızca kritik bug'lar ve güvenlik yamaları yapılarak belirli bir yazılım sürümünü uzun vadede idame ettirme politikasına sahip dağıtımlar stabil dağıtımlardır. Dağıtımlar için stabilite **öngörülebilir** yazılımlara sahip olmasıyla ilişkilidir. Bir yazılımın öngörülebilir olması onu doğrudan problemsiz kılmaz, bu yanlış anlaşılan bir konsepttir. Stabil yazılımların sorunları veya eksiklikleri bilindik sorunlardır ve buna uygun rehberlerle veya alternatif üçüncü parti yazılımlara yönelerek kullanıcı tarafından bu eksikliklerin giderilmesi beklenir. Sistem bu sayede daha kararlı tutulur.
 
-*Debian/Ubuntu* tabanı 2-3 yıllık döngülerle LTS (uzun vadeli destek) sürümü yayımlarlar. Linux *Mint, ZorinOS* bu tabana bağımlı olduğu için LTS sürümden 1 sene sonra taban sürümünü güncellerler ancak 6 ayda bir isteğe bağlı yüklenebilen ara sürümler de yayımlamaktadırlar.
+*Debian/Ubuntu* tabanı 2-3 yıllık döngülerle LTS (uzun vadeli destek) sürümü yayımlarlar. *Linux Mint* ve *ZorinOS* bu tabanın üzerine oluşturulmuş dağıtımlardır.
 
 #### **Güncel dağıtımlar**
 
-Yazılımların yalnızca bug düzeltmeleri veya güvenlik güncellemeleri değil, özellik güncellemelerini de veren dağıtımlardır. Yani kullandığınız yazılımlara gelen ek özellikler hızlıca size sunulur. Genelde sorunlara dair belgeleme yapmak yerine doğrudan mevcut sorunları çözme yoluna giden bir politika izlerler, bu sayede kullanıcılara daha iyi bir deneyim sağlayabilirler. Ancak güncel dağıtımlardaki sorun da paketlerin uzun vadeli testlerden geçmemesi sebebiyle öngörülemez oluşlarıdır. Bir sorunu çözmek yenisini yaratabileceği için daha kararsız bir deneyim sunabilirler. Modern dağıtımlarda bunun için snapper gibi sistem kurtarma araçları geliştirilmiştir.
+Yazılımların yalnızca bug düzeltmeleri veya güvenlik güncellemeleri değil, özellik güncellemelerini de veren dağıtımlardır. Yani kullandığınız yazılımlara gelen ek özellikler hızlıca sunulur. Genelde mevcut sorunları hızlıca çözme yoluna giden bir politika izlerler, bu sayede kullanıcılara daha iyi bir deneyim sağlayabilirler. Ancak güncel dağıtımlardaki sorun da paketlerin uzun vadeli testlerden geçmemesi sebebiyle öngörülemez oluşlarıdır. Bir sorunu çözmek yenisini yaratabileceği için daha kararsız bir deneyim sunabilirler. Modern dağıtımlarda bunun için *btrfs* dosya sistemi üzerine *snapper* kurtarma aracı gibi yöntemler geliştirilmiştir.
 
-*Arch Linux, CachyOS* gibi dağıtımlar olduğunca güncel paketler sunan *bleeding edge*  olarak isimlendirilen dağıtımlardır, *OpenSUSE Tumbleweed* OpenQA sistemiyle paketlerini bir dizi teste tâbi tutup o şekilde güncelleme sunar, *Fedora* ve onu temel alan *Nobara* ise 6 ayda bir sürüm atlayan *leading edge* tarzı dağıtımlardır. 
+*Arch Linux, CachyOS* gibi dağıtımlar olduğunca güncel paketler sunan *bleeding edge*  olarak isimlendirilen dağıtımlardır, *OpenSUSE Tumbleweed* OpenQA sistemiyle paketlerini bir dizi teste tâbi tutup o şekilde güncelleme sunar, *Fedora* ise 6 ayda bir sürüm atlayan *leading edge* tarzı dağıtımlardır. 
 
 #### **Kürate (Curated) dağıtımlar** 
 
-Tamamen izledikleri politika gereği, ihtiyaca bağlı olarak hangi tipte yazılımları güncel hangi tipte yazılımları stabil tutacaklarına karar veren geliştiricilere sahip dağıtımlardır. *Bazzite, Solus, Nobara, PikaOS, Pop!\_OS* gibi dağıtımlar bunlara örnek gösterilebilir. Politikaları ve tabanlarına bağlı olarak güncel veya stabil tarafa yakın olabilirler. 
+Tamamen izledikleri politika gereği, ihtiyaca ve hitap ettiği kitleye bağlı olarak hangi tipte yazılımları güncel hangi tipte yazılımları stabil tutacaklarına karar veren geliştiricilere sahip dağıtımlardır. *Bazzite, Solus, Nobara, PikaOS, Pop!\_OS* gibi dağıtımlar bunlara örnek gösterilebilir. Politikaları ve tabanlarına bağlı olarak güncel veya stabil tarafa yakın olabilirler. 
 
-Örneğin Solus haftalık olarak sistem güncellemesini toplu şekilde veren ama kritik paketleri aylarca test edip bekletebilen bağımsız bir dağıtımdır. PikaOS Debian'ın kararsız tabanı olan Sid versiyonunu taban alır ancak masaüstü ortamlarına ait paketler gibi kritik paketleri uzun süre bekletebilmektedir. Pop!\_OS Ubuntu'nın 2024 yılı LTS sürümünü taban almasına rağmen masaüstü ortamı olan COSMIC'in güncellemelerini testten çıkar çıkmaz hızlı şekilde vermektedir. Çünkü COSMIC hali hazırda beta düzeyinde bir yazılım olduğundan her güncelleme kullanıcı deneyimini artırmak açısından değerlidir. Bu örnekler üzerinden stabilite veya güncelliğin bir arada bulunabileceğini hatırlatmakta fayda var. Önemli olan kullanıcı deneyimini geliştirecek, kullanıcının işini görecek akılcı çözümler veya tercihlerdir.
+Örneğin Solus haftalık olarak sistem güncellemesini toplu şekilde veren ama kritik paketleri aylarca test edip bekletebilen bağımsız bir dağıtımdır. Pop!\_OS Ubuntu'nın 2024 yılı LTS sürümünü taban almasına rağmen masaüstü ortamı olan COSMIC'in güncellemelerini testten çıkar çıkmaz vermektedir.
 
 ### ... dağıtımdan ... dağıtıma geçmeli miyim?
 
@@ -67,7 +67,9 @@ Tamamen izledikleri politika gereği, ihtiyaca bağlı olarak hangi tipte yazıl
 - Dosya yöneticisi gibi temel uygulamaları da değiştirebilirsiniz. Örneğin, Nautilus yerine Dolphin tercih edebilirsiniz.
 - Eğer kullandığınız Linux çekirdeği donanımınızda sorun çıkarıyorsa, LTS (“Uzun Vadeli Destek”) çekirdeğini kurup test edebilirsiniz.
 
-Dolayısıyla dağıtımlar arasındaki en temel farklardan biri aslında **yazılım depolarıdır**. Mesela bir dağıtımda Chrome 140 sürümündeyken, başka bir dağıtımda 139 sürümünde olabilir. Bu fark, dağıtımların **güncellik–stabilite** dengesine yönelik tercihleriyle ilgilidir. Kullanıcılar dağıtımların tercihlerine bağımlı değillerdir, istedikleri takdirde farklı paket depoları ekleyip veya farklı bir paket tipini kullanarak en güncel yazılımlara yine ulaşabilirler. Örneğin Linux Mint'in kendi deposunda 3.4 versiyonlu bir yazılım işinizi görmüyorsa Flatpak paket tipiyle 5.0 sürümünü kurabilirsiniz. Linux bu özgürlüğü sağlamaktadır. 
+Dolayısıyla dağıtımlar arasındaki en temel farklardan biri aslında **yazılım depolarıdır**. Mesela bir dağıtımda Chrome 140 sürümündeyken, başka bir dağıtımda 139 sürümünde olabilir. Bu fark, dağıtımların **güncellik–stabilite** dengesine yönelik tercihleriyle ilgilidir. 
+
+Kullanıcılar dağıtımların tercihlerine tam olarak bağımlı değillerdir, istedikleri takdirde farklı paket depoları ekleyip veya farklı bir paket tipini kullanarak en güncel yazılımlara yine ulaşabilirler. Örneğin Linux Mint'in kendi deposunda 3.4 versiyonlu bir yazılım işinizi görmüyorsa Flatpak paket tipiyle 5.0 sürümünü kurabilirsiniz. Linux bu özgürlüğü sağlamaktadır.
 
 ## Masaüstü Ortamı Nedir?
 
@@ -88,7 +90,7 @@ Bir dağıtımda en çok uyumluluğa sahip paket tipi o dağıtımın kendi resm
 	Geniş paket desteği mevcuttur. Güvenlik ve doğrulama mekanizmaları gelişkindir. Bağımlılık çözmede başarılı bir paket tipidir. `dnf` ve `zypper` paket yöneticileri tarafından kullanılır.
 
 - **.pkg.tar.zst** (Arch Linux, CachyOS vb.)
-	Sıkıştırma algoritması (zstd) çok başarılıdır, bu sayede az yer kaplar ve indirme süreleri kısadır. `pacman` paket yöneticisi ile yönetilirler. 
+	Sıkıştırma algoritması *zstd* çok başarılıdır, bu sayede az yer kaplar ve indirme ve kurulumu hızlıdır. `pacman` paket yöneticisi ile yönetilirler. 
 
 ### İzole paketler
 
@@ -105,14 +107,14 @@ Dağıtımlardan ve sistem paketlerinden bağımsız kendi havuzunda çalışan 
 	
 - **Homebrew** (Linuxbrew)
 	İzole olarak CLI (terminal) uygulamaları kurup yönetmenizi sağlar. Daha çok Mac ortamında tercih edilse de Linux'ta da kullanılabilir. Geliştiricilerin tercih ettiği bir yöntemdir.
-	
-- **Distrobox**
-	Konteyner mantığında çalışan minimal işletim sistemleri olarak düşünülebilir. Farklı bir dağıtıma ait paketleri kullanmak için tercih edilir. Örneğin Fedora kullanırken Arch Linux'a ait paketler kurulup ana sisteme bağlantı olarak aktarılabilir. Orta-ileri düzey kullanıcıya hitap eder. *BoxBuddy*, *Distroshelf* gibi GUI araçlarla kolayca yönetilebilir.
 
 ### Özel paketleme tipleri
 
 - **Tarball**
-	Normal sıkıştırılmış paketlerdir (.zip, .rar gibi). Dosyayı bir klasöre açarak içindeki binary (Windows'taki .exe gibi) dosyasıyla ilgili uygulama direkt çalıştırılabilir. Kimi tarball paketleri kendi kendini güncelleyebilen ve kendi ikonlarını oluşturabilen yapıdadır, örneğin *Zen Browser* ve *Telegram* uygulamaları. *Blender* ise resmi LTS versiyonunu tarball olarak sunmaktadır ancak kendi kendini güncelleyemez. 
+	Normal sıkıştırılmış paketlerdir (.zip, .rar gibi). Dosyayı bir klasöre açarak içindeki binary (Windows'taki .exe gibi) dosyasıyla ilgili uygulama direkt çalıştırılabilir. Kimi tarball paketleri kendi kendini güncelleyebilen ve kendi ikonlarını oluşturabilen yapıdadır, örneğin *Zen Browser* ve *Telegram* uygulamaları.
+
+- **Distrobox**
+	Konteyner mantığında çalışan minimal işletim sistemleri olarak düşünülebilir. Farklı bir dağıtıma ait paketleri kullanmak için tercih edilir. Örneğin Fedora kullanırken Arch Linux'a ait paketler kurulup ana sisteme bağlantı olarak aktarılabilir. Orta-ileri düzey kullanıcıya hitap eder. *BoxBuddy*, *Distroshelf* gibi GUI araçlarla kolayca yönetilebilir.
 	
 - **AUR** (Arch Kullanıcı Deposu)
 	Arch tabanlı dağıtımlarda farklı kaynaklardan paketlerin çekilip otomatik olarak derlenmesini sağlayan paket tariflerinin olduğu bir depodur. `yay`, `paru` gibi CLI veya *Shelly* gibi GUI uygulamalarla yönetilebilir. Devasa bir paket çeşitliliğine sahiptir. Ancak düzenli olarak siber saldırıya uğradığından güvenlik açısından soru işareti oluşturmuştur. Ayrıca sürekli yapılan derleme işlemleri işlemciye yük olabilir.
