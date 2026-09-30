@@ -1,66 +1,117 @@
 site_name: LinuxTurkey Wiki
 site_url: https://linuxturkey.github.io/wiki
-docs_dir: src
+site_description: >-
+  Dağıtım seçimi, kurulum, güvenlik, oyunlar 
+  ve sistem iyileştirmeleri.
+site_author: LinuxTurkey
+
 repo_url: https://github.com/LinuxTurkey/wiki
 repo_name: LinuxTurkey/wiki
 edit_uri: edit/main/src/
+
 use_directory_urls: false
-plugins:
-  - social:
-      cards_layout_options:
-        logo: assets/logo.png
-  - search
-  - offline
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - def_list
-  - pymdownx.tasklist:
-      custom_checkbox: true
+
+validation:
+  nav:
+    omitted_files: info
+    not_found: warn
+    absolute_links: info
+  links:
+    not_found: warn
+    unrecognized_links: info
+    absolute_links: info
+
 theme:
   name: material
+  language: tr
   icon:
     logo: simple/linux
   favicon: assets/favicon.png
   features:
     - navigation.instant
     - navigation.instant.progress
+    - navigation.tracking
     - navigation.sections
-    - navigation.prune
+    - navigation.top
+    - navigation.footer
     - content.action.edit
     - content.action.view
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
     - search.suggest
     - search.highlight
-  language: tr
+    - search.share
+    - toc.follow
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: slate
-      primary: red
-      accent: red
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: dark)"
+        icon: material/brightness-auto
+        name: Sistem temasına geç
+    - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: red
       accent: red
       toggle:
+        icon: material/weather-sunny
+        name: Açık temaya geç
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
         icon: material/weather-night
-        name: Switch to dark mode
+        name: Koyu temaya geç
+
+plugins:
+  - search
+  - social:
+      cards_layout_options:
+        logo: assets/logo.png
+  - offline
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - abbr
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+
 nav:
-  - index.md
-  - rehberler/sss.md
-  - faydali_baglantilar.md
+  - Giriş:
+      - index.md
+      - rehberler/sss.md
+      - faydali_baglantilar.md
   - Editör Rehberleri:
       - rehberler/hangi_dagitim.md
       - rehberler/linuxa-gecis.md
-      - rehberler/immutable-dagitimlar.md
       - rehberler/windowstan_linuxa.md
+      - rehberler/immutable-dagitimlar.md
   - Kullanıcı Rehberleri:
       - rehberler/linux_uyumlu_donanim.md
       - rehberler/lenovo_bios.md
