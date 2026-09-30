@@ -23,7 +23,6 @@
 
 **Herkes için uygundur.** Öyle veya böyle herkes Linux kullanabilir. Ancak daha çok gizliliğine önem verenlere, özgür yazılım fikri ile ilgilenenlere, kişiselleştirme tutkunlarına, yazılımcılara, editörlere, akademisyenlere, öğrencilere, minimalizm sevdalılarına, eski bilgisayara sahip kullanıcıya, render odaklı bilgisayar sahiplerine, iş akışında verimlilik arayanlara ve meraklı kullanıcılara daha uygun bir işletim sistemidir denebilir.
 
-
 ## Linux hakkında yanlış bilinenler
 
 - _"Linux her şeyi daha hızlı yapar."_ Her zaman değil, kullandığınız programlara ve seçtiğiniz dağıtıma göre bu çok değişiklik gösterir.
@@ -33,11 +32,11 @@
 
 ## Dağıtım nedir?
 
-Linux aslında bir işletim sistemi çekirdeğidir demiştik. Bu çekirdek üzerine katman katman örülen farklı paketlerden oluşturulan ve farklı tipte kullanıcılar tarafından kullanılmaya hazır paketler topluluğuna dağıtım denir. 
+Linux aslında bir işletim sistemi çekirdeğidir demiştik. Bu çekirdek üzerine katman katman örülen farklı paketlerden oluşturulan ve farklı tipte kullanıcılar tarafından kullanılmaya hazır paketler topluluğuna dağıtım denir.
 
-Dağıtımların birbirlerinden farkları hitap ettiği kullanıcı tipi, paket yönetimi, sürüm yönetimi, farklı ihtiyaçlara göre özel araçlar geliştirme gibi çeşitli tercihler olabilir. 
+Dağıtımların birbirlerinden farkları hitap ettiği kullanıcı tipi, paket yönetimi, sürüm yönetimi, farklı ihtiyaçlara göre özel araçlar geliştirme gibi çeşitli tercihler olabilir.
 
-Linux'ta üç adet popüler taban dağıtım vardır. Diğer dağıtımların büyük kısmı bu taban dağıtımlara bağımlı şekilde geliştirilir. Bunlar *Debian*, *RHEL (Fedora)*  ve *Arch Linux* tabanlarıdır. Hatta Debian'a bağlı olsa da kendine bağımlı onlarca dağıtıma sahip olmasından dolayı *Ubuntu*'yu bile bir taban olarak kabul edebiliriz.
+Linux'ta üç adet popüler taban dağıtım vardır. Diğer dağıtımların büyük kısmı bu taban dağıtımlara bağımlı şekilde geliştirilir. Bunlar _Debian_, _RHEL (Fedora)_  ve _Arch Linux_ tabanlarıdır. Hatta Debian'a bağlı olsa da kendine bağımlı onlarca dağıtıma sahip olmasından dolayı _Ubuntu_'yu bile bir taban olarak kabul edebiliriz.
 
 ### Stabil dağıtım ve güncel dağıtım ayrımı
 
@@ -45,17 +44,17 @@ Linux'ta üç adet popüler taban dağıtım vardır. Diğer dağıtımların b�
 
 Yalnızca kritik bug'lar ve güvenlik yamaları yapılarak belirli bir yazılım sürümünü uzun vadede idame ettirme politikasına sahip dağıtımlar stabil dağıtımlardır. Dağıtımlar için stabilite **öngörülebilir** yazılımlara sahip olmasıyla ilişkilidir. Bir yazılımın öngörülebilir olması onu doğrudan problemsiz kılmaz, bu yanlış anlaşılan bir konsepttir. Stabil yazılımların sorunları veya eksiklikleri bilindik sorunlardır ve buna uygun rehberlerle veya alternatif üçüncü parti yazılımlara yönelerek kullanıcı tarafından bu eksikliklerin giderilmesi beklenir. Sistem bu sayede daha kararlı tutulur.
 
-*Debian/Ubuntu* tabanı 2-3 yıllık döngülerle LTS (uzun vadeli destek) sürümü yayımlarlar. *Linux Mint* ve *ZorinOS* bu tabanın üzerine oluşturulmuş dağıtımlardır.
+_Debian/Ubuntu_ tabanı 2-3 yıllık döngülerle LTS (uzun vadeli destek) sürümü yayımlarlar. _Linux Mint_ ve _ZorinOS_ bu tabanın üzerine oluşturulmuş dağıtımlardır.
 
 #### **Güncel dağıtımlar**
 
-Yazılımların yalnızca bug düzeltmeleri veya güvenlik güncellemeleri değil, özellik güncellemelerini de veren dağıtımlardır. Yani kullandığınız yazılımlara gelen ek özellikler hızlıca sunulur. Genelde mevcut sorunları hızlıca çözme yoluna giden bir politika izlerler, bu sayede kullanıcılara daha iyi bir deneyim sağlayabilirler. Ancak güncel dağıtımlardaki sorun da paketlerin uzun vadeli testlerden geçmemesi sebebiyle öngörülemez oluşlarıdır. Bir sorunu çözmek yenisini yaratabileceği için daha kararsız bir deneyim sunabilirler. Modern dağıtımlarda bunun için *btrfs* dosya sistemi üzerine *snapper* kurtarma aracı gibi yöntemler geliştirilmiştir.
+Yazılımların yalnızca bug düzeltmeleri veya güvenlik güncellemeleri değil, özellik güncellemelerini de veren dağıtımlardır. Yani kullandığınız yazılımlara gelen ek özellikler hızlıca sunulur. Genelde mevcut sorunları hızlıca çözme yoluna giden bir politika izlerler, bu sayede kullanıcılara daha iyi bir deneyim sağlayabilirler. Ancak güncel dağıtımlardaki sorun da paketlerin uzun vadeli testlerden geçmemesi sebebiyle öngörülemez oluşlarıdır. Bir sorunu çözmek yenisini yaratabileceği için daha kararsız bir deneyim sunabilirler. Modern dağıtımlarda bunun için _btrfs_ dosya sistemi üzerine _snapper_ kurtarma aracı gibi yöntemler geliştirilmiştir.
 
-*Arch Linux, CachyOS* gibi dağıtımlar olduğunca güncel paketler sunan *bleeding edge*  olarak isimlendirilen dağıtımlardır, *OpenSUSE Tumbleweed* OpenQA sistemiyle paketlerini bir dizi teste tâbi tutup o şekilde güncelleme sunar, *Fedora* ise 6 ayda bir sürüm atlayan *leading edge* tarzı dağıtımlardır. 
+_Arch Linux, CachyOS_ gibi dağıtımlar olduğunca güncel paketler sunan _bleeding edge_  olarak isimlendirilen dağıtımlardır, _OpenSUSE Tumbleweed_ OpenQA sistemiyle paketlerini bir dizi teste tâbi tutup o şekilde güncelleme sunar, _Fedora_ ise 6 ayda bir sürüm atlayan _leading edge_ tarzı dağıtımlardır.
 
-#### **Kürate (Curated) dağıtımlar** 
+#### **Kürate (Curated) dağıtımlar**
 
-Tamamen izledikleri politika gereği, ihtiyaca ve hitap ettiği kitleye bağlı olarak hangi tipte yazılımları güncel hangi tipte yazılımları stabil tutacaklarına karar veren geliştiricilere sahip dağıtımlardır. *Bazzite, Solus, Nobara, PikaOS, Pop!\_OS* gibi dağıtımlar bunlara örnek gösterilebilir. Politikaları ve tabanlarına bağlı olarak güncel veya stabil tarafa yakın olabilirler. 
+Tamamen izledikleri politika gereği, ihtiyaca ve hitap ettiği kitleye bağlı olarak hangi tipte yazılımları güncel hangi tipte yazılımları stabil tutacaklarına karar veren geliştiricilere sahip dağıtımlardır. _Bazzite, Solus, Nobara, PikaOS, Pop!\_OS_ gibi dağıtımlar bunlara örnek gösterilebilir. Politikaları ve tabanlarına bağlı olarak güncel veya stabil tarafa yakın olabilirler.
 
 Örneğin Solus haftalık olarak sistem güncellemesini toplu şekilde veren ama kritik paketleri aylarca test edip bekletebilen bağımsız bir dağıtımdır. Pop!\_OS Ubuntu'nın 2024 yılı LTS sürümünü taban almasına rağmen masaüstü ortamı olan COSMIC'in güncellemelerini testten çıkar çıkmaz vermektedir.
 
@@ -67,7 +66,7 @@ Tamamen izledikleri politika gereği, ihtiyaca ve hitap ettiği kitleye bağlı 
 - Dosya yöneticisi gibi temel uygulamaları da değiştirebilirsiniz. Örneğin, Nautilus yerine Dolphin tercih edebilirsiniz.
 - Eğer kullandığınız Linux çekirdeği donanımınızda sorun çıkarıyorsa, LTS (“Uzun Vadeli Destek”) çekirdeğini kurup test edebilirsiniz.
 
-Dolayısıyla dağıtımlar arasındaki en temel farklardan biri aslında **yazılım depolarıdır**. Mesela bir dağıtımda Chrome 140 sürümündeyken, başka bir dağıtımda 139 sürümünde olabilir. Bu fark, dağıtımların **güncellik–stabilite** dengesine yönelik tercihleriyle ilgilidir. 
+Dolayısıyla dağıtımlar arasındaki en temel farklardan biri aslında **yazılım depolarıdır**. Mesela bir dağıtımda Chrome 140 sürümündeyken, başka bir dağıtımda 139 sürümünde olabilir. Bu fark, dağıtımların **güncellik–stabilite** dengesine yönelik tercihleriyle ilgilidir.
 
 Kullanıcılar dağıtımların tercihlerine tam olarak bağımlı değillerdir, istedikleri takdirde farklı paket depoları ekleyip veya farklı bir paket tipini kullanarak en güncel yazılımlara yine ulaşabilirler. Örneğin Linux Mint'in kendi deposunda 3.4 versiyonlu bir yazılım işinizi görmüyorsa Flatpak paket tipiyle 5.0 sürümünü kurabilirsiniz. Linux bu özgürlüğü sağlamaktadır.
 
@@ -84,43 +83,43 @@ Teknik açıdan masaüstü ortamı; aslında TTY'yi maskeleyen kullanıcı aray�
 Bir dağıtımda en çok uyumluluğa sahip paket tipi o dağıtımın kendi resmi paketleridir. Bu yüzden özel bir durum olmadıkça resmi depolardan sistem paketlerini kurmak önerilir.
 
 - **.deb** (Debian, Ubuntu, Mint vb.)
-	Linux dünyasında en yaygın paket tipidir. `apt` paket yöneticisini kullanır.
-	
+ Linux dünyasında en yaygın paket tipidir. `apt` paket yöneticisini kullanır.
+ 
 - **.rpm** (Fedora, OpenSUSE)
-	Geniş paket desteği mevcuttur. Güvenlik ve doğrulama mekanizmaları gelişkindir. Bağımlılık çözmede başarılı bir paket tipidir. `dnf` ve `zypper` paket yöneticileri tarafından kullanılır.
+ Geniş paket desteği mevcuttur. Güvenlik ve doğrulama mekanizmaları gelişkindir. Bağımlılık çözmede başarılı bir paket tipidir. `dnf` ve `zypper` paket yöneticileri tarafından kullanılır.
 
 - **.pkg.tar.zst** (Arch Linux, CachyOS vb.)
-	Sıkıştırma algoritması *zstd* çok başarılıdır, bu sayede az yer kaplar ve indirme ve kurulumu hızlıdır. `pacman` paket yöneticisi ile yönetilirler. 
+ Sıkıştırma algoritması _zstd_ çok başarılıdır, bu sayede az yer kaplar ve indirme ve kurulumu hızlıdır. `pacman` paket yöneticisi ile yönetilirler.
 
 ### İzole paketler
 
 Dağıtımlardan ve sistem paketlerinden bağımsız kendi havuzunda çalışan yalıtılmış paketlerdir. Evrensel niteliğe sahiptirler.
 
 - **Flatpak**
-	En yaygın izole paket sistemidir. [Flathub](https://flathub.org/tr) üzerinden uygulamalar görüntülenebilir. Kimi dağıtımlarda uygulama mağazalarına entegre edilmiştir. Dağıtımınıza uygun kurulumu için [bu adrese bakabilirsiniz](https://flathub.org/tr/setup). Flatpak paketleri için uygulama kaynağında sistem paketi veya flatpak paketi olarak farklı seçenekler bulunabilir. İzole bir ortamda çalıştığı için çeşitli izinler isteyebilir, bunları yönetmek adına Flatseal uygulaması kullanılabilir.
-	
+ En yaygın izole paket sistemidir. [Flathub](https://flathub.org/tr) üzerinden uygulamalar görüntülenebilir. Kimi dağıtımlarda uygulama mağazalarına entegre edilmiştir. Dağıtımınıza uygun kurulumu için [bu adrese bakabilirsiniz](https://flathub.org/tr/setup). Flatpak paketleri için uygulama kaynağında sistem paketi veya flatpak paketi olarak farklı seçenekler bulunabilir. İzole bir ortamda çalıştığı için çeşitli izinler isteyebilir, bunları yönetmek adına Flatseal uygulaması kullanılabilir.
+ 
 - **Appimage**
-	Kurulum olmadan doğrudan dosya ile çalıştırılan paketlerdir. Windowstaki portable uygulamalar gibidir. Bu uygulamaların güncellemelerini yönetmek ve uygulama menüsü ikonu oluşturmak için *Gear Lever* uygulaması kullanılabilir.
-	
+ Kurulum olmadan doğrudan dosya ile çalıştırılan paketlerdir. Windowstaki portable uygulamalar gibidir. Bu uygulamaların güncellemelerini yönetmek ve uygulama menüsü ikonu oluşturmak için _Gear Lever_ uygulaması kullanılabilir.
+ 
 - **Snap**
-	Canonical şirketinin tekelinde kapalı kaynaklı bir izole paket sistemidir. Bu yüzden tartışmalara yol açmıştır. Flatpak ile neredeyse aynı yapıdadır ancak ek olarak sistem servisleri ve sunucu araçlarını da paketleyebilmektedir.
-	
+ Canonical şirketinin tekelinde kapalı kaynaklı bir izole paket sistemidir. Bu yüzden tartışmalara yol açmıştır. Flatpak ile neredeyse aynı yapıdadır ancak ek olarak sistem servisleri ve sunucu araçlarını da paketleyebilmektedir.
+ 
 - **Homebrew** (Linuxbrew)
-	İzole olarak CLI (terminal) uygulamaları kurup yönetmenizi sağlar. Daha çok Mac ortamında tercih edilse de Linux'ta da kullanılabilir. Geliştiricilerin tercih ettiği bir yöntemdir.
+ İzole olarak CLI (terminal) uygulamaları kurup yönetmenizi sağlar. Daha çok Mac ortamında tercih edilse de Linux'ta da kullanılabilir. Geliştiricilerin tercih ettiği bir yöntemdir.
 
 ### Özel paketleme tipleri
 
 - **Tarball**
-	Normal sıkıştırılmış paketlerdir (.zip, .rar gibi). Dosyayı bir klasöre açarak içindeki binary (Windows'taki .exe gibi) dosyasıyla ilgili uygulama direkt çalıştırılabilir. Kimi tarball paketleri kendi kendini güncelleyebilen ve kendi ikonlarını oluşturabilen yapıdadır, örneğin *Zen Browser* ve *Telegram* uygulamaları.
+ Normal sıkıştırılmış paketlerdir (.zip, .rar gibi). Dosyayı bir klasöre açarak içindeki binary (Windows'taki .exe gibi) dosyasıyla ilgili uygulama direkt çalıştırılabilir. Kimi tarball paketleri kendi kendini güncelleyebilen ve kendi ikonlarını oluşturabilen yapıdadır, örneğin _Zen Browser_ ve _Telegram_ uygulamaları.
 
 - **Distrobox**
-	Konteyner mantığında çalışan minimal işletim sistemleri olarak düşünülebilir. Farklı bir dağıtıma ait paketleri kullanmak için tercih edilir. Örneğin Fedora kullanırken Arch Linux'a ait paketler kurulup ana sisteme bağlantı olarak aktarılabilir. Orta-ileri düzey kullanıcıya hitap eder. *BoxBuddy*, *Distroshelf* gibi GUI araçlarla kolayca yönetilebilir.
-	
+ Konteyner mantığında çalışan minimal işletim sistemleri olarak düşünülebilir. Farklı bir dağıtıma ait paketleri kullanmak için tercih edilir. Örneğin Fedora kullanırken Arch Linux'a ait paketler kurulup ana sisteme bağlantı olarak aktarılabilir. Orta-ileri düzey kullanıcıya hitap eder. _BoxBuddy_, _Distroshelf_ gibi GUI araçlarla kolayca yönetilebilir.
+ 
 - **AUR** (Arch Kullanıcı Deposu)
-	Arch tabanlı dağıtımlarda farklı kaynaklardan paketlerin çekilip otomatik olarak derlenmesini sağlayan paket tariflerinin olduğu bir depodur. `yay`, `paru` gibi CLI veya *Shelly* gibi GUI uygulamalarla yönetilebilir. Devasa bir paket çeşitliliğine sahiptir. Ancak düzenli olarak siber saldırıya uğradığından güvenlik açısından soru işareti oluşturmuştur. Ayrıca sürekli yapılan derleme işlemleri işlemciye yük olabilir.
-	
+ Arch tabanlı dağıtımlarda farklı kaynaklardan paketlerin çekilip otomatik olarak derlenmesini sağlayan paket tariflerinin olduğu bir depodur. `yay`, `paru` gibi CLI veya _Shelly_ gibi GUI uygulamalarla yönetilebilir. Devasa bir paket çeşitliliğine sahiptir. Ancak düzenli olarak siber saldırıya uğradığından güvenlik açısından soru işareti oluşturmuştur. Ayrıca sürekli yapılan derleme işlemleri işlemciye yük olabilir.
+ 
 - **NIXPkgs** (Nix)
-	Nix evrensel nitelikte bir paket sistemidir. Atomik olarak çalışan bir paket sistemidir, eski sürümlere geri dönmesi kolaydır. İki farklı sürümü aynı anda çalıştırmak gibi özellikleriyle geliştiricilere hitap eder. Dizin yapısının klasik Linux dosya sistemiyle çakışmaması sebebiyle her dağıtıma kurulabilir. İleri düzey kullanıcılara hitap eder.
+ Nix evrensel nitelikte bir paket sistemidir. Atomik olarak çalışan bir paket sistemidir, eski sürümlere geri dönmesi kolaydır. İki farklı sürümü aynı anda çalıştırmak gibi özellikleriyle geliştiricilere hitap eder. Dizin yapısının klasik Linux dosya sistemiyle çakışmaması sebebiyle her dağıtıma kurulabilir. İleri düzey kullanıcılara hitap eder.
 
 ## X11 mi Wayland mi?
 
