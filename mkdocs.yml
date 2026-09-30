@@ -67,6 +67,9 @@ nav:
       - rehberler/fedora-nvidia-akmod-rehberi.md
       - rehberler/fedora-yukseltme-rehberi.md
       - rehberler/plymouth.md
+      - rehberler/tutarli-fps
+      - rehberler/windows-oyunlari.md
+      - rehberler/steam-depolama-surucusu.md
   - Güvenlik ve Sistem:
       - rehberler/firefox-hardened.md
       - rehberler/flatpak-ve-tarayicilar.md
