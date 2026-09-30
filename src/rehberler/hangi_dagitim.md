@@ -20,7 +20,7 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 
 !!!note
 
-	 Immutable dağıtımları tercih ederken hedef kitlesini, kullanım amacını ve hangi donanımları desteklediğini dikkate almak gerekir. Kullanım amacı doğrultusunda (Bazzite'ta konsol benzeri deneyim için) kullanıldığı taktirde sorunsuz bir deneyim sağlamaktadır. Ancak sistem düzeyinde bir sürücü veya uygulama kurmak istediğinizde bu işlemler standart dağıtımlara göre daha karmaşık veya verimsiz olabilir.
+  Immutable dağıtımları tercih ederken hedef kitlesini, kullanım amacını ve hangi donanımları desteklediğini dikkate almak gerekir. Kullanım amacı doğrultusunda (Bazzite'ta konsol benzeri deneyim için) kullanıldığı taktirde sorunsuz bir deneyim sağlamaktadır. Ancak sistem düzeyinde bir sürücü veya uygulama kurmak istediğinizde bu işlemler standart dağıtımlara göre daha karmaşık veya verimsiz olabilir.
 
 ### Nobara
 
@@ -110,7 +110,7 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 ### Solus
 
-[Solus](https://getsol.us/), Bağımsız ve kullanıcı dostu bir topluluk dağıtımıdır. KDE, GNOME, Budgie ve XFCE masaüstü ortamlarını destekler. Kurulum sonrasında flathub deposu, medya ve donanım kodekleri, zram, scx scheduler (flash) gibi kullanıcının ihtiyaç duyabileceği temel özellikler ve ayarlar hazır bir şekilde gelir. Ayrıca tüm uygulamalar ve güncellemeler mağaza uygulamasından yönetilebilir. 
+[Solus](https://getsol.us/), Bağımsız ve kullanıcı dostu bir topluluk dağıtımıdır. KDE, GNOME, Budgie ve XFCE masaüstü ortamlarını destekler. Kurulum sonrasında flathub deposu, medya ve donanım kodekleri, zram, scx scheduler (flash) gibi kullanıcının ihtiyaç duyabileceği temel özellikler ve ayarlar hazır bir şekilde gelir. Ayrıca tüm uygulamalar ve güncellemeler mağaza uygulamasından yönetilebilir.
 
 Solus, Pardus/PiSi Linux'tan tanıdığımız PiSi paket yöneticisinin çatallanmış hali olan eopkg paket yöneticisini kullanır. Sistem güncellemeleri haftalık olarak verilir, kritik paketler ise daha uzun süre test edilerek sunulduğundan güncellik ve kararlılık dengesini hedefler. `eopkg history` özelliğiyle güncellemeler geri alınabilir. Paket sistemi yapısı gereği konfigürasyonları tetikleyicilerle otomatik olarak düzenler. Bu da kullanıcı hatasıyla sistemin bozulmasını önlemektedir. Hem yeni hem de tecrübeli kullanıcılar için iyi bir seçenek olabilir.
 
