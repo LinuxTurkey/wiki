@@ -92,7 +92,12 @@ Bu aşamaları takip ettiğinizde karşınıza bilgisayarınızın BIOS menüsü
 ## Kurulum veya ön izleme
 
 - Eğer kurulum yapmayıp sadece sistemi denemek istiyorsanız. USB belleği önyüklediğinizde karşınıza çıkan sistemi özgürce keşfedebilirsiniz.
-- Eğer kurulum yapmak istiyorsanız, dağıtımdan dağıtıma çeşitlilik gösterdiği için video platformlarından veya tercih ettiğiniz dağıtımın kurulumu ile alakalı harici kaynaklardan destek alabilirsiniz. Örneğin:<br>
-  :fontawesome-brands-youtube:{ style="color: #EE0F0F" } [Linux Mint Kurulum Videosu - Murat Süzgün](https://www.youtube.com/watch?v=MQZArEZrx9Y)<br>
-  :fontawesome-brands-youtube:{ style="color: #EE0F0F" } [Fedora Kurulum Videosu - Furkan Yılmaz](https://www.youtube.com/watch?v=4wzRKargwXA)<br>
-  :fontawesome-brands-youtube:{ style="color: #EE0F0F" } [Ubuntu Kurulum Videosu - Yücel Kahraman](https://www.youtube.com/watch?v=b9uFnHwBLn0)
+
+Eğer kurulum yapmak istiyorsanız, dağıtımdan dağıtıma çeşitlilik gösterdiği için video platformlarından veya tercih ettiğiniz dağıtımın kurulumu ile alakalı harici kaynaklardan destek alabilirsiniz.
+
+Örneğin:<br>
+
+- :fontawesome-brands-youtube:{ style="color: #EE0F0F" } [Linux Mint Kurulum Videosu - Murat Süzgün](https://www.youtube.com/watch?v=MQZArEZrx9Y)
+- :fontawesome-brands-youtube:{ style="color: #EE0F0F" } [Fedora 44 KDE Kurulum Videosu - Köfteist Köfte](https://youtu.be/NRk5e74kUdY)
+- :fontawesome-brands-youtube:{ style="color: #EE0F0F" } [Ubuntu Kurulum Videosu - Yücel Kahraman](https://www.youtube.com/watch?v=b9uFnHwBLn0)
+- :fontawesome-brands-youtube:{ style="color: #EE0F0F" } [CachyOS Kurulum Videosu - Yusuf İpek](https://youtu.be/2UoCbpbB9ks)

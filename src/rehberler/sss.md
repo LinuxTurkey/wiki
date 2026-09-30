@@ -17,10 +17,11 @@
 - **Windows'a özel çoğu program Linux'ta çalışmaz** (ör. Adobe programları, Microsoft Office, çoğu DAW). Alternatiflerinin bulunmasını gerektirir (ör. LibreOffice, GIMP, Krita, Inkscape). Bunların dışında çoğunlukla profesyonel amaçlı kullanılan yazılımların büyük bir çoğunluğu Linux için çıkarılmaz (ör. CAD yazılımlarının büyük bir çoğunluğu).
 - Çekirdek seviyesinde çalışan **anti-cheat içeren çoğu oyun çalışmaz** (ör. Vanguard, EA Anticheat). Hangi anti-cheat içeren oyunların çalıştığını öğrenmek için [Are We Anti-Cheat Yet?](https://areweanticheatyet.com/) veri tabanına göz atabilirsiniz.
 - Çoğu Nvidia sürücüsü destekleniyor olsa da **Linux'un Nvidia ile arası tarihsel olarak pek iyi olmamıştır.** Ekran kartınızın desteği hakkında kısa bir araştırma yapmanız tavsiye edilir.
+- **Bazı alışkanlıkları değiştirme zorunluluğu**. Linux'un farklı yapısı başlangıçta bir kültür şoku etkisi yaratabilir. Bu durumun geçici olduğunu ve bir günde Linux'u hakkıyla öğrenemeyeceğinizi bilmeniz gerekir. Gerekli zamanı verdiğinizde ve sabırlı olduğunuzda Linux sağladığı tüm özelleştirme imkanıyla ve sunduğu esnekliklerle sizin için bir vazgeçilmez olabilir.
 
 ## Linux en çok kimlere uygundur?
 
-**Herkes için uygundur.** Örneğin [Linux Mint](https://linuxmint.com/), her türlü kullanıcıya rahat bir deneyim sunar. Ancak genel kitleyi hesaba katarsak: yazılımcılara, meraklı kullanıcılara, gizliliğine önem verenlere ve özgür yazılım fikri ile ilgilenenlere daha uygun bir işletim sistemi grubudur.
+**Herkes için uygundur.** Öyle veya böyle herkes Linux kullanabilir. Ancak daha çok gizliliğine önem verenlere, özgür yazılım fikri ile ilgilenenlere, kişiselleştirme tutkunlarına, yazılımcılara, editörlere, akademisyenlere, öğrencilere, minimalizm sevdalılarına, eski bilgisayara sahip kullanıcıya, render odaklı bilgisayar sahiplerine, iş akışında verimlilik arayanlara ve meraklı kullanıcılara daha uygun bir işletim sistemidir denebilir.
 
 ## Linux hakkında yanlış bilinenler
 
@@ -29,7 +30,35 @@
 - _"Linux kullanmak hackerlıkta yardımcı olur."_ Bu doğru değildir. Çok güzel yemekler yemek sizi aşçı yapmıyorsa, Linux kullanmak da sizi "hacker" yapmayacaktır. Siber güvenlikle alakalı profesyonel kurslara başvurmak daha mantıklı bir çözüm olacaktır.
 - _"Linux bir işletim sistemidir."_ Hayır, Linux bir işletim sistemi çekirdeğidir. Bu çekirdeğin üzerine eklenerek yazılmış tüm projelere dağıtım, yani işletim sistemi adı verilir. Örneğin Ubuntu bir dağıtım/işletim sistemidir, Linux ise Ubuntu dağıtımının çekirdeğidir.
 
-## ... dağıtımdan ... dağıtıma geçmeli miyim?
+## Dağıtım nedir?
+
+Linux aslında bir işletim sistemi çekirdeğidir demiştik. Bu çekirdek üzerine katman katman örülen farklı paketlerden oluşturulan ve farklı tipte kullanıcılar tarafından kullanılmaya hazır paketler topluluğuna dağıtım denir.
+
+Dağıtımların birbirlerinden farkları hitap ettiği kullanıcı tipi, paket yönetimi, sürüm yönetimi, farklı ihtiyaçlara göre özel araçlar geliştirme gibi çeşitli tercihler olabilir.
+
+Linux'ta üç adet popüler taban dağıtım vardır. Diğer dağıtımların büyük kısmı bu taban dağıtımlara bağımlı şekilde geliştirilir. Bunlar _Debian_, _RHEL (Fedora)_  ve _Arch Linux_ tabanlarıdır. Hatta Debian'a bağlı olsa da kendine bağımlı onlarca dağıtıma sahip olmasından dolayı _Ubuntu_'yu bile bir taban olarak kabul edebiliriz.
+
+### Stabil dağıtım ve güncel dağıtım ayrımı
+
+#### **Stabil dağıtımlar**
+
+Yalnızca kritik bug'lar ve güvenlik yamaları yapılarak belirli bir yazılım sürümünü uzun vadede idame ettirme politikasına sahip dağıtımlar stabil dağıtımlardır. Dağıtımlar için stabilite **öngörülebilir** yazılımlara sahip olmasıyla ilişkilidir. Bir yazılımın öngörülebilir olması onu doğrudan problemsiz kılmaz, bu yanlış anlaşılan bir konsepttir. Stabil yazılımların sorunları veya eksiklikleri bilindik sorunlardır ve buna uygun rehberlerle veya alternatif üçüncü parti yazılımlara yönelerek kullanıcı tarafından bu eksikliklerin giderilmesi beklenir. Sistem bu sayede daha kararlı tutulur.
+
+_Debian/Ubuntu_ tabanı 2-3 yıllık döngülerle LTS (uzun vadeli destek) sürümü yayımlarlar. _Linux Mint_ ve _ZorinOS_ bu tabanın üzerine oluşturulmuş dağıtımlardır.
+
+#### **Güncel dağıtımlar**
+
+Yazılımların yalnızca bug düzeltmeleri veya güvenlik güncellemeleri değil, özellik güncellemelerini de veren dağıtımlardır. Yani kullandığınız yazılımlara gelen ek özellikler hızlıca sunulur. Genelde mevcut sorunları hızlıca çözme yoluna giden bir politika izlerler, bu sayede kullanıcılara daha iyi bir deneyim sağlayabilirler. Ancak güncel dağıtımlardaki sorun da paketlerin uzun vadeli testlerden geçmemesi sebebiyle öngörülemez oluşlarıdır. Bir sorunu çözmek yenisini yaratabileceği için daha kararsız bir deneyim sunabilirler. Modern dağıtımlarda bunun için _btrfs_ dosya sistemi üzerine _snapper_ kurtarma aracı gibi yöntemler geliştirilmiştir.
+
+_Arch Linux, CachyOS_ gibi dağıtımlar olduğunca güncel paketler sunan _bleeding edge_  olarak isimlendirilen dağıtımlardır, _OpenSUSE Tumbleweed_ OpenQA sistemiyle paketlerini bir dizi teste tâbi tutup o şekilde güncelleme sunar, _Fedora_ ise 6 ayda bir sürüm atlayan _leading edge_ tarzı dağıtımlardır.
+
+#### **Kürate (Curated) dağıtımlar**
+
+Tamamen izledikleri politika gereği, ihtiyaca ve hitap ettiği kitleye bağlı olarak hangi tipte yazılımları güncel hangi tipte yazılımları stabil tutacaklarına karar veren geliştiricilere sahip dağıtımlardır. _Bazzite, Solus, Nobara, PikaOS, Pop!\_OS_ gibi dağıtımlar bunlara örnek gösterilebilir. Politikaları ve tabanlarına bağlı olarak güncel veya stabil tarafa yakın olabilirler.
+
+Örneğin Solus haftalık olarak sistem güncellemesini toplu şekilde veren ama kritik paketleri aylarca test edip bekletebilen bağımsız bir dağıtımdır. Pop!\_OS Ubuntu'nın 2024 yılı LTS sürümünü taban almasına rağmen masaüstü ortamı olan COSMIC'in güncellemelerini testten çıkar çıkmaz vermektedir.
+
+### ... dağıtımdan ... dağıtıma geçmeli miyim?
 
 Çoğu Linux dağıtımı, belirli programlar ve masaüstü ortamlarıyla birlikte gelse de **modüler bir yapıya sahiptir**. Yani istediğiniz programı, masaüstü ortamını veya pencere yöneticisini değiştirebilir ya da birden fazlasını aynı anda kullanabilirsiniz. Örneğin:
 
@@ -37,14 +66,60 @@
 - Dosya yöneticisi gibi temel uygulamaları da değiştirebilirsiniz. Örneğin, Nautilus yerine Dolphin tercih edebilirsiniz.
 - Eğer kullandığınız Linux çekirdeği donanımınızda sorun çıkarıyorsa, LTS (“Uzun Vadeli Destek”) çekirdeğini kurup test edebilirsiniz.
 
-Dolayısıyla dağıtımlar arasındaki en temel fark aslında **yazılım depolarıdır**. Mesela bir dağıtımda Chrome 140 sürümündeyken, başka bir dağıtımda 139 sürümünde olabilir. Bu fark, dağıtımların **güncellik–stabilite** dengesine yönelik tercihleriyle ilgilidir.
+Dolayısıyla dağıtımlar arasındaki en temel farklardan biri aslında **yazılım depolarıdır**. Mesela bir dağıtımda Chrome 140 sürümündeyken, başka bir dağıtımda 139 sürümünde olabilir. Bu fark, dağıtımların **güncellik–stabilite** dengesine yönelik tercihleriyle ilgilidir.
 
-Eğer hala kararsızsanız:
+Kullanıcılar dağıtımların tercihlerine tam olarak bağımlı değillerdir, istedikleri takdirde farklı paket depoları ekleyip veya farklı bir paket tipini kullanarak en güncel yazılımlara yine ulaşabilirler. Örneğin Linux Mint'in kendi deposunda 3.4 versiyonlu bir yazılım işinizi görmüyorsa Flatpak paket tipiyle 5.0 sürümünü kurabilirsiniz. Linux bu özgürlüğü sağlamaktadır.
 
-- Daha güncel paketlere ulaşmak ama zaman zaman hatalarla karşılaşmayı göze almak istiyorsanız &rightarrow; **[Arch Linux tabanlı dağıtımlar](https://distrowatch.com/search.php?basedon=Arch)**
-- Daha stabil ama paketleri nispeten eski olan bir sistem istiyorsanız &rightarrow; **[Debian tabanlı dağıtımlar](https://distrowatch.com/search.php?basedon=Debian)**
+## Masaüstü Ortamı Nedir?
 
-tercih edebilirsiniz.
+Masaüstü Ortamı (Desktop Environment - DE) bilgisayarı görsel olarak kullanmanızı sağlayan grafik arayüzdür. Linux, Windows ve macOS gibi tek bir masaüstü ortamından ibaret değildir. Yeni bir Linux kullanıcısı için en önemli adım *dağıtım*lardan önce kullanacağı masaüstü ortamını tercih etmektir. [KDE Plasma](https://kde.org/tr/plasma-desktop/), [GNOME](https://www.gnome.org/), [COSMIC](https://system76.com/cosmic), [Cinnamon](https://tr.wikipedia.org/wiki/Cinnamon), [Budgie](https://buddiesofbudgie.org/), [XFCE](https://xfce.org/), [LXQt](https://lxqt-project.org/) gibi farklı amaçlara hizmet eden ve farklı felsefelere sahip kullanıcı arayüzlerini inceleyebilirsiniz.
+
+Teknik açıdan masaüstü ortamı; aslında TTY'yi maskeleyen kullanıcı arayüzü olarak görülebilir. TTY ya da terminal arayüzü grafiksel ortamın arkaplanında çalışan komut işleme kısmıdır. Masaüstü ortamı olmaz ise TTY yani o "korkunç" siyah ekran sizi karşılar. Grafik katmanı (Wayland/X11 + Display Server + Gtk/Qt kütüphaneleri) ve onun üzerine inşaa edilen masaüstü ortamları (KDE, GNOME vb.) TTY'de yapabileceklerinizi kolayca grafik arayüzünden yapmanızı sağlar. Grafik katmanda sorun yaşadığınızda Ctrl+Alt+F3 (F4,F5 ... de dahil) kısayoluyla TTY arayüzüne ulaşıp terminalden sistem kurtarma yapabilirsiniz.
+
+## Farklı uygulama paket tipleri nelerdir?
+
+### Dağıtıma bağlı sistem paketleri
+
+Bir dağıtımda en çok uyumluluğa sahip paket tipi o dağıtımın kendi resmi paketleridir. Bu yüzden özel bir durum olmadıkça resmi depolardan sistem paketlerini kurmak önerilir.
+
+- **.deb** (Debian, Ubuntu, Mint vb.)
+ Linux dünyasında en yaygın paket tipidir. `apt` paket yöneticisini kullanır.
+ 
+- **.rpm** (Fedora, OpenSUSE)
+ Geniş paket desteği mevcuttur. Güvenlik ve doğrulama mekanizmaları gelişkindir. Bağımlılık çözmede başarılı bir paket tipidir. `dnf` ve `zypper` paket yöneticileri tarafından kullanılır.
+
+- **.pkg.tar.zst** (Arch Linux, CachyOS vb.)
+ Sıkıştırma algoritması _zstd_ çok başarılıdır, bu sayede az yer kaplar ve indirme ve kurulumu hızlıdır. `pacman` paket yöneticisi ile yönetilirler.
+
+### İzole paketler
+
+Dağıtımlardan ve sistem paketlerinden bağımsız kendi havuzunda çalışan yalıtılmış paketlerdir. Evrensel niteliğe sahiptirler.
+
+- **Flatpak**
+ En yaygın izole paket sistemidir. [Flathub](https://flathub.org/tr) üzerinden uygulamalar görüntülenebilir. Kimi dağıtımlarda uygulama mağazalarına entegre edilmiştir. Dağıtımınıza uygun kurulumu için [bu adrese bakabilirsiniz](https://flathub.org/tr/setup). Flatpak paketleri için uygulama kaynağında sistem paketi veya flatpak paketi olarak farklı seçenekler bulunabilir. İzole bir ortamda çalıştığı için çeşitli izinler isteyebilir, bunları yönetmek adına Flatseal uygulaması kullanılabilir.
+ 
+- **Appimage**
+ Kurulum olmadan doğrudan dosya ile çalıştırılan paketlerdir. Windowstaki portable uygulamalar gibidir. Bu uygulamaların güncellemelerini yönetmek ve uygulama menüsü ikonu oluşturmak için _Gear Lever_ uygulaması kullanılabilir.
+ 
+- **Snap**
+ Canonical şirketinin tekelinde kapalı kaynaklı bir izole paket sistemidir. Bu yüzden tartışmalara yol açmıştır. Flatpak ile neredeyse aynı yapıdadır ancak ek olarak sistem servisleri ve sunucu araçlarını da paketleyebilmektedir.
+ 
+- **Homebrew** (Linuxbrew)
+ İzole olarak CLI (terminal) uygulamaları kurup yönetmenizi sağlar. Daha çok Mac ortamında tercih edilse de Linux'ta da kullanılabilir. Geliştiricilerin tercih ettiği bir yöntemdir.
+
+### Özel paketleme tipleri
+
+- **Tarball**
+ Normal sıkıştırılmış paketlerdir (.zip, .rar gibi). Dosyayı bir klasöre açarak içindeki binary (Windows'taki .exe gibi) dosyasıyla ilgili uygulama direkt çalıştırılabilir. Kimi tarball paketleri kendi kendini güncelleyebilen ve kendi ikonlarını oluşturabilen yapıdadır, örneğin _Zen Browser_ ve _Telegram_ uygulamaları.
+
+- **Distrobox**
+ Konteyner mantığında çalışan minimal işletim sistemleri olarak düşünülebilir. Farklı bir dağıtıma ait paketleri kullanmak için tercih edilir. Örneğin Fedora kullanırken Arch Linux'a ait paketler kurulup ana sisteme bağlantı olarak aktarılabilir. Orta-ileri düzey kullanıcıya hitap eder. _BoxBuddy_, _Distroshelf_ gibi GUI araçlarla kolayca yönetilebilir.
+ 
+- **AUR** (Arch Kullanıcı Deposu)
+ Arch tabanlı dağıtımlarda farklı kaynaklardan paketlerin çekilip otomatik olarak derlenmesini sağlayan paket tariflerinin olduğu bir depodur. `yay`, `paru` gibi CLI veya _Shelly_ gibi GUI uygulamalarla yönetilebilir. Devasa bir paket çeşitliliğine sahiptir. Ancak düzenli olarak siber saldırıya uğradığından güvenlik açısından soru işareti oluşturmuştur. Ayrıca sürekli yapılan derleme işlemleri işlemciye yük olabilir.
+ 
+- **NIXPkgs** (Nix)
+ Nix evrensel nitelikte bir paket sistemidir. Atomik olarak çalışan bir paket sistemidir, eski sürümlere geri dönmesi kolaydır. İki farklı sürümü aynı anda çalıştırmak gibi özellikleriyle geliştiricilere hitap eder. Dizin yapısının klasik Linux dosya sistemiyle çakışmaması sebebiyle her dağıtıma kurulabilir. İleri düzey kullanıcılara hitap eder.
 
 ## X11 mi Wayland mi?
 
@@ -75,9 +150,3 @@ X11'deki bu isteğe bağlı dizgileme yöntemi, sonradan çalıştırılan dizgi
 - **HDR ve renk profili desteği:** Özellikle yeni monitörlerde kullanıcıların aradığı bir özelliktir, Wayland'de desteği vardır.
 - **Monitörlerde farklı yenileme oranları:** Örneğin X11 kullanan, 60Hz ve 100Hz iki monitör içeren bir sistemde, iki monitörün de maksimum yenileme oranlarını kullanmak isterseniz VSync gibi dizgileyici özelliklerinden feragat etmeniz gerekir. Wayland'de ise bu tip bir kısıt yoktur, farklı yenileme oranlarına sahip ekranların dizgilemesi doğru bir şekilde yapılır.
 - **Monitörlerde farklı kademeli ölçeklendirme:** Wayland'de bir monitörün yakınlaştırma ölçeğinin %110, diğerinin %120 gibi bir değere atanabilme imkanı vardır.
-
-## Masaüstü Ortamı Nedir?
-
-Masaüstü ortamı; aslında TTY'yi maskeleyen kullanıcı arayüzü olarak görülebilir.
-
-Masaüstü ortamı olmaz ise TTY yani o "korkunç" siyah ekran sizi karşılar. Aslında eskiden bu "korkunç" değil normaldi. Masaüstü ortamları ise, bu TTY'yi maskeleyen, üzerini örten bir kılıf gibi. TTY'de yapabileceklerinizi daha kolayca grafik arayüzünden yapmanızı sağlar.

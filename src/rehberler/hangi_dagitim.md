@@ -6,6 +6,8 @@ Dağıtım seçerken donanım özellikleriniz önemlidir. Öncelikle [Linux Uyum
 
 ## Oyun odaklı bir dağıtım arıyorum
 
+Oyun dağıtımları yalnızca oyuncular için değil Linux'a yeni başlayan kullanıcılar için de iyi bir seçenek olabilmektedir. Oyun oynamasanız bile içinde gelen diğer araçlarla birlikte Linux'a kolay bir başlangıç yapabilmenizi sağlayabilir.
+
 Çoğu modern dağıtım, Valve'ın Proton uyumluluk katmanı sayesinde çoğu oyunu desteklemektedir. Ancak çekirdek seviyesinde anti-cheat kullanmayı gerektiren oyunlar ve sistemler hiçbir Linux dağıtımında desteklenmemektedir. (ör. Vanguard, FaceIt)
 
 Proton tarafından desteklenen oyunlara göz atmak için: [ProtonDB](https://www.protondb.com/)
@@ -18,11 +20,11 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 
 !!!note
 
- Immutable dağıtımları tercih ederken hedef kitlesini, kullanım amacını ve hangi donanımları desteklediğini dikkate almak gerekir. Kullanım amacı doğrultusunda (Bazzite'ta konsol benzeri deneyim için) kullanıldığı taktirde sorunsuz bir deneyim sağlamaktadır. Ancak sistem düzeyinde bir sürücü veya uygulama kurmak istediğinizde bu işlemler standart dağıtımlara göre daha karmaşık veya verimsiz olabilir.
+  Immutable dağıtımları tercih ederken hedef kitlesini, kullanım amacını ve hangi donanımları desteklediğini dikkate almak gerekir. Kullanım amacı doğrultusunda (Bazzite'ta konsol benzeri deneyim için) kullanıldığı taktirde sorunsuz bir deneyim sağlamaktadır. Ancak sistem düzeyinde bir sürücü veya uygulama kurmak istediğinizde bu işlemler standart dağıtımlara göre daha karmaşık veya verimsiz olabilir.
 
 ### Nobara
 
-[Nobara Project](https://nobaraproject.org/), Fedora dağıtımının kullanıcı dostu iyileştirmelerle değiştirilmiş bir sürümüdür. KDE ve GNOME desteği vardır. Fedora, kurumsal yapısı gereği ve lisans sorunları sebebiyle üçüncü parti veya tescilli yazılımları içeren paketlerle gelmez. Nobara, Fedora’da eksik olan ve oyunlar açısından önemli olan WINE bağımlılıkları, OBS Studio, GStreamer gibi kodek paketleri, NVIDIA sürücüleri ve çeşitli küçük paket düzeltmeleri ile birlikte gelir. NVIDIA kullanıcıları için özel ISO kurulum imajlarına sahiptir.
+[Nobara](https://nobaraproject.org/), Fedora dağıtımının kullanıcı dostu iyileştirmelerle değiştirilmiş bir sürümüdür. KDE ve GNOME desteği vardır. Fedora, kurumsal yapısı gereği ve lisans sorunları sebebiyle üçüncü parti veya tescilli yazılımları içeren paketlerle gelmez. Nobara, Fedora’da eksik olan ve oyunlar açısından önemli olan WINE bağımlılıkları, OBS Studio, GStreamer gibi kodek paketleri, NVIDIA sürücüleri ve çeşitli küçük paket düzeltmeleri ile birlikte gelir. NVIDIA kullanıcıları için özel ISO kurulum imajlarına sahiptir.
 
 ### PikaOS
 
@@ -40,7 +42,7 @@ Anti-cheat sistemi Linux'u destekleyen oyunlara göz atmak için: [Are We Anti-C
 
 ### Fedora
 
-[Fedora Linux](https://fedoraproject.org/) (eski adıyla, Fedora Core), açık kaynak kodlu ve özgür bir Linux dağıtımıdır. KDE ve GNOME (Workstation) desteği vardır, diğer birçok masaüstü ortamının [spin](https://fedoraproject.org/spins/)'lerini de sunmaktadır.  Dünya çapında bir özgür yazılım topluluğu olan Fedora Projesi tarafından geliştirilmekte ve yönetilmekte, Red Hat tarafından desteklenmektedir.
+[Fedora](https://fedoraproject.org/) (eski adıyla, Fedora Core), açık kaynak kodlu ve özgür bir Linux dağıtımıdır. KDE ve GNOME (Workstation) desteği vardır, diğer birçok masaüstü ortamının [spin](https://fedoraproject.org/spins/)'lerini de sunmaktadır.  Dünya çapında bir özgür yazılım topluluğu olan Fedora Projesi tarafından geliştirilmekte ve yönetilmekte, Red Hat tarafından desteklenmektedir.
 
 !!! note
 
@@ -108,7 +110,9 @@ Pop!\_OS esas olarak System76 tarafından üretilen bilgisayarlara önceden kuru
 
 ### Solus
 
-[Solus](https://getsol.us/), Masaüstü kullanıcısı hedeflenerek geliştirilen bağımsız ve kullanıcı dostu bir topluluk dağıtımıdır. KDE, GNOME, Budgie ve XFCE masaüstü ortamlarını destekler. Kurulum sonrasında flathub deposu, medya ve donanım kodekleri, zram gibi son kullanıcının ihtiyaç duyacağı temel özellikler hazır bir şekilde gelir. Ayrıca tüm uygulamalar ve güncellemeler mağazadan yönetilebilir. Solus, Pardus/PiSi Linux'tan tanıdığımız PiSi paket yöneticisinin çatallanmış hali olan eopkg paket yöneticisini kullanır. Sistem güncellemeleri haftalık olarak verilir, kritik paketler ise daha uzun süre test edilerek sunulduğundan güncellik ve kararlılık dengesini hedefler. `eopkg history` özelliğiyle güncellemeler geri alınabilir.
+[Solus](https://getsol.us/), Bağımsız ve kullanıcı dostu bir topluluk dağıtımıdır. KDE, GNOME, Budgie ve XFCE masaüstü ortamlarını destekler. Kurulum sonrasında flathub deposu, medya ve donanım kodekleri, zram, scx scheduler (flash) gibi kullanıcının ihtiyaç duyabileceği temel özellikler ve ayarlar hazır bir şekilde gelir. Ayrıca tüm uygulamalar ve güncellemeler mağaza uygulamasından yönetilebilir.
+
+Solus, Pardus/PiSi Linux'tan tanıdığımız PiSi paket yöneticisinin çatallanmış hali olan eopkg paket yöneticisini kullanır. Sistem güncellemeleri haftalık olarak verilir, kritik paketler ise daha uzun süre test edilerek sunulduğundan güncellik ve kararlılık dengesini hedefler. `eopkg history` özelliğiyle güncellemeler geri alınabilir. Paket sistemi yapısı gereği konfigürasyonları tetikleyicilerle otomatik olarak düzenler. Bu da kullanıcı hatasıyla sistemin bozulmasını önlemektedir. Hem yeni hem de tecrübeli kullanıcılar için iyi bir seçenek olabilir.
 
 ## Sürekli güncel bir dağıtım arıyorum
 

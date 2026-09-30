@@ -1,4 +1,3 @@
-
 # Linux'a Geçiş Rehberi
 
 ## Beklentilerinizi doğru ayarlayın
@@ -60,7 +59,7 @@ Linux için özel bir port üretmeyen uygulamalar için [alternativeto.net](http
 - Belge tarayıcı olarak **SkanPage**, **SimpleScan** veya **NAPS2**
 - Grafik tablet ile görsel notlar  **Xournal++**, **Drawy**
 - Oyun yönetimi için **Heroic Games Launcher**, **Faugus**, **Lutris**
-- Oyunlarda performans istatistikleri ve ayarları için **Goverlay**
+- Oyunlarda performans istatistikleri ve ayarları için **Mangojuice**, **Goverlay**
 - Ekran kartı fan kontrolü ve overclock için **LACT**
 - RGB kontrolü için **OpenRGB** (?)
 - Fan kontrolü için **CoolerControl**
@@ -104,7 +103,7 @@ Dual boot bir sisteme iki işletim sistemi kurmak demektir. Seçtiğiniz dağıt
 
 !!! note
 
- Not: En az **1 hafta** test etmeniz önerilir. Bu süreçte bilgisayarda yapabileceğiniz tüm işlemleri test edin:
+  Not: En az **1 hafta** test etmeniz önerilir. Bu süreçte bilgisayarda yapabileceğiniz tüm işlemleri test edin:
 
 - Yazıcınız varsa yazıcıyı tanıtmak, baskı almak, tarayıcıyı kullanmak isteyebilirsiniz.
 - Kenarda köşede kalmış sık kullanmadığınız harici aygıtların hepsini denediğinizden emin olun. Örneğin sd kartınızı kart okuyucusunda okutmak, kullanmasanız bile ethernet girişini test etmek veya kablolu kulaklığı jack girişinde denemek gibi.
